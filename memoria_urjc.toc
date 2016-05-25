@@ -1,0 +1,45 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introduccion}{1}
+\contentsline {section}{\numberline {1.1}Software libre}{1}
+\contentsline {subsection}{\numberline {1.1.1}Ingenier\IeC {\'\i }a del software libre}{2}
+\contentsline {subsection}{\numberline {1.1.2}Otras herramientas para el an\'alisis de proyectos de software libre}{4}
+\contentsline {section}{\numberline {1.2}Fuentes de informaci\'on a estudio}{5}
+\contentsline {subsection}{\numberline {1.2.1}Foros en SourceForge}{5}
+\contentsline {subsection}{\numberline {1.2.2}Sistema de seguimiento de errores de Debian}{8}
+\contentsline {subsection}{\numberline {1.2.3}Listas de correo en Mailman}{9}
+\contentsline {section}{\numberline {1.3}Python}{11}
+\contentsline {subsection}{\numberline {1.3.1}Expresiones regulares}{12}
+\contentsline {chapter}{\numberline {2}Objetivos}{15}
+\contentsline {section}{\numberline {2.1}Descripci\'on del problema}{15}
+\contentsline {section}{\numberline {2.2}Requisitos}{16}
+\contentsline {section}{\numberline {2.3}Modelo de desarrollo}{17}
+\contentsline {chapter}{\numberline {3}Dise\~no e implementaci\'on}{19}
+\contentsline {section}{\numberline {3.1}Arquitectura general}{19}
+\contentsline {section}{\numberline {3.2}Iteraci\'on 0. Estudio previo}{22}
+\contentsline {subsection}{\numberline {3.2.1}Foro web}{22}
+\contentsline {subsection}{\numberline {3.2.2}Archivo de lista de correo}{24}
+\contentsline {subsection}{\numberline {3.2.3}Informe de error}{26}
+\contentsline {section}{\numberline {3.3}Iteraci\'on 1. Creaci\'on de un \textit {parser} gen\'erico}{28}
+\contentsline {subsection}{\numberline {3.3.1}Dise\~no}{28}
+\contentsline {subsection}{\numberline {3.3.2}Implementaci\'on}{29}
+\contentsline {section}{\numberline {3.4}Iteraci\'on 2. Creaci\'on de los \textit {parsers} espec\IeC {\'\i }ficos}{33}
+\contentsline {subsection}{\numberline {3.4.1}Dise\~no}{33}
+\contentsline {subsection}{\numberline {3.4.2}Implementaci\'on}{35}
+\contentsline {section}{\numberline {3.5}Iteraci\'on 3. Habilitando la actualizaci\'on incremental}{38}
+\contentsline {subsection}{\numberline {3.5.1}Dise\~no}{38}
+\contentsline {subsection}{\numberline {3.5.2}Implementaci\'on}{38}
+\contentsline {section}{\numberline {3.6}Descomposici\'on modular}{40}
+\contentsline {section}{\numberline {3.7}Herramientas utilizadas}{40}
+\contentsline {subsection}{\numberline {3.7.1}M\'odulo urllib}{40}
+\contentsline {subsection}{\numberline {3.7.2}M\'odulo os}{41}
+\contentsline {subsection}{\numberline {3.7.3}M\'odulo string}{41}
+\contentsline {subsection}{\numberline {3.7.4}M\'odulo re}{41}
+\contentsline {subsection}{\numberline {3.7.5}M\'odulo MySQLdb}{41}
+\contentsline {subsection}{\numberline {3.7.6}Otros m\'odulos}{42}
+\contentsline {chapter}{\numberline {4}Conclusiones}{45}
+\contentsline {section}{\numberline {4.1}Lecciones aprendidas}{46}
+\contentsline {section}{\numberline {4.2}Conocimientos aplicados}{46}
+\contentsline {section}{\numberline {4.3}Trabajos futuros}{46}
+\contentsline {chapter}{\numberline {A}Instalaci\'on y uso}{49}
+\contentsline {section}{\numberline {A.1}Requisitos}{50}
+\contentsline {chapter}{Bibliograf\'{\i }a}{51}
