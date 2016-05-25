@@ -1,0 +1,45 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introduccion}{1}
+\contentsline {section}{\numberline {1.1}Contexto}{1}
+\contentsline {section}{\numberline {1.2}Motivaci\'on}{2}
+\contentsline {section}{\numberline {1.3}Estructura}{3}
+\contentsline {chapter}{\numberline {2}Objetivos}{5}
+\contentsline {section}{\numberline {2.1}Objetivos generales}{5}
+\contentsline {section}{\numberline {2.2}Objetivos espec\IeC {\'\i }ficos}{6}
+\contentsline {chapter}{\numberline {3}Requisitos y Especificaciones}{9}
+\contentsline {section}{\numberline {3.1}Requisitos funcionales generales}{10}
+\contentsline {section}{\numberline {3.2}Requisitos funcionales de la aplicaci\'on de gesti\'on del hogar}{10}
+\contentsline {section}{\numberline {3.3}Requisitos de interfaces de usuario}{11}
+\contentsline {section}{\numberline {3.4}Requisitos de configuraci\'on de la aplicaci\'on web.}{12}
+\contentsline {section}{\numberline {3.5}Requisitos del entorno de desarrollo de la aplicaci\'on web.}{13}
+\contentsline {section}{\numberline {3.6}Requisitos de rendimiento}{14}
+\contentsline {chapter}{\numberline {4}Estado del Arte}{15}
+\contentsline {section}{\numberline {4.1}Django}{15}
+\contentsline {section}{\numberline {4.2}Bootstrap}{19}
+\contentsline {section}{\numberline {4.3}Python 3}{19}
+\contentsline {section}{\numberline {4.4}PostGresSQL}{20}
+\contentsline {section}{\numberline {4.5}Servidor web}{20}
+\contentsline {section}{\numberline {4.6}Escenarios Virtuales}{21}
+\contentsline {section}{\numberline {4.7}HTML}{22}
+\contentsline {section}{\numberline {4.8}CSS}{22}
+\contentsline {section}{\numberline {4.9}VNX}{23}
+\contentsline {section}{\numberline {4.10}Open vSwitch}{23}
+\contentsline {section}{\numberline {4.11}Frenetic}{23}
+\contentsline {chapter}{\numberline {5}Dise\~no e Implementaci\'on}{25}
+\contentsline {section}{\numberline {5.1}Diagrama Funcional}{26}
+\contentsline {section}{\numberline {5.2}Diagrama F\IeC {\'\i }sico}{27}
+\contentsline {section}{\numberline {5.3}Diagrama de Red}{28}
+\contentsline {section}{\numberline {5.4}Estructura y definici\'on del entorno de desarrollo}{29}
+\contentsline {section}{\numberline {5.5}Estructura y definici\'on de la aplicaci\'on web de configuraci\'on}{31}
+\contentsline {section}{\numberline {5.6}Estructura de las carpetas de la aplicaci\'on}{34}
+\contentsline {chapter}{\numberline {6}Resultados}{39}
+\contentsline {section}{\numberline {6.1}Caso de estudio 1: Primer acceso}{39}
+\contentsline {section}{\numberline {6.2}Caso de estudio 2: Acceso desde un dispositivo}{49}
+\contentsline {section}{\numberline {6.3}Caso de estudio 3: Algunas funciones m\'as}{52}
+\contentsline {section}{\numberline {6.4}Caso de estudio 4: Acceso de usuario no administrador }{57}
+\contentsline {chapter}{\numberline {7}Conclusiones}{59}
+\contentsline {section}{\numberline {7.1}Lecciones aprendidas}{59}
+\contentsline {section}{\numberline {7.2}Conocimientos aplicados}{60}
+\contentsline {section}{\numberline {7.3}Trabajos futuros}{60}
+\contentsline {chapter}{\numberline {A}Acr\'onimos Requisitos y Especificaciones}{61}
+\contentsline {chapter}{Bibliograf\'{\i }a}{63}

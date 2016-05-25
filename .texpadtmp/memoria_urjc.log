@@ -1,0 +1,927 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.26)  25 MAY 2016 19:00
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**memoria_urjc.tex
+(./memoria_urjc.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen111
+)
+\es@quottoks=\toks18
+\es@quotdepth=\count92
+Package babel Info: Making " an active character on input line 516.
+Package babel Info: Making . an active character on input line 617.
+Package babel Info: Making < an active character on input line 662.
+Package babel Info: Making > an active character on input line 662.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks19
+\float@box=\box26
+\@float@everytoks=\toks20
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen114
+\WF@size=\dimen115
+\c@WF@wrappedlines=\count95
+\WF@box=\box28
+\WF@everypar=\toks21
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `figura:caso35' multiply defined.
+
+)
+\openout1 = `memoria_urjc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 41.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen116
+\scratchbox=\box29
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen117
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 51.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 51.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 52.
+
+<img/logo.png, id=1, 194.7275pt x 353.32pt>
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 52.
+(pdftex.def)             Requested size: 48.68187pt x 88.32999pt.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 56.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+) [1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/l
+ogo.png>]
+[1] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
+ [3]
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+ [4
+
+] [5]
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [6] [7
+
+]
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+ [8
+
+]
+(/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+ [9])
+\tf@toc=\write3
+\openout3 = `memoria_urjc.toc'.
+
+LaTeX Info: Redefining \. on input line 206.
+LaTeX Info: Redefining \% on input line 206.
+
+[10] (/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+[11
+
+
+])
+\tf@lof=\write4
+\openout4 = `memoria_urjc.lof'.
+
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+ [12]
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 222.
+[1
+
+]
+LaTeX Info: Redefining \. on input line 259.
+LaTeX Info: Redefining \% on input line 259.
+ [2]
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
+ [3]
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+ [4
+
+]
+Cap\'{\i }tulo 2.
+[5]
+LaTeX Info: Redefining \. on input line 330.
+LaTeX Info: Redefining \% on input line 330.
+ [6]
+Overfull \hbox (33.06592pt too wide) in paragraph at lines 330--331
+\T1/ptm/m/n/12 co-mo una cuen-ta de Twit-ter que dé vi-si-bi-li-dad al pro-yec-
+to (https://twitter.com/mihogarenlanube). 
+ []
+
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
+[7]
+LaTeX Info: Redefining \. on input line 346.
+LaTeX Info: Redefining \% on input line 346.
+ [8
+
+]
+Cap\'{\i }tulo 3.
+[9]
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+ [10]
+LaTeX Info: Redefining \. on input line 417.
+LaTeX Info: Redefining \% on input line 417.
+ [11]
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
+ [12]
+Overfull \hbox (1.2892pt too wide) in paragraph at lines 459--459
+[]\T1/ptm/b/n/17.28 Requisitos del en-torno de desa-rro-llo de la apli-ca-ción 
+web. 
+ []
+
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
+[13]
+LaTeX Info: Redefining \. on input line 491.
+LaTeX Info: Redefining \% on input line 491.
+ [14]
+Cap\'{\i }tulo 4.
+<img/ModeloVC.png, id=95, 150.8034pt x 164.7756pt>
+File: img/ModeloVC.png Graphic file (type png)
+ <use img/ModeloVC.png>
+Package pdftex.def Info: img/ModeloVC.png used on input line 506.
+(pdftex.def)             Requested size: 227.62204pt x 248.7216pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+<img/Register.png, id=100, 363.759pt x 100.2144pt>
+File: img/Register.png Graphic file (type png)
+ <use img/Register.png>
+Package pdftex.def Info: img/Register.png used on input line 522.
+(pdftex.def)             Requested size: 426.79134pt x 117.58218pt.
+LaTeX Info: Redefining \. on input line 526.
+LaTeX Info: Redefining \% on input line 526.
+
+[16 <./img/ModeloVC.png>] <img/Command.png, id=105, 357.9774pt x 154.176pt>
+File: img/Command.png Graphic file (type png)
+
+<use img/Command.png>
+Package pdftex.def Info: img/Command.png used on input line 541.
+(pdftex.def)             Requested size: 426.79134pt x 183.81516pt.
+LaTeX Info: Redefining \. on input line 544.
+LaTeX Info: Redefining \% on input line 544.
+ [17 <./img/Register.png>]
+LaTeX Info: Redefining \. on input line 559.
+LaTeX Info: Redefining \% on input line 559.
+ [18 <./img/Command.png>]
+LaTeX Info: Redefining \. on input line 574.
+LaTeX Info: Redefining \% on input line 574.
+
+[19]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 581.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Info: Redefining \. on input line 604.
+LaTeX Info: Redefining \% on input line 604.
+ [20]
+LaTeX Info: Redefining \. on input line 615.
+LaTeX Info: Redefining \% on input line 615.
+
+[21]
+Overfull \hbox (27.97672pt too wide) in paragraph at lines 629--631
+\T1/ptm/m/n/12 ría de Sis-te-mas Te-le-má-ti-cos (DIT) de la ET-SI de Te-le-co-
+mu-ni-ca-ción de la UPM (http://vnx.dit.upm.es).
+ []
+
+
+Underfull \vbox (badness 3439) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 631.
+LaTeX Info: Redefining \% on input line 631.
+ [22]
+LaTeX Info: Redefining \. on input line 647.
+LaTeX Info: Redefining \% on input line 647.
+
+[23] <img/frenetic.png, id=131, 299.1175pt x 191.71625pt>
+File: img/frenetic.png Graphic file (type png)
+
+<use img/frenetic.png>
+Package pdftex.def Info: img/frenetic.png used on input line 651.
+(pdftex.def)             Requested size: 369.88582pt x 237.09088pt.
+LaTeX Info: Redefining \. on input line 659.
+LaTeX Info: Redefining \% on input line 659.
+ [24 <./img/frenetic.png>]
+Cap\'{\i }tulo 5.
+[25
+
+] <img/diagfunc.png, id=140, 722.7pt x 542.025pt>
+File: img/diagfunc.png Graphic file (type png)
+ <use img/diagfunc.png>
+Package pdftex.def Info: img/diagfunc.png used on input line 682.
+(pdftex.def)             Requested size: 369.88582pt x 277.41328pt.
+
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 693.
+LaTeX Info: Redefining \% on input line 693.
+ [26 <./img/diagfunc.png>] <img/diagramafisico.png, id=145, 440.64626pt x 331.2
+375pt>
+File: img/diagramafisico.png Graphic file (type png)
+
+<use img/diagramafisico.png>
+Package pdftex.def Info: img/diagramafisico.png used on input line 696.
+(pdftex.def)             Requested size: 369.88582pt x 278.05563pt.
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 720--720
+[]\T1/pcr/m/n/10 - Servidor: DL380p Gen8 - 2 * Xeon E5-2620 6-core 2.0GHz,  32 
+GB RAM (2*16GB[] 
+ []
+
+LaTeX Info: Redefining \. on input line 720.
+LaTeX Info: Redefining \% on input line 720.
+[27 <./img/diagramafisico.png>]
+Overfull \hbox (6.75589pt too wide) in paragraph at lines 720--720
+[]\T1/pcr/m/n/10 LV RDIMMs), 2*300GB-10K disks, 750W redundant AC power, 4 * 1G
+bE embedded LAN[] 
+ []
+
+
+Overfull \hbox (12.75589pt too wide) in paragraph at lines 720--720
+[]\T1/pcr/m/n/10 - Licencia iLo Advanced: Insight Lights-Out Advanced Pack - El
+ectronic licence[] 
+ []
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 720--720
+[]\T1/pcr/m/n/10 and licence-to-use for 1 rackmount or tower server - includes 
+1 year 24*7 SW[] 
+ []
+
+<img/diagramadered.png, id=150, 469.755pt x 352.31625pt>
+File: img/diagramadered.png Graphic file (type png)
+
+<use img/diagramadered.png>
+Package pdftex.def Info: img/diagramadered.png used on input line 735.
+(pdftex.def)             Requested size: 369.88582pt x 277.41287pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 739.
+LaTeX Info: Redefining \% on input line 739.
+ [28]
+LaTeX Info: Redefining \. on input line 751.
+LaTeX Info: Redefining \% on input line 751.
+
+[29 <./img/diagramadered.png>]
+<img/Bubbles.png, id=158, 720.7728pt x 542.025pt>
+File: img/Bubbles.png Graphic file (type png)
+ <use img/Bubbles.png>
+Package pdftex.def Info: img/Bubbles.png used on input line 756.
+(pdftex.def)             Requested size: 369.88582pt x 278.15764pt.
+LaTeX Info: Redefining \. on input line 777.
+LaTeX Info: Redefining \% on input line 777.
+
+[30 <./img/Bubbles.png>]
+LaTeX Info: Redefining \. on input line 789.
+LaTeX Info: Redefining \% on input line 789.
+ [31] <img/Index.png, id=167, 427.5975pt x 301.125pt>
+File: img/Index.png Graphic file (type png)
+
+<use img/Index.png>
+Package pdftex.def Info: img/Index.png used on input line 793.
+(pdftex.def)             Requested size: 369.88582pt x 260.4833pt.
+ <img/pagppal.png, id=168, 427.5975pt x 234.8775pt>
+File: img/pagppal.png Graphic file (type png)
+
+<use img/pagppal.png>
+Package pdftex.def Info: img/pagppal.png used on input line 805.
+(pdftex.def)             Requested size: 369.88582pt x 203.17699pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 809.
+LaTeX Info: Redefining \% on input line 809.
+ [32 <./img/Index.png>]
+LaTeX Info: Redefining \. on input line 817.
+LaTeX Info: Redefining \% on input line 817.
+ [33 <./img/pagppal.png>]
+<img/est_carpetas1.png, id=177, 150.5625pt x 533.995pt>
+File: img/est_carpetas1.png Graphic file (type png)
+
+<use img/est_carpetas1.png>
+Package pdftex.def Info: img/est_carpetas1.png used on input line 823.
+(pdftex.def)             Requested size: 150.56212pt x 533.9937pt.
+
+Overfull \hbox (36.7511pt too wide) in paragraph at lines 823--824
+[][] 
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 824--824
+[]\T1/ptm/m/n/12 Figura 5.7: Es-truc-tu-ra
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 840.
+LaTeX Info: Redefining \% on input line 840.
+ [34 <./img/est_carpetas1.png>]
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 859.
+LaTeX Info: Redefining \% on input line 859.
+ [35]
+LaTeX Info: Redefining \. on input line 883.
+LaTeX Info: Redefining \% on input line 883.
+
+[36]
+LaTeX Info: Redefining \. on input line 891.
+LaTeX Info: Redefining \% on input line 891.
+ [37]
+LaTeX Info: Redefining \. on input line 892.
+LaTeX Info: Redefining \% on input line 892.
+ [38
+
+]
+Cap\'{\i }tulo 6.
+<img/caso11.png, id=196, 652.68843pt x 591.71063pt>
+File: img/caso11.png Graphic file (type png)
+ <use img/caso11.png>
+Package pdftex.def Info: img/caso11.png used on input line 905.
+(pdftex.def)             Requested size: 369.88582pt x 335.33737pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+<img/caso12.png, id=200, 482.55281pt x 289.83281pt>
+File: img/caso12.png Graphic file (type png)
+ <use img/caso12.png>
+Package pdftex.def Info: img/caso12.png used on input line 917.
+(pdftex.def)             Requested size: 369.88582pt x 222.16803pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 921.
+LaTeX Info: Redefining \% on input line 921.
+ [40 <./img/caso11.png>] <img/caso13.png, id=204, 700.11563pt x 413.29407pt>
+File: img/caso13.png Graphic file (type png)
+
+<use img/caso13.png>
+Package pdftex.def Info: img/caso13.png used on input line 927.
+(pdftex.def)             Requested size: 369.88582pt x 218.3574pt.
+LaTeX Info: Redefining \. on input line 933.
+LaTeX Info: Redefining \% on input line 933.
+ [41 <./img/caso12.png> <./img/caso13.png>]
+<img/caso14.png, id=208, 684.30656pt x 384.6872pt>
+File: img/caso14.png Graphic file (type png)
+ <use img/caso14.png>
+Package pdftex.def Info: img/caso14.png used on input line 938.
+(pdftex.def)             Requested size: 369.88582pt x 207.9393pt.
+
+<img/caso15.png, id=209, 700.86844pt x 366.61969pt>
+File: img/caso15.png Graphic file (type png)
+ <use img/caso15.png>
+Package pdftex.def Info: img/caso15.png used on input line 948.
+(pdftex.def)             Requested size: 369.88582pt x 193.49075pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 952.
+LaTeX Info: Redefining \% on input line 952.
+ [42 <./img/caso14.png>] <img/caso16.png, id=214, 708.39656pt x 258.9675pt>
+File: img/caso16.png Graphic file (type png)
+
+<use img/caso16.png>
+Package pdftex.def Info: img/caso16.png used on input line 959.
+(pdftex.def)             Requested size: 369.88582pt x 135.22102pt.
+ <img/caso17.png, id=215, 714.41907pt x 283.81032pt>
+File: img/caso17.png Graphic file (type png)
+
+<use img/caso17.png>
+Package pdftex.def Info: img/caso17.png used on input line 968.
+(pdftex.def)             Requested size: 369.88582pt x 146.94128pt.
+
+Underfull \vbox (badness 5578) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 972.
+LaTeX Info: Redefining \% on input line 972.
+ [43 <./img/caso15.png> <./img/caso16.png>]
+<img/caso18.png, id=219, 712.91344pt x 444.91219pt>
+File: img/caso18.png Graphic file (type png)
+ <use img/caso18.png>
+Package pdftex.def Info: img/caso18.png used on input line 978.
+(pdftex.def)             Requested size: 369.88582pt x 230.83292pt.
+
+<img/caso19.png, id=220, 495.35063pt x 69.25874pt>
+File: img/caso19.png Graphic file (type png)
+ <use img/caso19.png>
+Package pdftex.def Info: img/caso19.png used on input line 987.
+(pdftex.def)             Requested size: 369.88582pt x 51.7167pt.
+
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 991.
+LaTeX Info: Redefining \% on input line 991.
+ [44 <./img/caso17.png> <./img/caso18.png>]
+<img/caso110.png, id=224, 706.89093pt x 209.28188pt>
+File: img/caso110.png Graphic file (type png)
+ <use img/caso110.png>
+Package pdftex.def Info: img/caso110.png used on input line 998.
+(pdftex.def)             Requested size: 369.88582pt x 109.50737pt.
+
+<img/caso111.png, id=225, 511.15968pt x 97.11281pt>
+File: img/caso111.png Graphic file (type png)
+ <use img/caso111.png>
+Package pdftex.def Info: img/caso111.png used on input line 1009.
+(pdftex.def)             Requested size: 369.88582pt x 70.27235pt.
+
+Underfull \vbox (badness 3690) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1013.
+LaTeX Info: Redefining \% on input line 1013.
+ [45 <./img/caso19.png> <./img/caso110.png>]
+<img/caso112.png, id=229, 708.39656pt x 268.00125pt>
+File: img/caso112.png Graphic file (type png)
+ <use img/caso112.png>
+Package pdftex.def Info: img/caso112.png used on input line 1021.
+(pdftex.def)             Requested size: 369.88582pt x 139.93803pt.
+
+<img/caso113.png, id=230, 700.11563pt x 266.49562pt>
+File: img/caso113.png Graphic file (type png)
+ <use img/caso113.png>
+Package pdftex.def Info: img/caso113.png used on input line 1033.
+(pdftex.def)             Requested size: 369.88582pt x 140.79877pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1037.
+LaTeX Info: Redefining \% on input line 1037.
+ [46 <./img/caso111.png> <./img/caso112.png>]
+<img/caso114.png, id=234, 761.84625pt x 500.62032pt>
+File: img/caso114.png Graphic file (type png)
+ <use img/caso114.png>
+Package pdftex.def Info: img/caso114.png used on input line 1042.
+(pdftex.def)             Requested size: 369.88582pt x 243.05264pt.
+
+<img/caso115.png, id=235, 708.39656pt x 273.27094pt>
+File: img/caso115.png Graphic file (type png)
+ <use img/caso115.png>
+Package pdftex.def Info: img/caso115.png used on input line 1052.
+(pdftex.def)             Requested size: 369.88582pt x 142.68962pt.
+
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1056.
+LaTeX Info: Redefining \% on input line 1056.
+ [47 <./img/caso113.png> <./img/caso114.png>]
+LaTeX Info: Redefining \. on input line 1057.
+LaTeX Info: Redefining \% on input line 1057.
+ [48 <./img/caso115.png>]
+<img/caso21.png, id=243, 508.14844pt x 228.855pt>
+File: img/caso21.png Graphic file (type png)
+ <use img/caso21.png>
+Package pdftex.def Info: img/caso21.png used on input line 1070.
+(pdftex.def)             Requested size: 369.88582pt x 166.59132pt.
+
+<img/caso22.png, id=244, 508.14844pt x 229.60782pt>
+File: img/caso22.png Graphic file (type png)
+ <use img/caso22.png>
+Package pdftex.def Info: img/caso22.png used on input line 1079.
+(pdftex.def)             Requested size: 369.88582pt x 167.13933pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1083.
+LaTeX Info: Redefining \% on input line 1083.
+ [49 <./img/caso21.png>] <img/caso23.png, id=248, 509.65407pt x 246.1697pt>
+File: img/caso23.png Graphic file (type png)
+
+<use img/caso23.png>
+Package pdftex.def Info: img/caso23.png used on input line 1088.
+(pdftex.def)             Requested size: 369.88582pt x 178.6694pt.
+ <img/caso24.png, id=249, 633.11531pt x 210.03468pt>
+File: img/caso24.png Graphic file (type png)
+
+<use img/caso24.png>
+Package pdftex.def Info: img/caso24.png used on input line 1097.
+(pdftex.def)             Requested size: 369.88582pt x 122.71115pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1101.
+LaTeX Info: Redefining \% on input line 1101.
+ [50 <./img/caso22.png> <./img/caso23.png>]
+LaTeX Info: Redefining \. on input line 1105.
+LaTeX Info: Redefining \% on input line 1105.
+ [51 <./img/caso24.png>]
+<img/caso31.png, id=256, 509.65407pt x 137.7647pt>
+File: img/caso31.png Graphic file (type png)
+ <use img/caso31.png>
+Package pdftex.def Info: img/caso31.png used on input line 1115.
+(pdftex.def)             Requested size: 369.88582pt x 99.98929pt.
+
+<img/caso32.png, id=257, 621.82312pt x 218.31563pt>
+File: img/caso32.png Graphic file (type png)
+ <use img/caso32.png>
+Package pdftex.def Info: img/caso32.png used on input line 1124.
+(pdftex.def)             Requested size: 369.88582pt x 129.86443pt.
+
+<img/caso33.png, id=258, 624.08156pt x 208.52907pt>
+File: img/caso33.png Graphic file (type png)
+ <use img/caso33.png>
+Package pdftex.def Info: img/caso33.png used on input line 1133.
+(pdftex.def)             Requested size: 369.88582pt x 123.59427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1137.
+LaTeX Info: Redefining \% on input line 1137.
+ [52 <./img/caso31.png> <./img/caso32.png>]
+<img/caso34.png, id=262, 510.40688pt x 115.18031pt>
+File: img/caso34.png Graphic file (type png)
+ <use img/caso34.png>
+Package pdftex.def Info: img/caso34.png used on input line 1144.
+(pdftex.def)             Requested size: 369.88582pt x 83.47456pt.
+
+<img/caso35.png, id=263, 517.18219pt x 96.36pt>
+File: img/caso35.png Graphic file (type png)
+ <use img/caso35.png>
+Package pdftex.def Info: img/caso35.png used on input line 1151.
+(pdftex.def)             Requested size: 369.88582pt x 68.91891pt.
+LaTeX Info: Redefining \. on input line 1159.
+LaTeX Info: Redefining \% on input line 1159.
+ [53 <./img/caso33.png> <./img/caso34.png> <./img/caso35.png>]
+<img/caso36.png, id=267, 608.2725pt x 365.11406pt>
+File: img/caso36.png Graphic file (type png)
+ <use img/caso36.png>
+Package pdftex.def Info: img/caso36.png used on input line 1164.
+(pdftex.def)             Requested size: 369.88582pt x 222.02841pt.
+
+<img/caso37.png, id=268, 625.58719pt x 275.52937pt>
+File: img/caso37.png Graphic file (type png)
+ <use img/caso37.png>
+Package pdftex.def Info: img/caso37.png used on input line 1176.
+(pdftex.def)             Requested size: 369.88582pt x 162.91406pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1180.
+LaTeX Info: Redefining \% on input line 1180.
+ [54 <./img/caso36.png>] <img/caso38.png, id=273, 745.28438pt x 392.21532pt>
+File: img/caso38.png Graphic file (type png)
+
+<use img/caso38.png>
+Package pdftex.def Info: img/caso38.png used on input line 1188.
+(pdftex.def)             Requested size: 369.88582pt x 194.65288pt.
+ <img/caso39.png, id=274, 734.745pt x 280.04625pt>
+File: img/caso39.png Graphic file (type png)
+
+<use img/caso39.png>
+Package pdftex.def Info: img/caso39.png used on input line 1199.
+(pdftex.def)             Requested size: 369.88582pt x 140.98422pt.
+LaTeX Info: Redefining \. on input line 1202.
+LaTeX Info: Redefining \% on input line 1202.
+ [55 <./img/caso37.png> <./img/caso38.png>]
+LaTeX Info: Redefining \. on input line 1205.
+LaTeX Info: Redefining \% on input line 1205.
+ [56 <./img/caso39.png>] <img/caso42.png, id=281, 841.64438pt x 522.45187pt>
+File: img/caso42.png Graphic file (type png)
+
+<use img/caso42.png>
+Package pdftex.def Info: img/caso42.png used on input line 1215.
+(pdftex.def)             Requested size: 369.88582pt x 229.60847pt.
+ <img/caso43.png, id=282, 823.57687pt x 269.50688pt>
+File: img/caso43.png Graphic file (type png)
+
+<use img/caso43.png>
+Package pdftex.def Info: img/caso43.png used on input line 1222.
+(pdftex.def)             Requested size: 369.88582pt x 121.04256pt.
+LaTeX Info: Redefining \. on input line 1228.
+LaTeX Info: Redefining \% on input line 1228.
+ [57 <./img/caso42.png> <./img/caso43.png>]
+LaTeX Info: Redefining \. on input line 1228.
+LaTeX Info: Redefining \% on input line 1228.
+ [58
+
+]
+Cap\'{\i }tulo 7.
+[59]
+LaTeX Info: Redefining \. on input line 1264.
+LaTeX Info: Redefining \% on input line 1264.
+ [60]
+Ap\'endice A.
+[61
+
+
+]
+LaTeX Info: Redefining \. on input line 1309.
+LaTeX Info: Redefining \% on input line 1309.
+ [62
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1324.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1324.
+ [63
+
+]
+LaTeX Info: Redefining \. on input line 1363.
+LaTeX Info: Redefining \% on input line 1363.
+ [64]
+(/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3793 strings out of 493089
+ 53211 string characters out of 6134842
+ 123127 words of memory out of 5000000
+ 7149 multiletter control sequences out of 15000+600000
+ 41772 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,13n,30p,839b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on /Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_u
+rjc.pdf (77 pages, 2291449 bytes).
+PDF statistics:
+ 333 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+

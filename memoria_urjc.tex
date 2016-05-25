@@ -6,9 +6,7 @@
 %%     Grupo de Sistemas y Comunicaciones
 %%     Escuela Técnica Superior de Ingenieros de Telecomunicación
 %%     Universidad Rey Juan Carlos
-%% (muchas ideas tomadas de Internet, colegas del GSyC, antiguos alumnos...
-%%  etc. Muchas gracias a todos)
-%%
+
 %% La última versión de esta plantilla está siempre disponible en:
 %%     http://gsyc.urjc.es/~grex/pfcs
 %%
@@ -78,8 +76,7 @@ Proyecto Fin de Carrera
 \vspace{2.5cm}
 
 \LARGE
-TITULO DEL TRABAJO EN MAYÚSCULAS
-\vspace{4cm}
+CloudTrust : Aplicación Web de Configuración de red en un entorno virtualizado.\vspace{4cm}
 
 \large
 Autor : David Gutiérrez Melendro \\
@@ -95,7 +92,6 @@ Tutor : Dr. Gregorio Robles
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Dedicatoria
 
-\chapter*{}
 \pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
 \begin{flushright}
 \textit{Dedicado a \\
@@ -109,10 +105,17 @@ mi familia / mi abuelo / mi abuela}
 %\addcontentsline{toc}{chapter}{Agradecimientos} % si queremos que aparezca en el índice
 \markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS} % encabezado 
 
-Aquí vienen los agradecimientos\ldots Aunque está bien acordarse de la pareja,
-no hay que olvidarse de dar las gracias a tu madre, que aunque a veces no lo 
-parezca disfrutará tanto de tus logros como tú\ldots Además, la pareja quizás
-no sea para siempre, pero tu madre sí.
+Este pedazo de mi trabajo como estudiante de una Ingeniería de Telecomunicación, es sólo una pequeña parte, pero sí que es una en las que más esfuerzo, corazón y sacrificio he puesto.
+Lo mejor de pertenecer a una comunidad es que se comparten alegrías y sufrimientos, y en mi trayectoria en la universidad, tengo que agradecer mucho a muchas personas.
+Me siento un verdadero afortunado al haber contado con maravillosos docentes, que no solo han sido profesores sino también compañeros de los que he aprendido y he recibido además una formación humanística.
+Me gustaría mencionar especialmente el trabajo de uno de esos docentes, que transforma su trabajo en pasión, gracias Gregorio, por ser cercano, comprensivo y un excelente formador.
+No puedo sino también agradecer enormemente la oportunidad que me ha brindado Alcatel-Lucent (ahora Nokia), de pertenecer y aportar en uno de sus proyectos de desarrollo e investigación, así cómo de aprender tareas de gestión y de Project Management.
+Así cómo agradecer la ayuda inestimable de los otros dos organismos colaboradores dentro del proyecto, la Universidad Politécnica de Madrid, y el grupo Innovati.
+Beatriz, gracias a ti he aprendido a ser un profesional y a ser crítico, así cómo, aprendido a reconocer el valor de mi trabajo. Gracias por enseñarme cosas tan importantes.
+En el apartado más personal, me llevo muchos buenos momentos de mi paso por la vida universitaria, pero me llevo mucho más, un hermano, gracias Fernando por formar parte de esta etapa de mi vida, y las que quedan. Y como él, muchos más, MariLuz, Patricia ... demasiados para mencionarlos a todos.
+Por último y quizá por ello más importante, quiero agradecer a mis padres su apoyo incondicional. A mi madre primero por madre, que eso ya de por sí tiene infinito valor, por luchadora, mamá eres la persona más fuerte que conozco y por tu amor incondicional y desinterisado. A mi padre, gracias por ser amigo y padre a la vez, formador si la situación lo pedía, gracias por sacrificar todas esas horas de sueño por mi, y en general por todo, gracias papá y mamá.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Resumen
@@ -123,7 +126,7 @@ no sea para siempre, pero tu madre sí.
 
 En la actualidad el navegador Web se ha convertido en un elemento
 imprescindible para el uso de Internet, la evolución de los lenguajes y 
-tecnologías Web ha dado como fruto múltiples herramientas asociadas 
+tecnologías Web han dado como fruto múltiples herramientas asociadas 
 directamente al navegador.
 La integración de programas y protocolos han llevado a los navegadores a 
 crecer rápidamente soportando nuevas funcionalidades, opciones, etc. que
@@ -508,10 +511,11 @@ Usa tipado dinámico, una misma variable puede tomar valores de distinto tipo en 
 Cuenta con una licencia de código abierto, "Python Software Foundation License". Podemos encontrar amplísima documentación en la página oficial https://www.python.org/, tanto sobre el lenguaje, como sus funciones, librerías, uso etc...
 
 \section{PostGresSQL}
+La base de datos utilizada es PostGresSQL 9.3, se trata de una base de datos de código abierto relación-objeto.
 La base de datos utilizada es PostGresSQL 9.3, se trata de una base de datos de código abierto relación-objeto. Corre en la mayoría de sistemas operativos y es de fácil integración con varios lenguajes. La elección de esta base de datos se basa en su potencial de escalabilidad para proyectos futuros en entornos reales con un número de usuarios y dispositivos mucho mayor, así como la velocidad de respuesta de sus búsquedas recursivas. Además la integración con el entorno de Django es tan simple como la instalación de una API extra de comunicación entre la base de datos y el demonio de Django, esta API se llama psycopg2 de fácil instalación basada en Python.Administrar la base de datos es muy sencillo, aparte de lo anterior, contamos con simples e intuitivas instrucciones propias para manejar algunas opciones básicas de la base de datos. A continuación se presentan algunas de las instrucciones de arranque y preparación de la base de datos al iniciar el escenario de pruebas.
 {\scriptsize
   \begin{verbatim}
-         sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '1234';";       sudo -u postgres psql -c "CREATE DATABASE cloudtrust WITH OWNER postgres;";       /home/cloudtrust/webdjango/mysite/manage.py syncdb --noinput;       echo "from django.contrib.auth.models import User; 
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '1234';";       sudo -u postgres psql -c "CREATE DATABASE cloudtrust WITH OWNER postgres;";       /home/cloudtrust/webdjango/mysite/manage.py syncdb --noinput;       echo "from django.contrib.auth.models import User; 
        User.objects.create_superuser('root', 'root@cloudtrust.org',
        'root')" | python /home/cloudtrust/webdjango/mysite/manage.py shell;       python /home/cloudtrust/webdjango/mysite/InitialScript.py &amp;
 \end{verbatim}
@@ -567,22 +571,11 @@ Pyresonance: Este es un nivel de abstracción que se superpone con Pyretic y que 
 
  \begin{figure}[H]
     \centering
-    \includegraphics[width=15cm, keepaspectratio]{img/frenetic}
+    \includegraphics[width=13cm, keepaspectratio]{img/frenetic}
     \caption{Arquitectura Frenetic}
     \label{figura:frenetic}
  \end{figure}
 
-\section{VNX}
-
-Para la creación de los escenarios de pruebas utilizados para el desarrollo, pruebas y demostraciones del proyecto se ha utilizado la herramienta de software libre Virtual Networks over LinuX (VNX), desarrollada y mantenida por UPM (Universidad Politécnica de Madrid) y que ha sido mejorada en el contexto del proyecto Cloudtrust para incluir capacidades relacionadas con las SDN.La herramienta VNX (http://vnx.dit.upm.es) permite crear escenarios de red virtuales formados por un conjunto de máquinas virtuales interconectadas según una topología de red definida por el usuario. El escenario se especifica mediante un documento escrito en un lenguaje basado en XML, y la herramienta se ocupa de manera transparente de crear, configurar, interconectar y gestionar las máquinas virtuales, ocultando al usuario toda la complejidad y los multiples comandos necesarios para poner en marcha el escenario. Además, VNX permite especificar conjuntos de comandos a ejecutar en las máquinas virtuales, lo que permite no solo arrancar las mismas sino llevarlas a un determinado estado. Esta última característica es especialmente útil para la realización de pruebas o demostraciones como las creadas en el proyecto Cloudtrust.VNX soporta diversas tecnologías de virtualización como KVM/QEMU, LXC, Dynamips (Cisco), Olive (Juniper) y UML, así como diversos sistemas operativos en las máquinas virtuales (Ubuntu, Debian, Fedora, CentOS, FreeBSD, Windows 7 y XP e incluso Android), permitiendo la creación de escenarios de red altamente heterogéneos. En el caso del proyecto Cloudtrust se ha utilizado casi exclusivamente la virtualización ligera basada en contenedores LXC. Las ventajas de LXC en este contexto se resumen en:
-\begin{itemize}
-
-\item
-Ligereza, que permite arrancar decenas de máquinas virtuales incluso en ordenadores de potencia baja. 
-\item
-Permite una virtualización anidada, esto es, el arranque de máquinas virtuales LXC dentro de otras máquinas virtuales Linux arrancadas con VirtualBox o VMware. Este aspecto es esencial para la realiación de demostraciones, ya que permite crear máquinas virtuales en formato estándar OVA con todo el software necesario ya instalado.
-
-\end{itemize}
 
 
 
@@ -640,9 +633,7 @@ support and updates
 - Additional memory module - 16 GB (1 * 16GB dual-rank)  PC3 12800 ECC
  Registered DIMM,factory integrated
 \end{verbatim}
-}
-
-En aras de aportar mayor seguridad al sistema se le  aplicaría una política de n+1 equipos de servidores para asegurar redundancia en caso de pérdida de energía o similares.
+}En aras de aportar mayor seguridad al sistema se le  aplicaría una política de n+1 equipos de servidores para asegurar redundancia en caso de pérdida de energía o similares.
 Como segundo elemento hardware importante, requeriremos de una nube de almacenamiento para la base de datos de los nombres de usuario y sus sesiones, así como de la información de sus dispositivos.
 
 \section{Diagrama de Red} 
@@ -1114,15 +1105,23 @@ Las dos siquientes capturas de pantalla reflejan un par de vistas de lo que el u
 
 
 \chapter{Conclusiones}
-            
-Se resumen a continuación las conclusiones preliminares obtenidas tras el desarrollo del primer prototipo de servicios Cloudtrust.Entre las ventajas derivadas del uso de la arquitectura Frenetic podemos destacar que:Permite un alto grado de abstracción al desarrollador, pudiendo crear aplicaciones complejas con un menor esfuerzo, como el histórico de consumo o la detección de nuevos dispositivos.
-Emplea el lenguaje Python y permite desplegar el controlador sobre cualquier sistema operativo, aportando una gran portabilidad.A pesar de ser un sistema nuevo y un equipo pequeño de desarrolladores, comparado con otras iniciativas comerciales, dispone de unos desarrolladores activos, que resuelven los errores y problemas de software que la comunidad les reporta con relativa celeridad. Sin embargo, se han constatado también una serie de desventajas tales como:Uno de los principales problemas de este sistema reside en el rendimiento del controlador y la implementación de las políticas.Al ser un sistema con un alto nivel de abstracción en ocasiones es complicado generar reglas específicas que difieren del modelo establecido por Pyretic.Las reglas de monitorización se basan en obligar a todo el tráfico a ser reenviado al controlador y que sea este quien contabilice estadísticas y actúe como switch. Esta política de actuación afecta en gran medida al rendimiento del sistema.En resumen, el mayor inconveniente del sistema mostrado reside en la pérdida global de rendimiento en la monitorización de tráfico, haciendo peligroso su empleo en determinadas aplicaciones que requieran de un considerable ancho de banda. Actualmente el equipo de Frenetic se encuentra desarrollando un sistema de monitorización que solucione estos problemas de rendimiento.Debido a la necesidad de disponer de un sistema funcional y eficiente en un corto periodo de tiempo, se ha optado por realizar un estudio y tratar de introducir otro controlador en el sistema que mejore el rendimiento. Por otro lado, no se abandona el desarrollo de este proyecto, si no que se seguirá desarrollando a medida que aparezcan soluciones para los problemas de rendimiento.
 
-(....)
+El capítulo que cierra este proyecto, evalúa los compromisos y objetivos alcanzados, y refleja cómo lo aprendido y desarrollado nace para complementar y completar la formación recibida en la Universidad en la titulación de Ingeniero superior de Telecomunicaciones.
+
+Tras un año de trabajo, la solución CloudTrust se encuentra empaquetada, completamente funcional, y lista para presentar a potenciales clientes interesados.
+
 
 
 \section{Lecciones aprendidas}
 
+El proyecto CloudTrust, es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar la solución de CloudTrust tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de administración.
+
+
+
+Se resumen a continuación las conclusiones preliminares obtenidas tras el desarrollo del primer prototipo de servicios Cloudtrust.Entre las ventajas derivadas del uso de la arquitectura Frenetic podemos destacar que:Permite un alto grado de abstracción al desarrollador, pudiendo crear aplicaciones complejas con un menor esfuerzo, como el histórico de consumo o la detección de nuevos dispositivos.
+Emplea el lenguaje Python y permite desplegar el controlador sobre cualquier sistema operativo, aportando una gran portabilidad.A pesar de ser un sistema nuevo y un equipo pequeño de desarrolladores, comparado con otras iniciativas comerciales, dispone de unos desarrolladores activos, que resuelven los errores y problemas de software que la comunidad les reporta con relativa celeridad. Sin embargo, se han constatado también una serie de desventajas tales como:Uno de los principales problemas de este sistema reside en el rendimiento del controlador y la implementación de las políticas.Al ser un sistema con un alto nivel de abstracción en ocasiones es complicado generar reglas específicas que difieren del modelo establecido por Pyretic.Las reglas de monitorización se basan en obligar a todo el tráfico a ser reenviado al controlador y que sea este quien contabilice estadísticas y actúe como switch. Esta política de actuación afecta en gran medida al rendimiento del sistema.En resumen, el mayor inconveniente del sistema mostrado reside en la pérdida global de rendimiento en la monitorización de tráfico, haciendo peligroso su empleo en determinadas aplicaciones que requieran de un considerable ancho de banda. Actualmente el equipo de Frenetic se encuentra desarrollando un sistema de monitorización que solucione estos problemas de rendimiento.Debido a la necesidad de disponer de un sistema funcional y eficiente en un corto periodo de tiempo, se ha optado por realizar un estudio y tratar de introducir otro controlador en el sistema que mejore el rendimiento. Por otro lado, no se abandona el desarrollo de este proyecto, si no que se seguirá desarrollando a medida que aparezcan soluciones para los problemas de rendimiento.
+
+(....)
 
 
 \section{Conocimientos aplicados}
