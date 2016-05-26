@@ -656,8 +656,7 @@ Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el
 \label{est_def_ent_des}
 
 
-El entorno que se presenta se trata de una máquina Linux modificada según las necesidades de la solución. Esta máquina virtual contiene todo lo necesario para crear un escenario potencial real de una red de hogar con todos los dispositivos anteriormente definidos. En la figura que se presenta a continuación, se pueden identificar fácilmente las máquinas virtualizadas que se crean una vez arrancado el escenario. De esta forma se crean máquinas que simulan dispositivos de red como ordenadores personales, así como, el Controlador, el servidor DHCP, el servidor web y el router hacen las veces de las máquinas necesarias para llevar a cabo las funciones de conectividad de la red, según lo especificado en anteriores apartados.
-
+El entorno que se presenta se trata de una máquina Linux modificada según las necesidades de la solución. Esta máquina virtual contiene todo lo necesario para crear un escenario potencial real de una red de hogar con todos los dispositivos anteriormente definidos.En la figura que se presenta a continuación, se pueden identificar fácilmente las máquinas virtualizadas que se crean una vez arrancado el escenario. De esta forma se crean máquinas que simulan dispositivos de red como ordenadores personales, así como, el Controlador, el servidor DHCP, el servidor web y el router hacen las veces de las máquinas necesarias para llevar a cabo las funciones de conectividad de la red, según lo especificado en anteriores apartados.
 
 
  \begin{figure}[H]
@@ -1114,17 +1113,48 @@ Tras un año de trabajo, la solución CloudTrust se encuentra empaquetada, complet
 
 \section{Lecciones aprendidas}
 
-El proyecto CloudTrust, es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar la solución de CloudTrust tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de administración.
+El proyecto CloudTrust, es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar en la solución de CloudTrust tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de administración.
 
+En un apartado más técnico, las capacidades adquiridas son muchas, por ejemplo, y por enumerar algunas de las más importantes, he aprendido y extendido mis conocimientos sobre bases de datos, sobre su estructura, su correcta implementación, o la forma más eficiente de implementarlas. Con Django, esto es extremadamente sencillo. También he tenido la oportunidad de extender mis conocimientos sobre programación en lenguaje Python, particularmente con el trato de bases de datos, de usuarios o como construir páginas web en HTML apartando la lógica con Python. 
 
+Otra de las características nuevas aprendidas digna de mención, es el uso de los templatetags de Django, estos permiten hacer un prepocesado de la petición del usuario en Python, y devolver la información de tal forma que el navegador no tiene que ejecutar ningún script y la velocidad de carga de la página es mayor. Esto permite además manejar la información en local y no depender de codificaciones externas susceptibles de cambios o actualizaciones. 
 
-Se resumen a continuación las conclusiones preliminares obtenidas tras el desarrollo del primer prototipo de servicios Cloudtrust.Entre las ventajas derivadas del uso de la arquitectura Frenetic podemos destacar que:Permite un alto grado de abstracción al desarrollador, pudiendo crear aplicaciones complejas con un menor esfuerzo, como el histórico de consumo o la detección de nuevos dispositivos.
-Emplea el lenguaje Python y permite desplegar el controlador sobre cualquier sistema operativo, aportando una gran portabilidad.A pesar de ser un sistema nuevo y un equipo pequeño de desarrolladores, comparado con otras iniciativas comerciales, dispone de unos desarrolladores activos, que resuelven los errores y problemas de software que la comunidad les reporta con relativa celeridad. Sin embargo, se han constatado también una serie de desventajas tales como:Uno de los principales problemas de este sistema reside en el rendimiento del controlador y la implementación de las políticas.Al ser un sistema con un alto nivel de abstracción en ocasiones es complicado generar reglas específicas que difieren del modelo establecido por Pyretic.Las reglas de monitorización se basan en obligar a todo el tráfico a ser reenviado al controlador y que sea este quien contabilice estadísticas y actúe como switch. Esta política de actuación afecta en gran medida al rendimiento del sistema.En resumen, el mayor inconveniente del sistema mostrado reside en la pérdida global de rendimiento en la monitorización de tráfico, haciendo peligroso su empleo en determinadas aplicaciones que requieran de un considerable ancho de banda. Actualmente el equipo de Frenetic se encuentra desarrollando un sistema de monitorización que solucione estos problemas de rendimiento.Debido a la necesidad de disponer de un sistema funcional y eficiente en un corto periodo de tiempo, se ha optado por realizar un estudio y tratar de introducir otro controlador en el sistema que mejore el rendimiento. Por otro lado, no se abandona el desarrollo de este proyecto, si no que se seguirá desarrollando a medida que aparezcan soluciones para los problemas de rendimiento.
+Siguiendo en la línea de lo aprendido entorno a la creación de páginas webs, en el proyecto se tomó la decisión conjunta de utilizar el framework de Bootstrap para mayor sencillez en la construcción de las vistas. Bootstrap plantea algunas plantillas de las que se pueden hacer uso, y que son fácilmente configurables, le ahorran al programador, tareas engororrosas como la colocación de los elementos, o el diseño de los mismos. Incluye además algunas partes de código ejecutables, a las que se llama en función de un formato de clases siguiendo la estructura de HTML. Es decir, el proceso de aprendizaje no se limita exclusivamente al uso de las herramientas más utilizadas, sino que también he aprendido a ser mejor profesional y aprender la importancia y el valor de mi tiempo.
 
-(....)
+Referente a la elección del entorno de trabajo, he de mencionar que una de las grandes lecciones aprendidas, ha sido la de la importancia de crear un prepoceso de definición de requisitos, pues en proyectos tan grandes como este, un mal estudio previo puede desembocar en que las tareas no puedan ser completadas. Un ejemplo de esto es la elección de la estructura Frenetic, hay muchas estructuras de control de datos para SDN pero esta es la que mejor se adecuaba a nuestros requerimientos, pues su sencillez que permite abstraerse al desarrollador e implementar aplicaciones complejas con menor esfuerzo. Además permite usar el lenguaje Python desplegable en cualquier sistema operativo, que dispone de un amplio abanico de desarrolladores activos. Sin embargo, depende de que todas las reglas de monitorización pasen por el controlador y esto limita su escalabilidad, o para aplicaciones que requieran de anchos de banda muy grandes.
+
+Como se ha comentado anteriormente en puntos anteriores del proyecto, el valor añadido de participar en un proyecto en el que participan varias personas y empresas, me ha hecho comprender lo importante que son cosas como la viabilidad empresarial, el cumplimiento de tareas, así cómo, la correcta definición de tiempos y procesos.
+
+En términos generales considero que se han visto cumplidos mis objetivos personales y los objetivos técnicos del proyecto, y no sólo eso, sino que he conseguido tender un puente que vincule el mundo de la formación con el mercado laboral, sentando las bases para futuros proyectos.
 
 
 \section{Conocimientos aplicados}
+
+En mi opinión personal, gran parte del motivo de estudiar una carrera era la adquisición de conocimientos, pero no sólo eso, la carrera te prepara en muchos aspectos. Los primeros años, una carrera técnica como la de Ingeniería de Telecomunicación, se centra mucho en aprender los conceptos más básicos, y sentar la base para conocimientos más profuntos y complejos. Y en cambio, en las fases finales, el proceso de aprendizaje cambia y es redirigido hacia la solución de problemas, es decir, nos prepara para afrontarlos y darles solución. Este aspecto es el más importante, el conocimiento siempre está disponible, la capacidad para entenderlo no. 
+
+Transformar todo este entendimiento junto con mi crecimiento personal y la formación que he recibido durante mi periodo como estudiante ha derivado en mucho trabajo duro puesto en este proyecto. Algunas asignaturas de la carrera han tenido mayor impacto, y las enumero a continuación:
+\begin{itemize}
+
+\item
+Fundamentos de la programación y Métodos de programación: Ambas asignaturas en gran medida como se comentaba anteriormente, sentaron las bases sobre la lógica, la arquitectura y el bien hacer a la hora de programar. 
+
+\item
+Fundamentos de los computadores I y II:
+Igual que las dos asignaturas anteriores, el conocimiento que recogían sobre software y hardware es de básico conocimiento a la hora de realizar cualquier proyecto técnico que se precie.
+
+\item
+Sistemas Telemáticas I y II, Información audiovisual en Redes de Ordenadores Planificación y Gestión de redes de ordenadores:
+Todas estas asignaturas combinadas dan una vista general y completa del funcionamiento y administración de redes, así tanto cómo su arquitectura, los protocolos de comunicación y su correcto diseño.
+
+\item
+Servicios y aplicaciones telemáticas: Ciertamente esta es una de las asignaturas que tiene una relación más directa con lo desarrollado en este proyecto. La primera toma de contacto con herramientas como Django, o lenguajes de programación como Python o HTML, fueron gracias a esta asignatura. Los conocimientos adquiridos en este PFC no han hecho más que extender, junto con otras asignatuas, lo aprendido en ellas.
+
+\item
+Proyectos: Esta asignatura, es el primer acercamiento real hacia lo que se entiende como gestión de proyectos. Conceptos como métricas, KPI, orden de relación entre actividades, gestión de riesgos o toma de decisiones, las aprendimos en Proyectos. Dado que este proyecto se ha desarrollado en un entorno empresarial y desde la figura de gestor de proyecto, los conocimientos adquiridos y finalmente aplicados son directos.
+
+\end{itemize}
+
+
 
 
 \section{Trabajos futuros}
