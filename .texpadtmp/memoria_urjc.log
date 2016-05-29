@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.26)  26 MAY 2016 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.26)  28 MAY 2016 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,20 +305,20 @@ ogo.png>]
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
  [3]
-LaTeX Info: Redefining \. on input line 123.
-LaTeX Info: Redefining \% on input line 123.
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
  [4
 
 ] [5]
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
  [6] [7
 
 ]
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
  [8
 
 ]
@@ -331,8 +331,8 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@toc=\write3
 \openout3 = `memoria_urjc.toc'.
 
-LaTeX Info: Redefining \. on input line 206.
-LaTeX Info: Redefining \% on input line 206.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
 
 [10] (/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -345,71 +345,71 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write4
 \openout4 = `memoria_urjc.lof'.
 
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
  [12]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 222.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 206.
 [1
 
 ]
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
  [2]
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 256.
+LaTeX Info: Redefining \% on input line 256.
  [3]
-LaTeX Info: Redefining \. on input line 273.
-LaTeX Info: Redefining \% on input line 273.
+LaTeX Info: Redefining \. on input line 257.
+LaTeX Info: Redefining \% on input line 257.
  [4
 
 ]
 Cap\'{\i }tulo 2.
 [5]
-LaTeX Info: Redefining \. on input line 330.
-LaTeX Info: Redefining \% on input line 330.
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
  [6]
-Overfull \hbox (33.06592pt too wide) in paragraph at lines 330--331
+Overfull \hbox (33.06592pt too wide) in paragraph at lines 314--315
 \T1/ptm/m/n/12 co-mo una cuen-ta de Twit-ter que dé vi-si-bi-li-dad al pro-yec-
 to (https://twitter.com/mihogarenlanube). 
  []
 
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
+LaTeX Info: Redefining \. on input line 329.
+LaTeX Info: Redefining \% on input line 329.
 [7]
-LaTeX Info: Redefining \. on input line 346.
-LaTeX Info: Redefining \% on input line 346.
+LaTeX Info: Redefining \. on input line 330.
+LaTeX Info: Redefining \% on input line 330.
  [8
 
 ]
 Cap\'{\i }tulo 3.
 [9]
-LaTeX Info: Redefining \. on input line 391.
-LaTeX Info: Redefining \% on input line 391.
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
  [10]
-LaTeX Info: Redefining \. on input line 417.
-LaTeX Info: Redefining \% on input line 417.
+LaTeX Info: Redefining \. on input line 401.
+LaTeX Info: Redefining \% on input line 401.
  [11]
-LaTeX Info: Redefining \. on input line 445.
-LaTeX Info: Redefining \% on input line 445.
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
  [12]
-Overfull \hbox (1.2892pt too wide) in paragraph at lines 459--459
+Overfull \hbox (1.2892pt too wide) in paragraph at lines 443--443
 []\T1/ptm/b/n/17.28 Requisitos del en-torno de desa-rro-llo de la apli-ca-ción 
 web. 
  []
 
-LaTeX Info: Redefining \. on input line 480.
-LaTeX Info: Redefining \% on input line 480.
+LaTeX Info: Redefining \. on input line 464.
+LaTeX Info: Redefining \% on input line 464.
 [13]
-LaTeX Info: Redefining \. on input line 491.
-LaTeX Info: Redefining \% on input line 491.
+LaTeX Info: Redefining \. on input line 475.
+LaTeX Info: Redefining \% on input line 475.
  [14]
 Cap\'{\i }tulo 4.
 <img/ModeloVC.png, id=95, 150.8034pt x 164.7756pt>
 File: img/ModeloVC.png Graphic file (type png)
  <use img/ModeloVC.png>
-Package pdftex.def Info: img/ModeloVC.png used on input line 506.
+Package pdftex.def Info: img/ModeloVC.png used on input line 490.
 (pdftex.def)             Requested size: 227.62204pt x 248.7216pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -420,39 +420,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <img/Register.png, id=100, 363.759pt x 100.2144pt>
 File: img/Register.png Graphic file (type png)
  <use img/Register.png>
-Package pdftex.def Info: img/Register.png used on input line 522.
+Package pdftex.def Info: img/Register.png used on input line 506.
 (pdftex.def)             Requested size: 426.79134pt x 117.58218pt.
-LaTeX Info: Redefining \. on input line 526.
-LaTeX Info: Redefining \% on input line 526.
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
 
 [16 <./img/ModeloVC.png>] <img/Command.png, id=105, 357.9774pt x 154.176pt>
 File: img/Command.png Graphic file (type png)
 
 <use img/Command.png>
-Package pdftex.def Info: img/Command.png used on input line 541.
+Package pdftex.def Info: img/Command.png used on input line 525.
 (pdftex.def)             Requested size: 426.79134pt x 183.81516pt.
-LaTeX Info: Redefining \. on input line 544.
-LaTeX Info: Redefining \% on input line 544.
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
  [17 <./img/Register.png>]
-LaTeX Info: Redefining \. on input line 559.
-LaTeX Info: Redefining \% on input line 559.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
  [18 <./img/Command.png>]
-LaTeX Info: Redefining \. on input line 574.
-LaTeX Info: Redefining \% on input line 574.
+LaTeX Info: Redefining \. on input line 558.
+LaTeX Info: Redefining \% on input line 558.
 
 [19]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 581.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 565.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-LaTeX Info: Redefining \. on input line 604.
-LaTeX Info: Redefining \% on input line 604.
+LaTeX Info: Redefining \. on input line 588.
+LaTeX Info: Redefining \% on input line 588.
  [20]
-LaTeX Info: Redefining \. on input line 615.
-LaTeX Info: Redefining \% on input line 615.
+LaTeX Info: Redefining \. on input line 599.
+LaTeX Info: Redefining \% on input line 599.
 
 [21]
-Overfull \hbox (27.97672pt too wide) in paragraph at lines 629--631
+Overfull \hbox (27.97672pt too wide) in paragraph at lines 613--615
 \T1/ptm/m/n/12 ría de Sis-te-mas Te-le-má-ti-cos (DIT) de la ET-SI de Te-le-co-
 mu-ni-ca-ción de la UPM (http://vnx.dit.upm.es).
  []
@@ -460,20 +460,20 @@ mu-ni-ca-ción de la UPM (http://vnx.dit.upm.es).
 
 Underfull \vbox (badness 3439) has occurred while \output is active []
 
+LaTeX Info: Redefining \. on input line 615.
+LaTeX Info: Redefining \% on input line 615.
+ [22]
 LaTeX Info: Redefining \. on input line 631.
 LaTeX Info: Redefining \% on input line 631.
- [22]
-LaTeX Info: Redefining \. on input line 647.
-LaTeX Info: Redefining \% on input line 647.
 
 [23] <img/frenetic.png, id=131, 299.1175pt x 191.71625pt>
 File: img/frenetic.png Graphic file (type png)
 
 <use img/frenetic.png>
-Package pdftex.def Info: img/frenetic.png used on input line 651.
+Package pdftex.def Info: img/frenetic.png used on input line 635.
 (pdftex.def)             Requested size: 369.88582pt x 237.09088pt.
-LaTeX Info: Redefining \. on input line 659.
-LaTeX Info: Redefining \% on input line 659.
+LaTeX Info: Redefining \. on input line 643.
+LaTeX Info: Redefining \% on input line 643.
  [24 <./img/frenetic.png>]
 Cap\'{\i }tulo 5.
 [25
@@ -481,42 +481,42 @@ Cap\'{\i }tulo 5.
 ] <img/diagfunc.png, id=140, 722.7pt x 542.025pt>
 File: img/diagfunc.png Graphic file (type png)
  <use img/diagfunc.png>
-Package pdftex.def Info: img/diagfunc.png used on input line 682.
+Package pdftex.def Info: img/diagfunc.png used on input line 666.
 (pdftex.def)             Requested size: 369.88582pt x 277.41328pt.
 
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 693.
-LaTeX Info: Redefining \% on input line 693.
+LaTeX Info: Redefining \. on input line 677.
+LaTeX Info: Redefining \% on input line 677.
  [26 <./img/diagfunc.png>] <img/diagramafisico.png, id=145, 440.64626pt x 331.2
 375pt>
 File: img/diagramafisico.png Graphic file (type png)
 
 <use img/diagramafisico.png>
-Package pdftex.def Info: img/diagramafisico.png used on input line 696.
+Package pdftex.def Info: img/diagramafisico.png used on input line 680.
 (pdftex.def)             Requested size: 369.88582pt x 278.05563pt.
 
-Overfull \hbox (0.75589pt too wide) in paragraph at lines 720--720
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 704--704
 []\T1/pcr/m/n/10 - Servidor: DL380p Gen8 - 2 * Xeon E5-2620 6-core 2.0GHz,  32 
 GB RAM (2*16GB[] 
  []
 
-LaTeX Info: Redefining \. on input line 720.
-LaTeX Info: Redefining \% on input line 720.
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
 [27 <./img/diagramafisico.png>]
-Overfull \hbox (6.75589pt too wide) in paragraph at lines 720--720
+Overfull \hbox (6.75589pt too wide) in paragraph at lines 704--704
 []\T1/pcr/m/n/10 LV RDIMMs), 2*300GB-10K disks, 750W redundant AC power, 4 * 1G
 bE embedded LAN[] 
  []
 
 
-Overfull \hbox (12.75589pt too wide) in paragraph at lines 720--720
+Overfull \hbox (12.75589pt too wide) in paragraph at lines 704--704
 []\T1/pcr/m/n/10 - Licencia iLo Advanced: Insight Lights-Out Advanced Pack - El
 ectronic licence[] 
  []
 
 
-Overfull \hbox (0.75589pt too wide) in paragraph at lines 720--720
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 704--704
 []\T1/pcr/m/n/10 and licence-to-use for 1 rackmount or tower server - includes 
 1 year 24*7 SW[] 
  []
@@ -525,86 +525,86 @@ Overfull \hbox (0.75589pt too wide) in paragraph at lines 720--720
 File: img/diagramadered.png Graphic file (type png)
 
 <use img/diagramadered.png>
-Package pdftex.def Info: img/diagramadered.png used on input line 735.
+Package pdftex.def Info: img/diagramadered.png used on input line 719.
 (pdftex.def)             Requested size: 369.88582pt x 277.41287pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 739.
-LaTeX Info: Redefining \% on input line 739.
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
  [28]
-LaTeX Info: Redefining \. on input line 751.
-LaTeX Info: Redefining \% on input line 751.
+LaTeX Info: Redefining \. on input line 735.
+LaTeX Info: Redefining \% on input line 735.
 
 [29 <./img/diagramadered.png>]
 <img/Bubbles.png, id=158, 720.7728pt x 542.025pt>
 File: img/Bubbles.png Graphic file (type png)
  <use img/Bubbles.png>
-Package pdftex.def Info: img/Bubbles.png used on input line 755.
+Package pdftex.def Info: img/Bubbles.png used on input line 739.
 (pdftex.def)             Requested size: 369.88582pt x 278.15764pt.
-LaTeX Info: Redefining \. on input line 776.
-LaTeX Info: Redefining \% on input line 776.
+LaTeX Info: Redefining \. on input line 760.
+LaTeX Info: Redefining \% on input line 760.
 
 [30 <./img/Bubbles.png>]
-LaTeX Info: Redefining \. on input line 788.
-LaTeX Info: Redefining \% on input line 788.
+LaTeX Info: Redefining \. on input line 772.
+LaTeX Info: Redefining \% on input line 772.
  [31] <img/index.png, id=167, 427.5975pt x 301.125pt>
 File: img/index.png Graphic file (type png)
 
 <use img/index.png>
-Package pdftex.def Info: img/index.png used on input line 792.
+Package pdftex.def Info: img/index.png used on input line 776.
 (pdftex.def)             Requested size: 369.88582pt x 260.4833pt.
  <img/pagppal.png, id=168, 427.5975pt x 234.8775pt>
 File: img/pagppal.png Graphic file (type png)
 
 <use img/pagppal.png>
-Package pdftex.def Info: img/pagppal.png used on input line 804.
+Package pdftex.def Info: img/pagppal.png used on input line 788.
 (pdftex.def)             Requested size: 369.88582pt x 203.17699pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 808.
-LaTeX Info: Redefining \% on input line 808.
+LaTeX Info: Redefining \. on input line 792.
+LaTeX Info: Redefining \% on input line 792.
  [32 <./img/index.png>]
-LaTeX Info: Redefining \. on input line 816.
-LaTeX Info: Redefining \% on input line 816.
+LaTeX Info: Redefining \. on input line 800.
+LaTeX Info: Redefining \% on input line 800.
  [33 <./img/pagppal.png>]
 <img/est_carpetas1.png, id=177, 150.5625pt x 533.995pt>
 File: img/est_carpetas1.png Graphic file (type png)
 
 <use img/est_carpetas1.png>
-Package pdftex.def Info: img/est_carpetas1.png used on input line 822.
+Package pdftex.def Info: img/est_carpetas1.png used on input line 806.
 (pdftex.def)             Requested size: 150.56212pt x 533.9937pt.
 
-Overfull \hbox (36.7511pt too wide) in paragraph at lines 822--823
+Overfull \hbox (36.7511pt too wide) in paragraph at lines 806--807
 [][] 
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 823--823
+Underfull \hbox (badness 1466) in paragraph at lines 807--807
 []\T1/ptm/m/n/12 Figura 5.7: Es-truc-tu-ra
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 839.
-LaTeX Info: Redefining \% on input line 839.
+LaTeX Info: Redefining \. on input line 823.
+LaTeX Info: Redefining \% on input line 823.
  [34 <./img/est_carpetas1.png>]
 Underfull \vbox (badness 3514) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 858.
-LaTeX Info: Redefining \% on input line 858.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
  [35]
-LaTeX Info: Redefining \. on input line 882.
-LaTeX Info: Redefining \% on input line 882.
+LaTeX Info: Redefining \. on input line 866.
+LaTeX Info: Redefining \% on input line 866.
 
 [36]
-LaTeX Info: Redefining \. on input line 890.
-LaTeX Info: Redefining \% on input line 890.
+LaTeX Info: Redefining \. on input line 874.
+LaTeX Info: Redefining \% on input line 874.
  [37]
-LaTeX Info: Redefining \. on input line 891.
-LaTeX Info: Redefining \% on input line 891.
+LaTeX Info: Redefining \. on input line 875.
+LaTeX Info: Redefining \% on input line 875.
  [38
 
 ]
@@ -612,7 +612,7 @@ Cap\'{\i }tulo 6.
 <img/caso11.png, id=196, 652.68843pt x 591.71063pt>
 File: img/caso11.png Graphic file (type png)
  <use img/caso11.png>
-Package pdftex.def Info: img/caso11.png used on input line 904.
+Package pdftex.def Info: img/caso11.png used on input line 888.
 (pdftex.def)             Requested size: 369.88582pt x 335.33737pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -621,284 +621,284 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <img/caso12.png, id=200, 482.55281pt x 289.83281pt>
 File: img/caso12.png Graphic file (type png)
  <use img/caso12.png>
-Package pdftex.def Info: img/caso12.png used on input line 916.
+Package pdftex.def Info: img/caso12.png used on input line 900.
 (pdftex.def)             Requested size: 369.88582pt x 222.16803pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 920.
-LaTeX Info: Redefining \% on input line 920.
+LaTeX Info: Redefining \. on input line 904.
+LaTeX Info: Redefining \% on input line 904.
  [40 <./img/caso11.png>] <img/caso13.png, id=204, 700.11563pt x 413.29407pt>
 File: img/caso13.png Graphic file (type png)
 
 <use img/caso13.png>
-Package pdftex.def Info: img/caso13.png used on input line 926.
+Package pdftex.def Info: img/caso13.png used on input line 910.
 (pdftex.def)             Requested size: 369.88582pt x 218.3574pt.
-LaTeX Info: Redefining \. on input line 932.
-LaTeX Info: Redefining \% on input line 932.
+LaTeX Info: Redefining \. on input line 916.
+LaTeX Info: Redefining \% on input line 916.
  [41 <./img/caso12.png> <./img/caso13.png>]
 <img/caso14.png, id=208, 684.30656pt x 384.6872pt>
 File: img/caso14.png Graphic file (type png)
  <use img/caso14.png>
-Package pdftex.def Info: img/caso14.png used on input line 937.
+Package pdftex.def Info: img/caso14.png used on input line 921.
 (pdftex.def)             Requested size: 369.88582pt x 207.9393pt.
 
 <img/caso15.png, id=209, 700.86844pt x 366.61969pt>
 File: img/caso15.png Graphic file (type png)
  <use img/caso15.png>
-Package pdftex.def Info: img/caso15.png used on input line 947.
+Package pdftex.def Info: img/caso15.png used on input line 931.
 (pdftex.def)             Requested size: 369.88582pt x 193.49075pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 951.
-LaTeX Info: Redefining \% on input line 951.
+LaTeX Info: Redefining \. on input line 935.
+LaTeX Info: Redefining \% on input line 935.
  [42 <./img/caso14.png>] <img/caso16.png, id=214, 708.39656pt x 258.9675pt>
 File: img/caso16.png Graphic file (type png)
 
 <use img/caso16.png>
-Package pdftex.def Info: img/caso16.png used on input line 958.
+Package pdftex.def Info: img/caso16.png used on input line 942.
 (pdftex.def)             Requested size: 369.88582pt x 135.22102pt.
  <img/caso17.png, id=215, 714.41907pt x 283.81032pt>
 File: img/caso17.png Graphic file (type png)
 
 <use img/caso17.png>
-Package pdftex.def Info: img/caso17.png used on input line 967.
+Package pdftex.def Info: img/caso17.png used on input line 951.
 (pdftex.def)             Requested size: 369.88582pt x 146.94128pt.
 
 Underfull \vbox (badness 5578) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 971.
-LaTeX Info: Redefining \% on input line 971.
+LaTeX Info: Redefining \. on input line 955.
+LaTeX Info: Redefining \% on input line 955.
  [43 <./img/caso15.png> <./img/caso16.png>]
 <img/caso18.png, id=219, 712.91344pt x 444.91219pt>
 File: img/caso18.png Graphic file (type png)
  <use img/caso18.png>
-Package pdftex.def Info: img/caso18.png used on input line 977.
+Package pdftex.def Info: img/caso18.png used on input line 961.
 (pdftex.def)             Requested size: 369.88582pt x 230.83292pt.
 
 <img/caso19.png, id=220, 495.35063pt x 69.25874pt>
 File: img/caso19.png Graphic file (type png)
  <use img/caso19.png>
-Package pdftex.def Info: img/caso19.png used on input line 986.
+Package pdftex.def Info: img/caso19.png used on input line 970.
 (pdftex.def)             Requested size: 369.88582pt x 51.7167pt.
 
 Underfull \vbox (badness 5050) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 990.
-LaTeX Info: Redefining \% on input line 990.
+LaTeX Info: Redefining \. on input line 974.
+LaTeX Info: Redefining \% on input line 974.
  [44 <./img/caso17.png> <./img/caso18.png>]
 <img/caso110.png, id=224, 706.89093pt x 209.28188pt>
 File: img/caso110.png Graphic file (type png)
  <use img/caso110.png>
-Package pdftex.def Info: img/caso110.png used on input line 997.
+Package pdftex.def Info: img/caso110.png used on input line 981.
 (pdftex.def)             Requested size: 369.88582pt x 109.50737pt.
 
 <img/caso111.png, id=225, 511.15968pt x 97.11281pt>
 File: img/caso111.png Graphic file (type png)
  <use img/caso111.png>
-Package pdftex.def Info: img/caso111.png used on input line 1008.
+Package pdftex.def Info: img/caso111.png used on input line 992.
 (pdftex.def)             Requested size: 369.88582pt x 70.27235pt.
 
 Underfull \vbox (badness 3690) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1012.
-LaTeX Info: Redefining \% on input line 1012.
+LaTeX Info: Redefining \. on input line 996.
+LaTeX Info: Redefining \% on input line 996.
  [45 <./img/caso19.png> <./img/caso110.png>]
 <img/caso112.png, id=229, 708.39656pt x 268.00125pt>
 File: img/caso112.png Graphic file (type png)
  <use img/caso112.png>
-Package pdftex.def Info: img/caso112.png used on input line 1020.
+Package pdftex.def Info: img/caso112.png used on input line 1004.
 (pdftex.def)             Requested size: 369.88582pt x 139.93803pt.
 
 <img/caso113.png, id=230, 700.11563pt x 266.49562pt>
 File: img/caso113.png Graphic file (type png)
  <use img/caso113.png>
-Package pdftex.def Info: img/caso113.png used on input line 1032.
+Package pdftex.def Info: img/caso113.png used on input line 1016.
 (pdftex.def)             Requested size: 369.88582pt x 140.79877pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1036.
-LaTeX Info: Redefining \% on input line 1036.
+LaTeX Info: Redefining \. on input line 1020.
+LaTeX Info: Redefining \% on input line 1020.
  [46 <./img/caso111.png> <./img/caso112.png>]
 <img/caso114.png, id=234, 761.84625pt x 500.62032pt>
 File: img/caso114.png Graphic file (type png)
  <use img/caso114.png>
-Package pdftex.def Info: img/caso114.png used on input line 1041.
+Package pdftex.def Info: img/caso114.png used on input line 1025.
 (pdftex.def)             Requested size: 369.88582pt x 243.05264pt.
 
 <img/caso115.png, id=235, 708.39656pt x 273.27094pt>
 File: img/caso115.png Graphic file (type png)
  <use img/caso115.png>
-Package pdftex.def Info: img/caso115.png used on input line 1051.
+Package pdftex.def Info: img/caso115.png used on input line 1035.
 (pdftex.def)             Requested size: 369.88582pt x 142.68962pt.
 
 Underfull \vbox (badness 3471) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1055.
-LaTeX Info: Redefining \% on input line 1055.
+LaTeX Info: Redefining \. on input line 1039.
+LaTeX Info: Redefining \% on input line 1039.
  [47 <./img/caso113.png> <./img/caso114.png>]
-LaTeX Info: Redefining \. on input line 1056.
-LaTeX Info: Redefining \% on input line 1056.
+LaTeX Info: Redefining \. on input line 1040.
+LaTeX Info: Redefining \% on input line 1040.
  [48 <./img/caso115.png>]
 <img/caso21.png, id=243, 508.14844pt x 228.855pt>
 File: img/caso21.png Graphic file (type png)
  <use img/caso21.png>
-Package pdftex.def Info: img/caso21.png used on input line 1069.
+Package pdftex.def Info: img/caso21.png used on input line 1053.
 (pdftex.def)             Requested size: 369.88582pt x 166.59132pt.
 
 <img/caso22.png, id=244, 508.14844pt x 229.60782pt>
 File: img/caso22.png Graphic file (type png)
  <use img/caso22.png>
-Package pdftex.def Info: img/caso22.png used on input line 1078.
+Package pdftex.def Info: img/caso22.png used on input line 1062.
 (pdftex.def)             Requested size: 369.88582pt x 167.13933pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1082.
-LaTeX Info: Redefining \% on input line 1082.
+LaTeX Info: Redefining \. on input line 1066.
+LaTeX Info: Redefining \% on input line 1066.
  [49 <./img/caso21.png>] <img/caso23.png, id=248, 509.65407pt x 246.1697pt>
 File: img/caso23.png Graphic file (type png)
 
 <use img/caso23.png>
-Package pdftex.def Info: img/caso23.png used on input line 1087.
+Package pdftex.def Info: img/caso23.png used on input line 1071.
 (pdftex.def)             Requested size: 369.88582pt x 178.6694pt.
  <img/caso24.png, id=249, 633.11531pt x 210.03468pt>
 File: img/caso24.png Graphic file (type png)
 
 <use img/caso24.png>
-Package pdftex.def Info: img/caso24.png used on input line 1096.
+Package pdftex.def Info: img/caso24.png used on input line 1080.
 (pdftex.def)             Requested size: 369.88582pt x 122.71115pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1100.
-LaTeX Info: Redefining \% on input line 1100.
+LaTeX Info: Redefining \. on input line 1084.
+LaTeX Info: Redefining \% on input line 1084.
  [50 <./img/caso22.png> <./img/caso23.png>]
-LaTeX Info: Redefining \. on input line 1104.
-LaTeX Info: Redefining \% on input line 1104.
+LaTeX Info: Redefining \. on input line 1088.
+LaTeX Info: Redefining \% on input line 1088.
  [51 <./img/caso24.png>]
 <img/caso31.png, id=256, 509.65407pt x 137.7647pt>
 File: img/caso31.png Graphic file (type png)
  <use img/caso31.png>
-Package pdftex.def Info: img/caso31.png used on input line 1114.
+Package pdftex.def Info: img/caso31.png used on input line 1098.
 (pdftex.def)             Requested size: 369.88582pt x 99.98929pt.
 
 <img/caso32.png, id=257, 621.82312pt x 218.31563pt>
 File: img/caso32.png Graphic file (type png)
  <use img/caso32.png>
-Package pdftex.def Info: img/caso32.png used on input line 1123.
+Package pdftex.def Info: img/caso32.png used on input line 1107.
 (pdftex.def)             Requested size: 369.88582pt x 129.86443pt.
 
 <img/caso33.png, id=258, 624.08156pt x 208.52907pt>
 File: img/caso33.png Graphic file (type png)
  <use img/caso33.png>
-Package pdftex.def Info: img/caso33.png used on input line 1132.
+Package pdftex.def Info: img/caso33.png used on input line 1116.
 (pdftex.def)             Requested size: 369.88582pt x 123.59427pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1136.
-LaTeX Info: Redefining \% on input line 1136.
+LaTeX Info: Redefining \. on input line 1120.
+LaTeX Info: Redefining \% on input line 1120.
  [52 <./img/caso31.png> <./img/caso32.png>]
 <img/caso34.png, id=262, 510.40688pt x 115.18031pt>
 File: img/caso34.png Graphic file (type png)
  <use img/caso34.png>
-Package pdftex.def Info: img/caso34.png used on input line 1143.
+Package pdftex.def Info: img/caso34.png used on input line 1127.
 (pdftex.def)             Requested size: 369.88582pt x 83.47456pt.
 
 <img/caso35.png, id=263, 517.18219pt x 96.36pt>
 File: img/caso35.png Graphic file (type png)
  <use img/caso35.png>
-Package pdftex.def Info: img/caso35.png used on input line 1150.
+Package pdftex.def Info: img/caso35.png used on input line 1134.
 (pdftex.def)             Requested size: 369.88582pt x 68.91891pt.
-LaTeX Info: Redefining \. on input line 1158.
-LaTeX Info: Redefining \% on input line 1158.
+LaTeX Info: Redefining \. on input line 1142.
+LaTeX Info: Redefining \% on input line 1142.
  [53 <./img/caso33.png> <./img/caso34.png> <./img/caso35.png>]
 <img/caso36.png, id=267, 608.2725pt x 365.11406pt>
 File: img/caso36.png Graphic file (type png)
  <use img/caso36.png>
-Package pdftex.def Info: img/caso36.png used on input line 1163.
+Package pdftex.def Info: img/caso36.png used on input line 1147.
 (pdftex.def)             Requested size: 369.88582pt x 222.02841pt.
 
 <img/caso37.png, id=268, 625.58719pt x 275.52937pt>
 File: img/caso37.png Graphic file (type png)
  <use img/caso37.png>
-Package pdftex.def Info: img/caso37.png used on input line 1175.
+Package pdftex.def Info: img/caso37.png used on input line 1159.
 (pdftex.def)             Requested size: 369.88582pt x 162.91406pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1179.
-LaTeX Info: Redefining \% on input line 1179.
+LaTeX Info: Redefining \. on input line 1163.
+LaTeX Info: Redefining \% on input line 1163.
  [54 <./img/caso36.png>] <img/caso38.png, id=273, 745.28438pt x 392.21532pt>
 File: img/caso38.png Graphic file (type png)
 
 <use img/caso38.png>
-Package pdftex.def Info: img/caso38.png used on input line 1187.
+Package pdftex.def Info: img/caso38.png used on input line 1171.
 (pdftex.def)             Requested size: 369.88582pt x 194.65288pt.
  <img/caso39.png, id=274, 734.745pt x 280.04625pt>
 File: img/caso39.png Graphic file (type png)
 
 <use img/caso39.png>
-Package pdftex.def Info: img/caso39.png used on input line 1198.
+Package pdftex.def Info: img/caso39.png used on input line 1182.
 (pdftex.def)             Requested size: 369.88582pt x 140.98422pt.
-LaTeX Info: Redefining \. on input line 1201.
-LaTeX Info: Redefining \% on input line 1201.
+LaTeX Info: Redefining \. on input line 1185.
+LaTeX Info: Redefining \% on input line 1185.
  [55 <./img/caso37.png> <./img/caso38.png>]
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
+LaTeX Info: Redefining \. on input line 1188.
+LaTeX Info: Redefining \% on input line 1188.
  [56 <./img/caso39.png>] <img/caso42.png, id=281, 841.64438pt x 522.45187pt>
 File: img/caso42.png Graphic file (type png)
 
 <use img/caso42.png>
-Package pdftex.def Info: img/caso42.png used on input line 1214.
+Package pdftex.def Info: img/caso42.png used on input line 1198.
 (pdftex.def)             Requested size: 369.88582pt x 229.60847pt.
  <img/caso43.png, id=282, 823.57687pt x 269.50688pt>
 File: img/caso43.png Graphic file (type png)
 
 <use img/caso43.png>
-Package pdftex.def Info: img/caso43.png used on input line 1221.
+Package pdftex.def Info: img/caso43.png used on input line 1205.
 (pdftex.def)             Requested size: 369.88582pt x 121.04256pt.
-LaTeX Info: Redefining \. on input line 1227.
-LaTeX Info: Redefining \% on input line 1227.
+LaTeX Info: Redefining \. on input line 1211.
+LaTeX Info: Redefining \% on input line 1211.
  [57 <./img/caso42.png> <./img/caso43.png>]
-LaTeX Info: Redefining \. on input line 1227.
-LaTeX Info: Redefining \% on input line 1227.
+LaTeX Info: Redefining \. on input line 1211.
+LaTeX Info: Redefining \% on input line 1211.
  [58
 
 ]
 Cap\'{\i }tulo 7.
 [59]
-LaTeX Info: Redefining \. on input line 1250.
-LaTeX Info: Redefining \% on input line 1250.
+LaTeX Info: Redefining \. on input line 1234.
+LaTeX Info: Redefining \% on input line 1234.
  [60]
-LaTeX Info: Redefining \. on input line 1272.
-LaTeX Info: Redefining \% on input line 1272.
+LaTeX Info: Redefining \. on input line 1256.
+LaTeX Info: Redefining \% on input line 1256.
  [61]
-LaTeX Info: Redefining \. on input line 1286.
-LaTeX Info: Redefining \% on input line 1286.
+LaTeX Info: Redefining \. on input line 1269.
+LaTeX Info: Redefining \% on input line 1269.
  [62]
 Ap\'endice A.
 [63
 
 
 ]
-LaTeX Info: Redefining \. on input line 1331.
-LaTeX Info: Redefining \% on input line 1331.
+LaTeX Info: Redefining \. on input line 1314.
+LaTeX Info: Redefining \% on input line 1314.
  [64
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1346.
+(Font)              <7> on input line 1329.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1346.
+(Font)              <5> on input line 1329.
  [65
 
 ]
-LaTeX Info: Redefining \. on input line 1385.
-LaTeX Info: Redefining \% on input line 1385.
+LaTeX Info: Redefining \. on input line 1368.
+LaTeX Info: Redefining \% on input line 1368.
  [66]
 (/Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_urjc.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -924,7 +924,7 @@ nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
 Output written on /Users/DGM/Documents/PFC-David-Gutierrez/.texpadtmp/memoria_u
-rjc.pdf (79 pages, 2295046 bytes).
+rjc.pdf (79 pages, 2296144 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams

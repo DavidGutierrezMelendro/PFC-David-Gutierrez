@@ -81,6 +81,7 @@ CloudTrust : Aplicación Web de Configuración de red en un entorno virtualizado.\
 \large
 Autor : David Gutiérrez Melendro \\
 Tutor : Dr. Gregorio Robles
+Co-Tutor: Beatriz Sánchez Castañeda
 \end{center}
 \end{titlepage}
 
@@ -133,19 +134,20 @@ crecer rápidamente soportando nuevas funcionalidades, opciones, etc. que
 suponen una mayor complejidad de los mismos y por tanto un incremento de
 los factores de riesgo.
 
-Actualmente los entornos web se mueven hacia la virtualización y la nube. Dentro deesta tendencia se observan distintas vulnerabilidades en la navegación web y en elhogar, así como sus posibles soluciones, para poder ofrecer servicios seguros tantodesde el punto de vista del ofertante, del poseedor de la plataforma que da el servicio, como del usuario final.
+Actualmente los entornos web se mueven hacia la virtualización y la nube. Dentro de esta tendencia se observan distintas vulnerabilidades en la navegación web y en el hogar, así como sus posibles soluciones, para poder ofrecer servicios seguros tanto desde el punto de vista del ofertante, del poseedor de la plataforma que da el servicio, como del usuario final.
 
-El objetivo principal del proyecto CloudTrust es construir un entorno de navegaciónsegura integrado con los actuales sistemas de hosting/housing y que permita atajar de manera radical las actuales vulnerabilidades en la navegación de los usuarios.La solución de CloudTrust es una solución que aporta confianza bidireccional, ambosextremos están seguros en la navegación, la empresa puede ofrecer una imagen enInternet sabiendo que el usuario final verá lo que realmente se oferta y no esvíctima de ningún ataque.
+Dentro del hogar de los usuarios, las vulnerabilidades son muy variadas. Desde accesos no deseados a través de la red de nuestro hogar y no fácilmente  controlables, hasta webs de las que nos debemos proteger.
 
-Dentro del hogar de los usuarios, las vulnerabilidades son muy variadas. Desdeaccesos no deseados a través de la red de nuestro hogar y no fácilmente controlables, hasta webs de las que nos debemos proteger.
+Este proyecto de fin de carrera consiste en el diseño, implementación e integración de una aplicación web de configuración y gestión de una red virtual implementada según el proyecto de seguridad en la nube denominado CloudTrust.
+El proyecto CloudTrust, ha sido un proyecto financiado por el Ministerio de la  Competencia durante 3 años y desarrollado conjuntamente por tres empresas colaboradoras, Alcatel-Lucent (actualmente Nokia), La Universidad Politécnica de Madrid, y el grupo Innovati.
 
-Este proyecto de fin de carrera consiste en el diseño, implementación e integraciónde una aplicación web de configuración y gestión de una red virtual implementadasegún el proyecto de seguridad en la nube CloudTrust.
+El objetivo principal del proyecto CloudTrust es construir un entorno de navegación segura integrado con los actuales sistemas de hosting/housing y que permita atajar de manera radical las actuales vulnerabilidades en la navegación de los usuarios.La solución de CloudTrust es una solución que aporta confianza bidireccional, ambos extremos están seguros en la navegación, la empresa puede ofrecer una imagen en Internet sabiendo que el usuario final verá lo que realmente se oferta y no es víctima de ningún ataque.
 
-El proyecto CloudTrust alcanza una solución software que ofrece una alternativavirtual a los actuales CPE (Customer Premise Equipment). La transformación serealiza mediante la construcción de un entorno que simula y virtualiza un entornodoméstico estándar. Su objetivo principal, es conseguir un paquete completo desoftware que sea comercial y que resulte competitivo, sin por ello comprometer lausabilidad y aún mucho menos la seguridad del usuario.
-Así es tanto que, la seguridad del cliente se convierte en uno de los objetivosprincipales. Por ello, a parte de asegurar las condiciones básicas de conectividadde un CPE, se agregaron y desarrollaron sistemas como la detección de dispositivos,controles de consumo, identificación de usuarios o el registro de eventos.
-Por otro lado, se quiso poner especial énfasis en la importancia de crear unentorno user-friendly para el usuario, de tal forma que el cliente menosexperimentado con entornos en red fuese capaz de explotar todas las bondades deCloudTrust, y lo hiciera siempre de forma segura.
-El proyecto CloudTrust, ha sido un proyecto financiado por el Ministerio de la Competencia durante 3 años, dando comienzo en 2012 y terminado en 2015. Finalmentea modo de resumen, se han estudiado o implementado una serie de funciones acontinuación descritas:
-En el lado del hogar, se ha alcanzado el uso de un Virtual-CPE completamentefuncional para usuario final gestionado por OpenFlow. Aportando seguridad en elpunto de acceso y no tanto en los dispositivos. Desarrollado un sistema dedescubrimiento de dispositivos en el hogar y el trabajo de  facilitar su gestiónpor parte de los usuarios finales a través de webs de gestión principalmentedesarrolladas con Django, Python y Bootstrap.
+CloudTrust alcanza una solución software que ofrece una alternativa virtual a los actuales CPE (Customer Premise Equipment). La transformación se realiza mediante la construcción de un entorno que simula y virtualiza un entorno doméstico estándar. Su objetivo principal, es conseguir un paquete completo de software que sea comercial y que resulte competitivo, sin por ello comprometer la usabilidad y aún mucho menos la seguridad del usuario.
+Así es tanto que, la seguridad del cliente se convierte en uno de los objetivos principales. Por ello, a parte de asegurar las condiciones básicas de conectividad de un CPE, se agregaron y desarrollaron sistemas como la detección de dispositivos, controles de consumo, identificación de usuarios o el registro de eventos.
+Se quiso poner especial énfasis en la importancia de crear un entorno amigable para el usuario, de tal forma que el cliente menosexperimentado con entornos en red fuese capaz de explotar todas las bondades de CloudTrust, y lo hiciera siempre de forma segura. Por ello se implementó, una aplicación web de configuración basada en Django y escrita en Python, que se integrase completamente con el entorno de red desarrollado y con todas sus funcionalidades.
+
+Así pues, el objetivo de este proyecto de Fin de Carrera, es realizar un estudio previo de los requerimientos necesarios para implementar correctamente esta aplicación web, desarrollarla y codificarla, y finalmente crear un producto cerrado integrable dentro de la solución software CloudTrust.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Resumen en inglés
 
@@ -153,8 +155,27 @@ El proyecto CloudTrust alcanza una solución software que ofrece una alternativa
 %\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
 \markboth{SUMMARY}{SUMMARY} % encabezado
 
-Here comes a translation of the ``Resumen'' into English. Please, double check
-it for correct grammar and spelling.
+Currently the web browsers has become an essential element for the Internet use, the continuos developments on web technologies has delivered numerous tools strongly related to the web browsers.
+
+The appearence of new programs or protocols has lead to the web browsers to grow exponentially supporting new features, options, etcetera ... that leads to them to grow in complexity and increasing the risk factors.
+
+At present, the web is moving towards virtualization and the cloud. Within this trend, new vulnerabilites can be observed on the web browsing and in particular at home networks. As so, algo new solutions are appearing to develop new tools to fight back those new risks. 
+
+Inside the internet users home network, the vulnerabilities are diverse. Starting from not desired acceses, that are not easily manageble, to websites that we need to protect from.
+
+This project consists on the design, implementation and integration of a web application that allows to configure and manage a virtualized network implemented inside the software solution of safe browsing on the cloud named CloudTrust.
+
+The CloudTrust project, has been financed by the Ministerio de la Competencia for a period of three years, and developed together by three colaborating companies, Alcatel-Lucent (currently Nokia), the Universidad Politécnica de Madrid, and the Innovati group.
+
+The main goal of the CloudTrust project is to build a safety environment for a safer browsing of the net, making use of the current hosting/housing services that allows to perfectly manage the various vulnerability issues previously mentioned.
+
+The CloudTrust solution, is a solution that provides two-way confidence, both sides of the connection are safe on the navigation of the net, the company that offers the service can offer this package as a true solution for a potential client for the safety of his home network.
+
+CloudTrust reaches a software solution that offers a virtual alternative to the current CPE (Customer Premise Equipment). The transformation happens trough the construction of an environment that simulates and virtualizes a standar home network. The main goal, is to achieve a complete comercial software package, thats results competive, but without compromising usability and even more important, safety.
+
+That
+
+Así es tanto que, la seguridad del cliente se convierte en uno de los objetivos principales. Por ello, a parte de asegurar las condiciones básicas de conectividad de un CPE, se agregaron y desarrollaron sistemas como la detección de dispositivos, controles de consumo, identificación de usuarios o el registro de eventos.
 
 
 
