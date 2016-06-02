@@ -3,48 +3,48 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Modelo Vista Controlador}}{16}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Extracto de c\'odigo: Class Register}}{17}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Extracto de c\'odigo: Class Command}}{18}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Arquitectura Frenetic}}{24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Modelo Vista Controlador}}{14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Extracto de c\'odigo: Class Register}}{15}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Extracto de c\'odigo: Class Command}}{16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Arquitectura Frenetic}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama Funcional}}{26}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama F\IeC {\'\i }sico}}{27}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Red}}{29}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Arquitectura de Red}}{30}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Index WebAPP}}{32}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces P\'agina principal}}{33}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Estructura de carpetas.}}{34}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama Funcional}}{25}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama F\IeC {\'\i }sico}}{26}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Red}}{28}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Arquitectura de Red}}{29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Index WebAPP}}{31}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces P\'agina principal}}{32}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Estructura de carpetas.}}{33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Index: Acceso root}}{40}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, bienvenida}}{41}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de dispositivos conocidos}}{41}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de dispositivos desconocidos}}{42}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de usuarios}}{43}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, registro de usuarios}}{43}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Primer acceso: Vista de usuario David}}{44}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Primer acceso: Cambio de perfil}}{44}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Primer acceso: Nuevo dispositivo en la red}}{45}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Primer acceso: Vista dispositivo desconocido}}{45}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Primer acceso: Navegaci\'on dispositivo h1}}{46}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Primer acceso: Dispositivo h1 asignado a usuario David}}{46}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Primer acceso: Cambio de perfil a usuario David}}{47}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Primer acceso: Dispositivo h1 con acceso a red}}{47}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Primer acceso: Configurando h1}}{48}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Acceso desde un dispositivo: Primer acceso}}{49}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Acceso desde un dispositivo: Segundo acceso}}{50}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Acceso desde un dispositivo: Acceso a google}}{50}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Acceso desde un dispositivo: h2 asignado a David}}{51}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Algunas funciones m\'as: h3 trata de navegar}}{52}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Algunas funciones m\'as: Nuevo usuario Guest Mar\IeC {\'\i }a}}{52}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Algunas funciones m\'as: vinculamos h3 a Mar\IeC {\'\i }a}}{53}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Algunas funciones m\'as: comienza la conexi\'on}}{53}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Algunas funciones m\'as: termina la conexi\'on}}{53}
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Algunas funciones m\'as: Vista dispositivos David}}{54}
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Algunas funciones m\'as: Funci\'on del control parental}}{55}
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Algunas funciones m\'as: Log}}{55}
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Algunas funciones m\'as: Funci\'on Show only}}{56}
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Acceso de usuario no administrador: Vista de dispositivos de David}}{57}
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Acceso de usuario no administrador: Hist\'orico de consumo de David}}{57}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Index: Acceso root}}{38}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, bienvenida}}{39}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de dispositivos conocidos}}{39}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de dispositivos desconocidos}}{40}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, vista de usuarios}}{41}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Primer acceso: Gu\IeC {\'\i }a de navegaci\'on, registro de usuarios}}{41}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Primer acceso: Vista de usuario David}}{42}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Primer acceso: Cambio de perfil}}{42}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Primer acceso: Nuevo dispositivo en la red}}{43}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Primer acceso: Vista dispositivo desconocido}}{43}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Primer acceso: Navegaci\'on dispositivo h1}}{44}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Primer acceso: Dispositivo h1 asignado a usuario David}}{44}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Primer acceso: Cambio de perfil a usuario David}}{45}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Primer acceso: Dispositivo h1 con acceso a red}}{45}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Primer acceso: Configurando h1}}{46}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Acceso desde un dispositivo: Primer acceso}}{47}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Acceso desde un dispositivo: Segundo acceso}}{48}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Acceso desde un dispositivo: Acceso a Google}}{48}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Acceso desde un dispositivo: h2 asignado a David}}{49}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Algunas funciones m\'as: h3 trata de navegar}}{50}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Algunas funciones m\'as: Nuevo usuario Guest Mar\IeC {\'\i }a}}{50}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Algunas funciones m\'as: vinculamos h3 a Mar\IeC {\'\i }a}}{51}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Algunas funciones m\'as: comienza la conexi\'on}}{51}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Algunas funciones m\'as: termina la conexi\'on}}{51}
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Algunas funciones m\'as: Vista dispositivos David}}{52}
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Algunas funciones m\'as: Funci\'on del control parental}}{53}
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Algunas funciones m\'as: Log}}{53}
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Algunas funciones m\'as: Funci\'on Show only}}{54}
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Acceso de usuario no administrador: Vista de dispositivos de David}}{55}
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Acceso de usuario no administrador: Hist\'orico de consumo de David}}{55}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

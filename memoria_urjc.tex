@@ -60,28 +60,33 @@
 \\
 \end{tabular}
 
-\vspace{3cm}
+\vspace{2cm}
 
 \Large
 
 \vspace{0.4cm}
+\LARGE
+DOBLE LICENCIATURA EN INGENIERÍA SUPERIOR DE TELECOMUNICACIONES Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS
+\vspace{0.8cm}
+
 
 \large
 Curso Académico 2015/2016
 
-\vspace{0.8cm}
+\vspace{1.5cm}
 
 Proyecto Fin de Carrera
 
-\vspace{2.5cm}
+\vspace{0.5cm}
 
 \LARGE
-CloudTrust : Aplicación Web de Configuración de red en un entorno virtualizado.\vspace{4cm}
+\textit{\textit{CloudTrust}} : Aplicación Web de Configuración de red en un entorno virtualizado.
+\vspace{3cm}
 
 \large
 Autor : David Gutiérrez Melendro \\
-Tutor : Dr. Gregorio Robles \\
-Co-Tutor: Beatriz Sánchez Castañeda
+Tutor : Dr. Gregorio Robles\\
+Co-Tutor: Ing. Beatriz Sánchez Castañeda
 \end{center}
 \end{titlepage}
 
@@ -96,7 +101,7 @@ Co-Tutor: Beatriz Sánchez Castañeda
 \pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
 \begin{flushright}
 \textit{Dedicado a \\
-mi familia / mi abuelo / mi abuela}
+mi familia}
 \end{flushright}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -120,7 +125,7 @@ Beatriz, gracias a ti he aprendido a ser un profesional y a ser crítico, así cóm
 
 En el apartado más personal, me llevo muchos buenos momentos de mi paso por la vida universitaria, pero me llevo mucho más, un hermano, gracias Fernando por formar parte de esta etapa de mi vida, y las que quedan. Y como él, muchos más, MariLuz, Patricia... demasiados para mencionarlos a todos.
 
-Por último y quizá por ello más importante, quiero agradecer a mis padres su apoyo incondicional. A mi madre primero por madre, que eso ya de por sí tiene infinito valor, por luchadora, mamá eres la persona más fuerte que conozco y por tu amor incondicional y desinteresado. A mi padre, gracias por ser amigo y padre a la vez, formador si la situación lo pedía, gracias por sacrificar todas esas horas de sueño por mi, y en general por todo, gracias papá y mamá.
+Por último y quizá por ello más importante, quiero agradecer a mis padres su apoyo incondicional. A mi madre primero por madre, que eso ya de por sí tiene infinito valor, por luchadora, mamá eres la persona más fuerte que conozco y por tu amor incondicional y desinteresado. A mi padre, gracias por ser amigo y padre a la vez, formador si la situación lo pedía, gracias por sacrificar todas esas por mi, gracias a ti conozco el significado del trabajo duro, el sacrificio y lo importante de asumir responsabilidades, cualquier cosa que diga se quedará corta, en general por todo, gracias papá y mamá.
 
 
 
@@ -145,21 +150,21 @@ Actualmente los entornos web se mueven hacia la virtualización y la nube. Dentro
 
 Dentro del hogar de los usuarios, las vulnerabilidades son muy variadas. Desde accesos no deseados a través de la red de nuestro hogar y no fácilmente  controlables, hasta webs de las que nos debemos proteger.
 
-Este proyecto de fin de carrera consiste en el diseño, implementación e integración de una aplicación web de configuración y gestión de una red virtual implementada según el proyecto de seguridad en la nube denominado CloudTrust.
+Este proyecto de fin de carrera consiste en el diseño, implementación e integración de una aplicación web de configuración y gestión de una red virtual implementada según el proyecto de seguridad en la nube denominado \textit{CloudTrust}.
 
-El proyecto CloudTrust, ha sido un proyecto financiado por el Ministerio de la  Competencia durante 3 años y desarrollado conjuntamente por tres empresas colaboradoras, Alcatel-Lucent (actualmente Nokia), La Universidad Politécnica de Madrid, y el grupo Innovati.
+El proyecto \textit{CloudTrust}, ha sido un proyecto financiado por el Ministerio de la  Competencia durante 3 años y desarrollado conjuntamente por tres empresas colaboradoras, Alcatel-Lucent (actualmente Nokia), La Universidad Politécnica de Madrid, y el grupo Innovati.
 
-El objetivo principal del proyecto CloudTrust es construir un entorno de navegación segura integrado con los actuales sistemas de hosting/housing y que permita atajar de manera radical las actuales vulnerabilidades en la navegación de los usuarios.
-La solución de CloudTrust es una solución que aporta confianza bidireccional, ambos extremos están seguros en la navegación, la empresa puede ofrecer una imagen en Internet sabiendo que el usuario final verá lo que realmente se oferta y no es víctima de ningún ataque.
+El objetivo principal del proyecto \textit{CloudTrust} es construir un entorno de navegación segura integrado con los actuales sistemas de hosting/housing y que permita atajar de manera radical las actuales vulnerabilidades en la navegación de los usuarios.
+La solución de \textit{CloudTrust} es una solución que aporta confianza bidireccional, ambos extremos están seguros en la navegación, la empresa puede ofrecer una imagen en Internet sabiendo que el usuario final verá lo que realmente se oferta y no es víctima de ningún ataque.
 
-CloudTrust alcanza una solución software que ofrece una alternativa virtual a los actuales CPE (Customer Premise Equipment). La transformación se realiza mediante la construcción de un entorno que simula y virtualiza un entorno doméstico estándar. Su objetivo principal, es conseguir un paquete completo de software que sea comercial y que resulte competitivo, sin por ello comprometer la usabilidad y aún mucho menos la seguridad del usuario.
+\textit{CloudTrust} alcanza una solución software que ofrece una alternativa virtual a los actuales CPE (Customer Premise Equipment). La transformación se realiza mediante la construcción de un entorno que simula y virtualiza un entorno doméstico estándar. Su objetivo principal, es conseguir un paquete completo de software que sea comercial y que resulte competitivo, sin por ello comprometer la usabilidad y aún mucho menos la seguridad del usuario.
 
 Así es tanto que, la seguridad del cliente se convierte en uno de los objetivos principales. Por ello, a parte de asegurar las condiciones básicas de conectividad de un CPE, se agregaron y desarrollaron sistemas como la detección de dispositivos, controles de consumo, identificación de usuarios o el registro de eventos.
 
 Se quiso poner especial énfasis en la importancia de crear un entorno amigable para el usuario, de tal forma que el cliente menos
-experimentado con entornos en red fuese capaz de explotar todas las bondades de CloudTrust, y lo hiciera siempre de forma segura. Por ello se implementó, una aplicación web de configuración basada en Django y escrita en Python, que se integrase completamente con el entorno de red desarrollado y con todas sus funcionalidades.
+experimentado con entornos en red fuese capaz de explotar todas las bondades de \textit{CloudTrust}, y lo hiciera siempre de forma segura. Por ello se implementó, una aplicación web de configuración basada en Django y escrita en Python, que se integrase completamente con el entorno de red desarrollado y con todas sus funcionalidades.
 
-Así pues, el objetivo de este proyecto de Fin de Carrera, es realizar un estudio previo de los requerimientos necesarios para implementar correctamente esta aplicación web, desarrollarla y codificarla, y finalmente crear un producto cerrado integrable dentro de la solución software CloudTrust.
+Así pues, el objetivo de este proyecto de Fin de Carrera, es realizar un estudio previo de los requerimientos necesarios para implementar correctamente esta aplicación web, desarrollarla y codificarla, y finalmente crear un producto cerrado integrable dentro de la solución software \textit{CloudTrust}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Resumen en inglés
@@ -176,21 +181,21 @@ At present, the web is moving towards virtualization and the cloud. Within this 
 
 Inside the internet users home network, the vulnerabilities are diverse. Starting from not desired acceses, that are not easily manageble, to websites that we need to protect from.
 
-This project consists on the design, implementation and integration of a web application that allows to configure and manage a virtualized network implemented inside the software solution of safe browsing on the cloud named CloudTrust.
+This project consists on the design, implementation and integration of a web application that allows to configure and manage a virtualized network implemented inside the software solution of safe browsing on the cloud named \textit{CloudTrust}.
 
-The CloudTrust project, has been financed by the Ministerio de la Competencia for a period of three years, and developed together by three colaborating companies, Alcatel-Lucent (currently Nokia), the Universidad Politécnica de Madrid, and the Innovati group.
+The \textit{CloudTrust} project, has been financed by the Ministerio de la Competencia for a period of three years, and developed together by three colaborating companies, Alcatel-Lucent (currently Nokia), the Universidad Politécnica de Madrid, and the Innovati group.
 
-The main goal of the CloudTrust project is to build a safety environment for a safer browsing of the net, making use of the current hosting/housing services that allows to perfectly manage the various vulnerability issues previously mentioned.
+The main goal of the \textit{CloudTrust} project is to build a safety environment for a safer browsing of the net, making use of the current hosting/housing services that allows to perfectly manage the various vulnerability issues previously mentioned.
 
-The CloudTrust solution, is a solution that provides two-way confidence, both sides of the connection are safe on the navigation of the net, the company that offers the service can offer this package as a true solution for a potential client for the safety of his home network.
+The \textit{CloudTrust} solution, is a solution that provides two-way confidence, both sides of the connection are safe on the navigation of the net, the company that offers the service can offer this package as a true solution for a potential client for the safety of his home network.
 
-CloudTrust reaches a software solution that offers a virtual alternative to the current CPE (Customer Premise Equipment). The transformation happens trough the construction of an environment that simulates and virtualizes a standar home network. The main goal, is to achieve a complete comercial software package, thats results competive, but without compromising usability and even more important, safety.
+\textit{CloudTrust} reaches a software solution that offers a virtual alternative to the current CPE (Customer Premise Equipment). The transformation happens trough the construction of an environment that simulates and virtualizes a standar home network. The main goal, is to achieve a complete comercial software package, thats results competive, but without compromising usability and even more important, safety.
 
-That is so, the safety of the client is the first compromise for CloudTrust. To achieve this, various functionalities has been implemented, as device detection system, users identification or log events record.
+That is so, the safety of the client is the first compromise for \textit{CloudTrust}. To achieve this, various functionalities has been implemented, as device detection system, users identification or log events record.
 
 Special emphasis wanted to be placed on the creation of an user-friendly environment for the users, specially for those users witch aren't as experienced on browsing their own network as others, so they could do it as safe as the rest. That is why the web application was implemented based on Django, coded on Python and fully integrated on the envirenment developed and with all his funtionalities.
 
-To summarize, the main goal of this final project, is to make a previous study on the needed requirements to correctly implement this web application, develop it, coded it, and finally create a closed solution package integrated inside the CloudTrust project.
+To summarize, the main goal of this final project, is to make a previous study on the needed requirements to correctly implement this web application, develop it, coded it, and finally create a closed solution package integrated inside the \textit{CloudTrust} project.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -219,11 +224,11 @@ To summarize, the main goal of this final project, is to make a previous study o
 \label{sec:contexto}
 
 En el año 2015 en España, el 78,7\% de la población disponía de acceso a internet 
-en su hogar y el 77,8\% con conexión de banda ancha según datos del Instituto Nacional de Estadística.
+en su hogar y el 77,8\% con conexión de banda ancha según datos del Instituto Nacional de Estadística\cite{ine}.
  
-Para el acceso a este servicio universal, es necesaria una línea telefónica en casa del usuario, que ésta se encuentre dada de alta en el servicio de internet y por último disponer de un home Customer Premises Equipment (hCPE) instalado en el hogar. El hCPE es el terminal encargado de conectarse con el operador en el Punto de Terminación de Red y por el pasará todas las comunicaciones que entren o salgan del hogar del usuario a internet.
+Para el acceso a este servicio universal, es necesaria una línea telefónica en casa del usuario, que ésta se encuentre dada de alta en el servicio de internet y por último disponer de un home Customer Premises Equipment (\textit{hCPE}) instalado en el hogar. El \textit{hCPE} es el terminal encargado de conectarse con el operador en el Punto de Terminación de Red y por el pasará todas las comunicaciones que entren o salgan del hogar del usuario a internet.
 
-En la actualidad los hCPE, son equipos con funciones limitadas que:
+En la actualidad los \textit{hCPE}, son equipos con funciones limitadas que:
 
 \begin{itemize}
 \item
@@ -236,9 +241,9 @@ Las modificaciones de configuración en tiempo real del equipamiento para adaptar
 Las actualizaciones para resolver vulnerabilidades del ámbito del software requieren de conocimientos técnicos del usuario o del desplazamiento de personal cualificado al hogar del usuario.
 \end{itemize} 
 
-La rigidez de un equipamiento indispensable para proporcionar el servicio  de acceso a internet, como es el hCPE, sumado a la velocidad con la que aparecen y evolucionan los  servicios, los convierte en un punto vulnerable de la arquitectura. 
+La rigidez de un equipamiento indispensable para proporcionar el servicio  de acceso a internet, como es el \textit{hCPE}, sumado a la velocidad con la que aparecen y evolucionan los  servicios, los convierte en un punto vulnerable de la arquitectura. 
 
-Los hCPE suponen un gran gasto de recursos para los operadores, que han de gestionarlos y mantenerlos de manera presencial y un gran impedimento para la innovación y la introducción de nuevos servicios a los usuarios en un tiempo razonable. 
+Los \textit{hCPE} suponen un gran gasto de recursos para los operadores, que han de gestionarlos y mantenerlos de manera presencial y un gran impedimento para la innovación y la introducción de nuevos servicios a los usuarios en un tiempo razonable. 
 
 Todos estos motivos son razón suficiente para elaborar un nuevo entorno de red virtualizado que permita desarrollar e innovar junto a conceptos antes mencionados, como son la nube o la virtualización, siento éste lo más seguro posible, incluyendo todos los beneficios de las arquitecturas actuales, y añadiendo nuevas funcionalidades.
 
@@ -252,7 +257,7 @@ Y éste es precisamente el objetivo de éste proyecto, crear una aplicación de con
 
 A lo largo de mi trayectoria estudiantil, y en las etapas finales durante mi trayectoria profesional, siempre me he sentido atraído por las nuevas tecnologías, por lo más \textit{puntero}. Actualmente nos encontramos en un punto de la historia de Internet en el que, lo más novedoso es precisamente el uso y la explotación de las tecnologías en la nube. Su uso, promete interesantes avances en los campos de la seguridad en la red, de la versatilidad de Internet o también en el ámbito empresarial con su fuerte impacto en la reducción de costes y en nuevas estrategias corporativas.
 
-Tuve la enorme oportunidad de entrar a trabajar en el proyecto CloudTrust en una gran empresa del sector de las telecomunicaciones, Alcatel-Lucent (actualmente Nokia) que compartían mi visión de investigador, y me ofrecieron las herramientas necesarias para poder llevar a cabo este proyecto. 
+Tuve la enorme oportunidad de entrar a trabajar en el proyecto \textit{CloudTrust} en una gran empresa del sector de las telecomunicaciones, Alcatel-Lucent (actualmente Nokia) que compartían mi visión de investigador, y me ofrecieron las herramientas necesarias para poder llevar a cabo este proyecto. 
 
 Mi participación en él, se vio doblemente justificada, pues no sólo realicé funciones de desarrollo sino también de gestión y de explotación del proyecto.
 
@@ -273,26 +278,26 @@ Se presenta a continuación una estructura resumida del proyecto:
 Para empezar se presenta un resumen tanto en español como en inglés, del proyecto.
 
 \item
-El primer capítulo, denominado Introducción, contiene el contexto del proyecto, dónde se explica la situación actual en la que se ha desarrollado el proyecto así cómo su justificación. En segundo lugar encontramos un apartado de Motivación donde se recogen las razones que me han llevado a realizar el proyecto, y por último encontramos este resumen del esqueleto del proyecto.
+El primer capítulo, denominado \textit{Introducción}, contiene el contexto del proyecto, dónde se explica la situación actual en la que se ha desarrollado el proyecto así cómo su justificación. En segundo lugar encontramos un apartado de Motivación donde se recogen las razones que me han llevado a realizar el proyecto, y por último encontramos este resumen del esqueleto del proyecto.
 
 \item
-El segundo capítulo, Objetivos, recoge dos apartados, un primer apartado dónde se presentan los objetivos más genéricos del proyecto, y un segundo, donde se presentan objetivos más concretos.
+El segundo capítulo, \textit{Objetivos}, recoge dos apartados, un primer apartado dónde se presentan los objetivos más genéricos del proyecto, y un segundo, donde se presentan objetivos más concretos.
 
 \item
-En el tercer capítulo, Requisitos y especificaciones, encontramos una descripción detallada de los requerimientos del proyecto definidos al comienzo del mismo.
+En el tercer capítulo, \textit{Requisitos y especificaciones}, encontramos una descripción detallada de los requerimientos del proyecto definidos al comienzo del mismo.
 
 \item
-El cuarto capítulo, estado del arte, explica cada una de las tecnologías usadas en este proyecto, así cómo su impacto en él, o su contribución.
+El cuarto capítulo, \textit{estado del arte}, explica cada una de las tecnologías usadas en este proyecto, así cómo su impacto en él, o su contribución.
 
 \item
-En el quinto capítulo, Diseño e implementación, se detalla la estructura y se define como se ha construido el proyecto. Se presenta una primera visión dividida en tres partes, diagrama funcional, donde se ven las relaciones funcionales del proyecto, el diagrama físico, en el que se presenta la estructura de los principales elementos hardware necesarios, y por último, un diagrama de red, donde se detalla las relaciones a nivel de red.
+En el quinto capítulo, \textit{Diseño e implementación}, se detalla la estructura y se define como se ha construido el proyecto. Se presenta una primera visión dividida en tres partes, diagrama funcional, donde se ven las relaciones funcionales del proyecto, el diagrama físico, en el que se presenta la estructura de los principales elementos hardware necesarios, y por último, un diagrama de red, donde se detalla las relaciones a nivel de red.
 A continuación, dentro de este mismo capítulo, se pretende dar una visión global de dónde y cómo se ha elaborado el proyecto, también se responde al porqué se ha hecho siguiendo esa estructura.
 
 \item
-El sexto capítulo, corresponde al capítulo de Resultados, donde se presentan una serie de casos de estudio habiendo finalizado el proyecto. Que tratan de representar las bondades de la solución, en situaciones potencialmente reales.
+El sexto capítulo, corresponde al capítulo de \textit{Resultados}, donde se presentan una serie de casos de estudio habiendo finalizado el proyecto. Que tratan de representar las bondades de la solución, en situaciones potencialmente reales.
 
 \item
-El último capítulo, Conclusiones, se echa la vista hacia atrás y se presenta un resumen de los principales lecciones aprendidas, cuales han sido los conocimientos aplicados y qué trabajos futuros se pueden seguir desarrollando.
+El último capítulo, \textit{Conclusiones}, se echa la vista hacia atrás y se presenta un resumen de los principales lecciones aprendidas, cuales han sido los conocimientos aplicados y qué trabajos futuros se pueden seguir desarrollando.
 
 \end{itemize}
 
@@ -305,25 +310,24 @@ El último capítulo, Conclusiones, se echa la vista hacia atrás y se presenta un 
 \newpage
 \chapter{Objetivos}
 \section{Objetivos generales}
-El objetivo principal, es por tanto, la elaboración de una aplicación web que permita interactuar al potencial cliente de un proveedor de Internet o ISP, con la solución de CloudTrust.
-Este proyecto pretende dar respuesta a su vez, a cuestiones, como las siguientes:
+El objetivo principal, es por tanto, elaborar una aplicación web que permita interactuar al potencial cliente de un proveedor de Internet o ISP, con la solución de \textit{CloudTrust}.
+Este proyecto pretende dar respuesta a su vez, a otra serie de cuestiones, se enumeran a continuación:
 \begin{itemize}
 \item   
-¿Cuál es la situación actual y futura de las tecnologías NFV (Network Function Virtualization)?, ¿qué oportunidades ofrece el mercado para explotarlas y obtener beneficios?
+Presentar la situación actual y futura de las tecnologías NFV (Network Function Virtualization), y las oportunidades que ofrece el mercado, cómo explotarlas y obtener beneficios.
 \item
-De la misma forma, ¿Qué son las tecnologías SDN (Software Defined Network)? ¿Cómo podemos hacer uso de ellas para ofrecer entornos seguros de navegación?
+Introducir las tecnologías SDN (Software Defined Network), así como, hacer uso de ellas para ofrecer entornos seguros de navegación
 \item
-¿Qué beneficios/vulnerabilidades tiene trabajar con funciones de red virtualizadas? ¿Y sobretodo, cómo y cuánto de seguro es?
+Explicar cuáles son los beneficios ó vulnerabilidades que tiene trabajar con funciones de red virtualizadas. Y sobretodo, también explicar, cómo y cuánto de seguro es.
 \item
-¿Cuáles son los servicios que va a ofrecer CloudTrust al usuario final?
+Dellatar cuáles son los servicios que va a ofrecer \textit{CloudTrust} al usuario final.
 \item
-¿En qué consiste virtualizar un dispositivo?¿Y, cómo afecta esto al usuario, así como, qué beneficios podemos obtener de hacerlo?
+Virtualizar un dispositivo y estudiar cómo afecta esto al usuario, así como, qué beneficios podemos obtener al hacerlo
+
 \item
-¿Porqué se ha elegido desarrollar enteramente el proyecto en base a software de código libre?
+Describir qué personas, o agentes del sector han contribuído en el proyecto
 \item
-¿Qué personas, o agentes del sector han contribuido a la hora de elaborar el proyecto?
-\item
-¿Cómo de grande es la comunidad de desarrollo?¿Existe continuidad del proyecto? ¿Es viable económicamente, o dimensionalmente posible?
+Justificar la  continuidad del proyecto, ¿Es viable económicamente, o dimensionamente posible?
 
 \item
 etc.
@@ -336,31 +340,31 @@ Para poder dar respuesta a los objetivos anteriores, podemos enumerar otra serie
 
 \begin{itemize}
 \item
-Se quiere crear un entorno de desarrollo virtual con VirtualBox que simule un escenario real de red doméstica, que no comprometa ni pierda funcionalidades básicas de conectividad de los servicios tradicionales.
+Crear un entorno de desarrollo virtual con VirtualBox que simule un escenario real de red doméstica, que no comprometa ni pierda funcionalidades básicas de conectividad de los servicios tradicionales.
 \item
 
-Se pretende desarrollar e implementar una solución definitiva que resuelva el compromiso entre la simplicidad de uso y la seguridad que se pueda alcanzar en una red doméstica de hogar.
+Desarollar e implementar una solución definitiva que resuelva el compromiso entre la simplicidad de uso y la seguridad que se pueda alcanzar en una red doméstica de hogar.
 
 \item
 
-Se va a hacer uso de varias herramientas de código libre, como pueden ser Django, Python ó HTML durante la fase de desarrollo, implementación y explotación del proyecto.
+Hacer uso de varias herramientas de código libre, como pueden ser Django, Python ó HTML durante la fase de desarrollo, implementación y explotación del proyecto.
 
 \item
-Se quiere alcanzar un mayor grado de conocimiento y aplicar lo aprendido durante mis estudios universitarios en una herramienta con potencial real de convertirse en una solución software ofertable por proveedores ISP.
+Alcanzar un mayor grado de conocimiento y aplicar lo aprendido durante mis estudios universitarios en una herramienta con potencial real de convertirse en una solución software ofertable por proveedores ISP.
 
 \item
-Se va a realizar un estudio preliminar de cuáles serían los componentes añadidos necesarios para poder virtualizar una red.
+Realizar un estudio preliminar de cuáles serían los componentes añadidos necesarios para poder virtualizar una red.
 \item
-Se van a identificar cuales son los requisitos y especificaciones que requiere un proyecto de esta envergadura. Así cómo, elaborar los puntos de acción y responsabilidades de los agentes que van a contribuir en el proyecto.
+Identificar cuales son los requisitos y especificaciones que requiere un proyecto de esta embergadura. Así cómo, elaborar los puntos de acción y responsabilidades de los agentes que van a contribuir en el proyecto.
 \item
 
-Se quiere alcanzar mayores conocimientos en competencias y administración sobre base de datos.
+Alcanzar mayores conocimientos en competencias y administración sobre base de datos.
 
 \item
-En el terreno personal, se van a alcanzar competencias en administración de procesos y a aumentar la agilidad de gestión. Así cómo estudiar y aplicar estrategias de gestión de negocio.
+En el terreno personal; Alcanzar competencias en administración de procesos y a aumentar la agilidad de gestión. Así cómo estudiar y aplicar estrategias de gestión de negocio.
 
 \item
-Se va a elaborar una página web del proyecto (http://cloudtrust.grupoinnovati.com/) así como una cuenta de Twitter que dé visibilidad al proyecto (https://twitter.com/mihogarenlanube).
+Elaborar una página web del proyecto (http://\textit{CloudTrust}.grupoinnovati.com/) así como una cuenta de Twitter que dé visibilidad al proyecto (https://twitter.com/mihogarenlanube).
  
 
 
@@ -368,12 +372,6 @@ Se va a elaborar una página web del proyecto (http://cloudtrust.grupoinnovati.co
 etc.
 
 \end{itemize}
-
-
-
-
-
-
 
 \newpage
 \chapter{Requisitos y Especificaciones}
@@ -455,7 +453,7 @@ REQ.APPWEB.INTF.004 - La aplicación deberá ser accesible de forma simple e intui
 \section{Requisitos de configuración de la aplicación web.}
 \begin{itemize}
 \item
-ESP.APPWEB.CONF.001 - Cuando se realice la instalación de la red CloudTrust en el hogar por primera vez, se creará un usuario administrador por defecto (username), una contraseña de username administrador, así como una contraseña de acceso a la red.
+ESP.APPWEB.CONF.001 - Cuando se realice la instalación de la red \textit{CloudTrust} en el hogar por primera vez, se creará un usuario administrador por defecto (username), una contraseña de username administrador, así como una contraseña de acceso a la red.
 \item
 ESP.APPWEB.CONF.002 - La aplicación web, una vez acceda este administrador por defecto podrá cambiar el username del administrador, su contraseña y la contraseña de acceso a la red.
 \item
@@ -529,9 +527,9 @@ ASU.SIS.REND.005 - El tiempo de respuesta de la aplicación web no debe superar e
 \section{Django} 
 \label{Django}
 
-Durante la fase de desarrollo de la aplicación, se llegaron a varios consensos que delimitaron el ámbito de trabajo, así como la definición de las herramientas de las que haríamos uso a lo largo del proceso de desarrollo de todas las funcionalidades implicadas dentro de la solución CloudTrust. 
+Durante la fase de desarrollo de la aplicación, se llegaron a varios consensos que delimitaron el ámbito de trabajo, así como la definición de las herramientas de las que haríamos uso a lo largo del proceso de desarrollo de todas las funcionalidades implicadas dentro de la solución \textit{CloudTrust}. 
 
-Así, una de las primeras decisiones que se tomaron, fue el uso del framework de Django. Django es un framework de alto nivel basado en Python que promueve la creación de aplicaciones web de forma rápida, limpia y con diseños pragmáticos.
+Así, una de las primeras decisiones que se tomaron, fue el uso del framework de Django\cite{wDjango}. Django es un framework de alto nivel basado en Python que promueve la creación de aplicaciones web de forma rápida, limpia y con diseños pragmáticos.
 
 \textit{
 Django es un entorno de desarrollo web escrito en Python que fomenta el desarrollo rápido y el diseño limpio y pragmático.
@@ -593,7 +591,7 @@ Por otro lado, Django es un framework usado a nivel mundial, con una comunidad d
 
 \section{Bootstrap}
 
-Otra de las herramientas principales de las que se ha hecho uso dentro del desarrollo de la aplicación web es Bootstrap. Bootstrap es un framework de código libre de Twitter limpio, intuitivo y rápido, para el desarrollo de páginas web.
+Otra de las herramientas principales de las que se ha hecho uso dentro del desarrollo de la aplicación web es Bootstrap\cite{wBoot}. Bootstrap es un framework de código libre de Twitter limpio, intuitivo y rápido, para el desarrollo de páginas web.
 
 El Framework trae varios elementos con estilos predefinidos fáciles de configurar: Botones, Menús desplegables, formularios incluyendo todos sus elementos e integración jQuery para ofrecer ventanas y tooltips dinámicos.
 
@@ -605,7 +603,7 @@ Su instalación e integración con Django es tan sencilla como simplemente descarg
 
 
 \section{Python 3}
-El lenguaje de programación en el que está basado Django es Python, y más concretamente en su versión 1.6.5, hace uso de Python 3, lanzado en Diciembre de 2008. 
+El lenguaje de programación en el que está basado Django es Python\cite{wPython}, y más concretamente en su versión 1.6.5, hace uso de Python 3, lanzado en Diciembre de 2008. 
 
 Su instalación es muy simple pues se trata de software libre, y si el sistema operativo no lo trae de serie como algunas distribuciones de Linux, basta con descargarse el paquete y ejecutar un instalador sencillo.
 
@@ -624,7 +622,7 @@ Podemos encontrar amplísima documentación en la página oficial https://www.pytho
 
 \section{PostgreSQL}
 
-La base de datos utilizada es PostgreSQL 9.3, se trata de una base de datos de código abierto relación-objeto. Corre en la mayoría de sistemas operativos y es de fácil integración con varios lenguajes. La elección de esta base de datos se basa en su potencial de escalabilidad para proyectos futuros en entornos reales con un número de usuarios y dispositivos mucho mayor, así como la velocidad de respuesta de sus búsquedas recursivas. 
+La base de datos utilizada es PostgreSQL 9.3\cite{wPost}, se trata de una base de datos de código abierto relación-objeto. Corre en la mayoría de sistemas operativos y es de fácil integración con varios lenguajes. La elección de esta base de datos se basa en su potencial de escalabilidad para proyectos futuros en entornos reales con un número de usuarios y dispositivos mucho mayor, así como la velocidad de respuesta de sus búsquedas recursivas. 
 
 Además la integración con el entorno de Django es tan simple como la instalación de una API extra de comunicación entre la base de datos y el demonio de Django, esta API se llama psycopg2 de fácil instalación basada en Python.
 
@@ -633,12 +631,12 @@ Administrar la base de datos es muy sencillo, aparte de lo anterior, contamos co
 {\scriptsize
   \begin{verbatim}
 sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '1234';";
-       sudo -u postgres psql -c "CREATE DATABASE cloudtrust WITH OWNER postgres;";
-       /home/cloudtrust/webdjango/mysite/manage.py syncdb --noinput;
+       sudo -u postgres psql -c "CREATE DATABASE CloudTrust WITH OWNER postgres;";
+       /home/CloudTrust/webdjango/mysite/manage.py syncdb --noinput;
        echo "from django.contrib.auth.models import User; 
-       User.objects.create_superuser('root', 'root@cloudtrust.org',
-       'root')" | python /home/cloudtrust/webdjango/mysite/manage.py shell;
-       python /home/cloudtrust/webdjango/mysite/InitialScript.py &amp;
+       User.objects.create_superuser('root', 'root@\textit{CloudTrust}.org',
+       'root')" | python /home/CloudTrust/webdjango/mysite/manage.py shell;
+       python /home/CloudTrust/webdjango/mysite/InitialScript.py &amp;
 \end{verbatim}
 }
 
@@ -646,22 +644,22 @@ sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '1234';";
 \item
 ALTER USER: Para que Django pueda acceder a la base de datos de PostGres, en el fichero de configuración setting.py, se define el username y el password de acceso. Mediante esta instrucción asignamos al usuario postgres una nueva password que corresponde con lo definido en este archivo.
 \item
-CREATE DATABASE: Una vez definido que el usuario postgres  es el usuario con acceso a la base de datos, se crea una tabla dentro de esta con el nombre de CloudTrust.
+CREATE DATABASE: Una vez definido que el usuario postgres  es el usuario con acceso a la base de datos, se crea una tabla dentro de esta con el nombre de \textit{CloudTrust}.
 \end{itemize}
 
 
 \section{Servidor web}
 
-Como mencionamos anteriormente, Django incluye un servidor web liviano para realizar pruebas y trabajar en la etapa de desarrollo. En la etapa de producción, sin embargo, se recomienda  Apache 2 con mod\_ python. Aunque Django soporta la especificación WSGI, por lo que puede correr sobre una gran variedad de servidores como FastCGI o SCGI en Apache u otros servidores (particularmente Lighttpd).
+Como mencionamos anteriormente, Django incluye un servidor web liviano para realizar pruebas y trabajar en la etapa de desarrollo. En la etapa de producción, sin embargo, se recomienda  Apache 2\cite{wApache} con mod\_ python. Aunque Django soporta la especificación WSGI, por lo que puede correr sobre una gran variedad de servidores como FastCGI o SCGI en Apache u otros servidores (particularmente Lighttpd).
 En la fase de desarrollo nos hemos limitado a hacer uso del servidor por defecto de Django pero como vemos es escalable a varios y distintos servicios. 
 
-\section{Escenarios Virtuales}
+\section{VNX}
 
-Para la creación de los escenarios de pruebas utilizados para el desarrollo, pruebas y demostraciones del proyecto se ha utilizado la herramienta de software libre Virtual Networks over LinuX (VNX), desarrollada y mantenida por la Universidad Politécnica de Madrid y que ha sido mejorada en el contexto del proyecto CloudTrust para incluir capacidades relacionadas con las SDN.
+Para la creación de los escenarios de pruebas utilizados para el desarrollo, pruebas y demostraciones del proyecto se ha utilizado la herramienta de software libre Virtual Networks over LinuX (VNX\cite{wPolit}), desarrollada y mantenida por la Universidad Politécnica de Madrid y que ha sido mejorada en el contexto del proyecto \textit{CloudTrust} para incluir capacidades relacionadas con las SDN.
 
-La herramienta VNX permite crear escenarios de red virtuales formados por un conjunto de máquinas virtuales interconectadas según una topología de red definida por el usuario. El escenario se especifica mediante un documento escrito en un lenguaje basado en XML, y la herramienta se ocupa de manera transparente de crear, configurar, interconectar y gestionar las máquinas virtuales, ocultando al usuario toda la complejidad y los múltiples comandos necesarios para poner en marcha el escenario. Además, VNX permite especificar conjuntos de comandos a ejecutar en las máquinas virtuales, lo que permite no solo arrancar las mismas sino llevarlas a un determinado estado. Esta última característica es especialmente útil para la realización de pruebas o demostraciones como las creadas en el proyecto CloudTrust.
+La herramienta VNX permite crear escenarios de red virtuales formados por un conjunto de máquinas virtuales interconectadas según una topología de red definida por el usuario. El escenario se especifica mediante un documento escrito en un lenguaje basado en XML, y la herramienta se ocupa de manera transparente de crear, configurar, interconectar y gestionar las máquinas virtuales, ocultando al usuario toda la complejidad y los múltiples comandos necesarios para poner en marcha el escenario. Además, VNX permite especificar conjuntos de comandos a ejecutar en las máquinas virtuales, lo que permite no solo arrancar las mismas sino llevarlas a un determinado estado. Esta última característica es especialmente útil para la realización de pruebas o demostraciones como las creadas en el proyecto \textit{CloudTrust}.
 
-VNX soporta diversas tecnologías de virtualización como KVM/QEMU, LXC, Dynamips (Cisco), Olive (Juniper) y UML, así como diversos sistemas operativos en las máquinas virtuales (Ubuntu, Debian, Fedora, CentOS, FreeBSD, Windows 7 y XP e incluso Android), permitiendo la creación de escenarios de red altamente heterogéneos. En el caso del proyecto CloudTrust se ha utilizado casi exclusivamente la virtualización ligera basada en contenedores LXC. Las ventajas de LXC en este contexto se resumen en:
+VNX soporta diversas tecnologías de virtualización como KVM/QEMU, LXC, Dynamips (Cisco), Olive (Juniper) y UML, así como diversos sistemas operativos en las máquinas virtuales (Ubuntu, Debian, Fedora, CentOS, FreeBSD, Windows 7 y XP e incluso Android), permitiendo la creación de escenarios de red altamente heterogéneos. En el caso del proyecto \textit{CloudTrust} se ha utilizado casi exclusivamente la virtualización ligera basada en contenedores LXC. Las ventajas de LXC en este contexto se resumen en:
 
 \begin{itemize}
 \item
@@ -673,7 +671,7 @@ Permite una virtualización anidada, esto es, el arranque de máquinas virtuales L
 
 \section{HTML}
 
-HTML, siglas de HyperText Markup Language, se trata de un lenguaje de marcado para la elaboración de páginas web. Es un estándar mundialmente utilizado, y de enorme uso que pretende homogeneizar el código en la web. El W3C (World Wide Web Consortium) está a cargo del estándar. Se trata del estándar que se ha impuesto a la hora de visualizar páginas web y el que todos los navegadores han adoptado.
+HTML\cite{w3school}, siglas de HyperText Markup Language, se trata de un lenguaje de marcado para la elaboración de páginas web. Es un estándar mundialmente utilizado, y de enorme uso que pretende homogeneizar el código en la web. El W3C (World Wide Web Consortium) está a cargo del estándar. Se trata del estándar que se ha impuesto a la hora de visualizar páginas web y el que todos los navegadores han adoptado.
 
 Es un lenguaje sencillo, basado en etiquetas (rodeados por corchetes angulares "<  >"), que definen la forma en la que se despliega o se muestra el contenido al usuario. Se estructura típicamente en dos partes, una primera parte que es una cabecera (<head></head>), que suele contener información del documento que se presenta, y un cuerpo (<body></body>), que define el contenido del documento.
 
@@ -681,26 +679,20 @@ A su vez dentro de estas etiquetas o elementos del documento, encontramos atribu
 
 \section{CSS}
 
-CSS o Cascading Style Sheets, se trata de un lenguaje que define la presentación de un documento escrito en HTML. Al igual que la codificación HTML, el W3C es el encargado de elaborar el estándar que finalmente han optado por seguir todos los navegadores. La sintaxis de la que hace uso CSS es muy sencilla, se basa en el uso de palabras clave, según propiedad: valor.
+CSS\cite{w3school} o Cascading Style Sheets, se trata de un lenguaje que define la presentación de un documento escrito en HTML. Al igual que la codificación HTML, el W3C es el encargado de elaborar el estándar que finalmente han optado por seguir todos los navegadores. La sintaxis de la que hace uso CSS es muy sencilla, se basa en el uso de palabras clave, según propiedad: valor.
 
 La idea fundamental de CSS reside en separar la estructura del documento de la vista del mismo. La información de presentación se puede encontrar en el mismo fichero HTML o en un documento separado. En este PFC se  ha hecho uso de muchos de los estilos de Bootstrap, que contienen archivos CSS fácilmente configurables, y además de la etiqueta <style>, para colocar algunos elementos de la página web, y estructurar la vista de forma más ordenada.
 
 
-\section{VNX}
-
-Es un software de virtualización desarrollado por completo por el departamento de Ingeniería de Sistemas Telemáticos (DIT) de la ETSI de Telecomunicación de la UPM (http://vnx.dit.upm.es).
-
-Este software permite la gestión del escenario completo (arranque, ejecución de comandos, etc), formado por las distintas máquinas virtuales que emulan los distintos componentes y las redes virtuales que los unen. Además, permite la interconexión del escenario con equipos externos. Por ejemplo con puntos de acceso WiFi, que permiten incorporar al escenario equipos físicos como ordenadores portátiles o teléfonos móviles.
-
 \section{Open vSwitch}
 
-Open vSwitch: Switch implementado por software que dispone de compatibilidad para integrarse con diversos protocolos de control y monitorización como Openflow, Netflow, Sflow, etc.
+Open vSwitch\cite{wvSwitch}: Switch implementado por software que dispone de compatibilidad para integrarse con diversos protocolos de control y monitorización como Openflow, Netflow, Sflow, etc.
 
 \section{Frenetic}
-La arquitectura de control SDN propuesta en el proyecto Frenetic se compone de tres niveles.
+La arquitectura de control SDN propuesta en el proyecto Frenetic\cite{wFrenetic} se compone de tres niveles.
 \begin{itemize}
 \item
-POX: Este es el nivel de abstracción más bajo de la arquitectura. Se encarga de actuar como interfaz para el protocolo Openflow en ambas direcciones. Ofrece una API para el empleo del protocolo Openflow en el lenguaje Python.
+POX: Este es el nivel de abstracción más bajo de la arquitectura. Se encarga de actuar como interfaz para el protocolo Openflow en ambas direcciones. Ofrece una API para el empleo del protocolo Openflow en lenguaje Python.
 Al disponer de un nivel de abstracción bajo, las aplicaciones que pueden desarrollarse no disponen de un alto grado de complejidad, siendo necesario el empleo de un nivel superior.
 
 \item
@@ -723,21 +715,21 @@ Pyresonance: Este es un nivel de abstracción que se superpone con Pyretic y que 
 \newpage
 \chapter{Diseño e Implementación}
 
-La solución CloudTrust ofrecerá una estructura de red en varios niveles sustancialmente distinta de la convencional, los papeles que realizarán suministradores de operadoras, las mismas operadoras o los clientes serán distintos. Pero es precisamente esta diversidad lo que permite explotar y explorar nuevas fronteras de las redes de comunicación.
+La solución \textit{CloudTrust} ofrecerá una estructura de red en varios niveles sustancialmente distinta de la convencional, los papeles que realizarán suministradores de operadoras, las mismas operadoras o los clientes serán distintos. Pero es precisamente esta diversidad lo que permite explotar y explorar nuevas fronteras de las redes de comunicación.
 
-Plantearemos varios escenarios posibles en los que CloudTrust tiene cabida, por ejemplo, podremos implantar CloudTrust en los hogares, podremos implantar CloudTrust en grandes o pequeñas empresas, o también podremos implantarla en recintos públicos como Ayuntamientos o Aeropuertos.
+Plantearemos varios escenarios posibles en los que \textit{CloudTrust} tiene cabida, por ejemplo, podremos implantar \textit{CloudTrust} en los hogares, podremos implantar \textit{CloudTrust} en grandes o pequeñas empresas, o también podremos implantarla en recintos públicos como Ayuntamientos o Aeropuertos.
 
 Por ello es de sumo interés realizar una descripción detallada, y realizar un análisis completo de la red para el usuario final.
 
-Además de todo el potencial que ofrece la solución CloudTrust, en lo que concierne al usuario final el proyecto se centrará en la aplicación de configuración web.
+Además de todo el potencial que ofrece la solución \textit{CloudTrust}, en lo que concierne al usuario final el proyecto se centrará en la aplicación de configuración web.
 
-Para que el usuario final, ya sea un cliente en su hogar, o un cliente en su lugar de trabajo, le sea transparente el cambio a CloudTrust, y únicamente sea capaz de ver las ventajas de acogerse a esta solución de una forma simple e intuitiva, se llevará a cabo la creación de un portal web de configuración de la red final (entendida por red final, la red personal de hogar, o del establecimiento público o privado), al cual tendrá acceso, para poder llevar a cabo las acciones posibles (descritas en apartados anteriores) que considere oportunas.
+Para que el usuario final, ya sea un cliente en su hogar, o un cliente en su lugar de trabajo, le sea transparente el cambio a \textit{CloudTrust}, y únicamente sea capaz de ver las ventajas de acogerse a esta solución de una forma simple e intuitiva, se llevará a cabo la creación de un portal web de configuración de la red final (entendida por red final, la red personal de hogar, o del establecimiento público o privado), al cual tendrá acceso, para poder llevar a cabo las acciones posibles (descritas en apartados anteriores) que considere oportunas.
 
-Así por un lado, el usuario que utilice CloudTrust, se dará cuenta rápidamente de que tiene acceso a un portal web en el que podrá configurar fácilmente sus dispositivos, y acceder a información de una forma mucho más nítida y simple sobre cómo interactúan estos dispositivos con la Red.  
+Así por un lado, el usuario que utilice \textit{CloudTrust}, se dará cuenta rápidamente de que tiene acceso a un portal web en el que podrá configurar fácilmente sus dispositivos, y acceder a información de una forma mucho más nítida y simple sobre cómo interactúan estos dispositivos con la Red.  
 
-Entendemos que es totalmente necesario que bajo todo el cambio estructural de red que se plantea bajo la solución CloudTrust, además, se dote al cliente final de esta aplicación web mediante la cual, se traduzcan  las ventajas de usar CloudTrust en algo visual, fácilmente configurable y comprensible.
+Entendemos que es totalmente necesario que bajo todo el cambio estructural de red que se plantea bajo la solución \textit{CloudTrust}, además, se dote al cliente final de esta aplicación web mediante la cual, se traduzcan  las ventajas de usar \textit{CloudTrust} en algo visual, fácilmente configurable y comprensible.
 
-A continuación presentaremos una descripción de la arquitectura de la solución CloudTrust, y además lo haremos, divido en tres planos distintos pues la escala del proyecto lo exige. Estos tres planos son un diagrama de red, un diagrama físico y un diagrama funcional. 
+A continuación presentaremos una descripción de la arquitectura de la solución \textit{CloudTrust}, y además lo haremos, divido en tres planos distintos pues la escala del proyecto lo exige. Estos tres planos son un diagrama de red, un diagrama físico y un diagrama funcional. 
 
 \section{Diagrama Funcional} 
 \label{Diagrama_funcional}
@@ -762,7 +754,7 @@ Dentro de la aplicación web encontramos algunas de sus principales funcionalidad
 \section{Diagrama Físico} 
 \label{Diagrama_fisico}
 
-En el siguiente diagrama vemos representados los elementos hardware básicos mínimos de la solución CloudTrust. Con la información del anterior diagrama, ya podíamos intuir muchos de los componentes que describiremos a continuación. 
+En el siguiente diagrama vemos representados los elementos hardware básicos mínimos de la solución \textit{CloudTrust}. Con la información del anterior diagrama, ya podíamos intuir muchos de los componentes que describiremos a continuación. 
 
  \begin{figure}[H]
     \centering
@@ -813,7 +805,7 @@ El cambio principal reside en el cambio del router ubicado en el hogar (o empres
  \end{figure}
 
 
-Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el primero de los componentes de CloudTrust que encontramos son los Controladores Virtualizados o vCPE's. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos TCP/SSL.
+Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el primero de los componentes de \textit{CloudTrust} que encontramos son los Controladores Virtualizados o vCPE's. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos TCP/SSL.
 
 Este controlador tendrá las funciones avanzadas de un router, de tal manera que se minimizan las capacidades funcionales que tiene el hardware en casa del cliente, y por tanto nos lleva a procesos de integración de nuevos items y mantenimiento mucho más baratos.
 
@@ -842,10 +834,10 @@ Una vez arrancamos la máquina virtual se nos presenta un escritorio Linux. Para 
 
 {\scriptsize
   \begin{verbatim}
-vnx -f cloudtrust-v03.xml -v -t
-vnx -f cloudtrust-v03.xml -v -x start-srv
-vnx -f cloudtrust-v03.xml -x start-parental
-vnx -f cloudtrust-v03.xml -v -start -M h1
+vnx -f \textit{CloudTrust}-v03.xml -v -t
+vnx -f \textit{CloudTrust}-v03.xml -v -x start-srv
+vnx -f \textit{CloudTrust}-v03.xml -x start-parental
+vnx -f \textit{CloudTrust}-v03.xml -v -start -M h1
 \end{verbatim}
 }
 
@@ -867,9 +859,9 @@ Una vez contamos con el escenario arrancado, tenemos enfrente una serie de termi
 
 A partir de los requisitos y especificaciones definidos en el capítulo 3, y a partir de las consideraciones que introduciremos a continuación conformamos una aplicación web intuitiva y sencilla para el usuario.
 
-Para poder configurar nuestra red, contamos con el acceso al portal de configuración, hosteado en la máquina virtual ServidorWeb bajo la IP 172.16.1.2 y puerto 8000. Por tanto, si abrimos el navegador de nuestra máquina Linux y accedemos desde el campo de URL's a http://172.16.1.2:8000/, se desplegará la página de inicio de la aplicación web de configuración de CloudTrust.
+Para poder configurar nuestra red, contamos con el acceso al portal de configuración, hosteado en la máquina virtual ServidorWeb bajo la IP 172.16.1.2 y puerto 8000. Por tanto, si abrimos el navegador de nuestra máquina Linux y accedemos desde el campo de URL's a http://172.16.1.2:8000/, se desplegará la página de inicio de la aplicación web de configuración de \textit{CloudTrust}.
 
-Una de las primeras consideraciones que tratamos de cubrir en el diseño de la aplicación es, la de la implantación de una página de índice desde la cual el usuario pueda acceder según sus credenciales a los servicios del sistema. En esta primera página, le daremos la bienvenida al usuario y encontraremos el logo de la solución CloudTrust en el centro. En la parte superior se situará el menú de acceso a la aplicación, y desde la parte inferior de la página se podrán acceder a las páginas de soporte o redes sociales del proyecto.
+Una de las primeras consideraciones que tratamos de cubrir en el diseño de la aplicación es, la de la implantación de una página de índice desde la cual el usuario pueda acceder según sus credenciales a los servicios del sistema. En esta primera página, le daremos la bienvenida al usuario y encontraremos el logo de la solución \textit{CloudTrust} en el centro. En la parte superior se situará el menú de acceso a la aplicación, y desde la parte inferior de la página se podrán acceder a las páginas de soporte o redes sociales del proyecto.
 
 
  \begin{figure}[H]
@@ -911,7 +903,7 @@ Por último, desde el punto de vista de los componentes de la aplicación, se esta
         \caption{Estructura de carpetas.}
 \end{wrapfigure}
 
-Como se ha comentado anteriormente, Django requiere de una estructura de contenidos peculiar y precisa. Por lo que con esta imagen se quiere mostrar y explicar el porqué del árbol de carpetas que se presenta en la solución CloudTrust.
+Como se ha comentado anteriormente, Django requiere de una estructura de contenidos peculiar y precisa. Por lo que con esta imagen se quiere mostrar y explicar el porqué del árbol de carpetas que se presenta en la solución \textit{CloudTrust}.
 
 El primer comentario importante que se debe hacer al respecto, sería la 
 distinción entre lo referente a los archivos estáticos y los archivos 
@@ -931,7 +923,7 @@ Bajo la carpeta "mysite" encontramos algunos ficheros que no se pueden englobar 
    \item El tercero de los archivos, "manage.py" se trata de un fichero básico dentro de la estructura de Django. Gracias a este fichero podemos ejecutar múltiples comandos preestablecidos que el framework de Django establece, como "syncdb", para sincronizar la base de datos, o "collectstatic" que sirve para recolectar todos aquellos archivos estáticos en un único punto, y facilitar el servir estos ficheros en producción final.
 \end{enumerate}
 
-Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que Django provee para que nuestro "site" funcione. De esta forma, por ejemplo, el fichero "admin.py" contiene el código Python referente a una herramienta que se puede integrar dentro de proyectos de Django, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave admin, HTTP://host:port/admin. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución CloudTrust, y por tanto se limita a la fase de developing.
+Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que Django provee para que nuestro "site" funcione. De esta forma, por ejemplo, el fichero "admin.py" contiene el código Python referente a una herramienta que se puede integrar dentro de proyectos de Django, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave admin, HTTP://host:port/admin. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución \textit{CloudTrust}, y por tanto se limita a la fase de developing.
 
 Bajo la carpeta GestionRed encontramos otro fichero muy importante, y este es "models.py", en él encontraremos en código Python, bajo la nomenclatura especifica de Django, la estructura deseada de la base de datos, sus tablas y el contenido de cada una de ellas. Django provee de un método de sincronización con la base de datos, de tal forma que, las consultas que se realizan a la base de datos desde la aplicación web, son trasparentes, pues únicamente recurrimos a los métodos específicos que nos provee el framework de Django para trabajar.
 Dentro de esta misma carpeta, GestionRed, encontramos dos subcarpetas más que identificamos como "management" y como "templatetags". La primera de estas carpetas, contiene a su vez otra carpeta "commands". 
@@ -1001,7 +993,7 @@ En este apartado pasamos a describir algunos escenarios reales con los que nos p
 
 Una vez hemos arrancado el escenario virtualizado con VNX, y tengamos funcionando todas las máquinas virtuales que simulan una red (router, servidor DHCP, Controlador y Servidor web), el propio entorno de pruebas nos abre un navegador predeterminado (Firefox) y nos carga la URL donde se sirve la aplicación web de Django, previamente configurado y arrancado.
  
-La siguiente imagen, es una captura de pantalla de la página de Index que un usuario de CloudTrust vería en cualquier dispositivo con acceso a la Red si tratara de acceder por primera vez. Este portal hace las veces, de página de bienvenida y de captive portal, pues si el dispositivo del usuario no está reconocido dentro de la red, se le pedirán unas credenciales de acceso.
+La siguiente imagen, es una captura de pantalla de la página de Index que un usuario de \textit{CloudTrust} vería en cualquier dispositivo con acceso a la Red si tratara de acceder por primera vez. Este portal hace las veces, de página de bienvenida y de captive portal, pues si el dispositivo del usuario no está reconocido dentro de la red, se le pedirán unas credenciales de acceso.
 
  \begin{figure}[H]
     \centering
@@ -1010,7 +1002,7 @@ La siguiente imagen, es una captura de pantalla de la página de Index que un usu
     \label{figura:caso11}
  \end{figure}
 
-La solución CloudTrust, depende de la existencia de un administrador único de red, que tenga acceso a la gestión de su red personal, según lo definido en el apartado 3. Estas credenciales pueden ser fácilmente definibles gracias a la estructura de Django y a su funcionalidad "admin".
+La solución \textit{CloudTrust}, depende de la existencia de un administrador único de red, que tenga acceso a la gestión de su red personal, según lo definido en el apartado 3. Estas credenciales pueden ser fácilmente definibles gracias a la estructura de Django y a su funcionalidad "admin".
 Es importante no confundir al administrador de la red con los distintos tipos de perfiles que se han definido (User, Guest, Not Validated).
 
 Así pues, una vez hayamos accedido al portal de configuración por primera vez, la propia aplicación web, nos guiará entre las principales funcionalidades del entorno:
@@ -1103,7 +1095,7 @@ Nuestra red, va a reconocer el dispositivo y si navegamos a la página de disposi
     \label{figura:caso110}
  \end{figure}
 
-Esta vista es muy importante, pues el usuario de CloudTrust no tiene porque contar con conocimientos sobre redes o dispositivos de red, y a de ser un entorno easy, y user-friendly. Así pues, la información que se despliega sobre el dispositivo es únicamente la más relevante, como pueden ser la dirección MAC o la dirección IP que el servidor DHCP le ha asignado. Además, en función de la direccion MAC, y los 24 primeros bits podemos averiguar quién es el fabricante, con una simple consulta a una base de datos. Como vemos todavía no le hemos asignado ningún usuario a este dispositivo.
+Esta vista es muy importante, pues el usuario de \textit{CloudTrust} no tiene porque contar con conocimientos sobre redes o dispositivos de red, y a de ser un entorno easy, y user-friendly. Así pues, la información que se despliega sobre el dispositivo es únicamente la más relevante, como pueden ser la dirección MAC o la dirección IP que el servidor DHCP le ha asignado. Además, en función de la direccion MAC, y los 24 primeros bits podemos averiguar quién es el fabricante, con una simple consulta a una base de datos. Como vemos todavía no le hemos asignado ningún usuario a este dispositivo.
 
 El usuario dueño del dispositivo h1, tratará de navegar pues como vemos tiene dirección IP asignada 10.0.0.10, y digamos que por ejemplo va a su navegador e introduce la URL de www.google.es:
 
@@ -1332,13 +1324,13 @@ Las dos siguientes capturas de pantalla reflejan un par de vistas de lo que el u
 
 El capítulo que cierra este proyecto, evalúa los compromisos y objetivos alcanzados, y refleja cómo lo aprendido y desarrollado nace para complementar y completar la formación recibida en la Universidad en la titulación de Ingeniero superior de Telecomunicaciones.
 
-Tras un año de trabajo, la solución CloudTrust se encuentra empaquetada, completamente funcional, y lista para presentar a potenciales clientes interesados.
+Tras un año de trabajo, la solución \textit{CloudTrust} se encuentra empaquetada, completamente funcional, y lista para presentar a potenciales clientes interesados.
 
 
 
 \section{Lecciones aprendidas}
 
-El proyecto CloudTrust, es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar en la solución de CloudTrust tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de administración.
+El proyecto \textit{CloudTrust}, es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar en la solución de \textit{CloudTrust} tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de administración.
 
 En un apartado más técnico, las capacidades adquiridas son muchas, por ejemplo, y por enumerar algunas de las más importantes, he aprendido y extendido mis conocimientos sobre bases de datos, sobre su estructura, su correcta implementación, o la forma más eficiente de implementarlas. Con Django, esto es extremadamente sencillo. También he tenido la oportunidad de extender mis conocimientos sobre programación en lenguaje Python, particularmente con el trato de bases de datos, de usuarios o como construir páginas web en HTML apartando la lógica con Python. 
 
@@ -1445,7 +1437,6 @@ Implementar la solución, y recibir feedback de usuarios activos del servicio.
 
 
 
-
 %%%%%%%%%%%%%%%%
 % BIBLIOGRAFIA %
 %%%%%%%%%%%%%%%%
@@ -1454,51 +1445,53 @@ Implementar la solución, y recibir feedback de usuarios activos del servicio.
 \begin{thebibliography}{25}
 \bibliographystyle{alpha}
 
-\bibitem{BuddOO} Timothy Budd. \textit{Introducción a la programación orientada
-a objetos}. Addison-Wesley Iberoamericana, 1994.
+\bibitem{wDjango} Web del proyecto Django \\
+{\footnotesize \url{https://www.djangoproject.com}}
 
-\bibitem{LutzPPy} Mark Lutz. \textit{Programming Python}. O'Reilly, 2001.
-
-\bibitem{LundhPSL} Fredrik Lundh. \textit{Python standard library}. O'Reilly, 2001.
-
-\bibitem{ReeseSQL} George Reese. \textit{Managing and using MySQL}. O'Reilly, 2002.
-
-\bibitem{SQLdb} Web del proyecto MySQL for Python. \\
-{\footnotesize \url{http://sourceforge.net/projects/mysql-python}}
-
-\bibitem{GlueWWW} Web del proyecto GlueTheos. \\
+\bibitem{wPost} Web del proyecto Postgresql \\
 {\footnotesize
-\url{http://barba.dat.escet.urjc.es/index.php?menu=Tools&Tools=GlueTheos}}
+\url{https://www.postgresql.org/docs/}}
 
-\bibitem{Glue} Gregorio Robles, Jesús M. González-Barahona, Rishab A. Ghosh.
-\textit{GlueTheos: Automating the Retrieval and Analysis of Data from Publicly
-Available Software Repositories}. \\
+\bibitem{wPython} Web del proyecto Python \\
+{\footnotesize \url{https://www.python.org/doc/}}
+
+\bibitem{wBoot} Web del proyecto Bootstrap \\
+{\footnotesize \url{https://bootstrapdocs.com}}
+
+\bibitem{wApache} Web de Apache \\
 {\footnotesize
-\url{http://libresoft.dat.escet.urjc.es/html/downloads/gluetheos-icse.pdf}}
+\url{http://httpd.apache.org/docs/2.2/es/}}
 
-\bibitem{Codd} Web del proyecto CODD. \\
-{\footnotesize \url{http://codd.berlios.de}}
-
-\bibitem{Sloc} Web del proyecto SLOCCount. \\
-{\footnotesize \url{http://www.dwheeler.com/sloccount/}}
-
-\bibitem{CVSWWW} Web del proyecto CVSAnalY. \\
+\bibitem{w3school} Web w3school, The largest web developer site, HTML y CSS \\
 {\footnotesize
-\url{http://barba.dat.escet.urjc.es/index.php?menu=Tools&Tools=CVSAnalY}}
-
-\bibitem{CVS} Gregorio Robles, Stefan Koch, Jesús M. González-Barahona.
-\textit{Remote analysis and measurement of libre software systems by means
-of the CVSAnalY tool}. \\
-{\footnotesize
-\url{http://libresoft.dat.escet.urjc.es/html/downloads/cvsanaly-icse.pdf}}
+\url{http://www.w3schools.com/html/default.asp}}
 
 \bibitem{GSYC} Grupo de Sistemas y Comunicaciones - Universidad Rey Juan Carlos. \\
 {\footnotesize
 \url{http://gsyc.urjc.es}}
 
-\bibitem{LSE} Web del proyecto Libre Software Engineering - GSYC. \\
+\bibitem{wPolit} Web del proyecto VNX de la Universidad politéncia de Madrid \\
 {\footnotesize
-\url{http://libresoft.urjc.es}}
+\url{http://vnx.dit.upm.es}}
+
+\bibitem{wvSwitch} Web del proyecto open vSwitch \\
+{\footnotesize
+\url{http://openvswitch.org/support/}}
+
+\bibitem{wFrenetic} Web del proyecto Frenetic \\
+{\footnotesize
+\url{https://github.com/frenetic-lang/pyretic/wiki
+}}
+
+\bibitem{ine} Instituto Nacional de Estadística \\
+{\footnotesize
+\url{http://www.ine.es}}
+
+\bibitem{latex} Web del proyecto LaTeX \\
+{\footnotesize
+\url{https://latex-project.org/guides/
+}}
+
 
 \end{thebibliography}
 
