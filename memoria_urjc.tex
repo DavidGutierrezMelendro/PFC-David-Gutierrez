@@ -173,7 +173,7 @@ Así pues, el objetivo de este proyecto de Fin de Carrera, es realizar un estudio
 %\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
 \markboth{SUMMARY}{SUMMARY} % encabezado
 
-Currently web browsers have become an essential element for the Internet navigatio, the continuos developments on web technologies has delivered numerous tools strongly related to the web browsers.
+Currently web browsers have become an essential element for the Internet navigation, the continuos developments on web technologies has delivered numerous tools strongly related to the web browsers.
 
 New programs or protocols has lead to the web browsers to grow exponentially supporting new features, options, etc. that leads to them to grow in complexity and increasing the risk factors.
 
@@ -287,7 +287,7 @@ El segundo capítulo, \textit{Objetivos}, recoge dos apartados, un primer apartad
 En el tercer capítulo, \textit{Requisitos y especificaciones}, encontramos una descripción detallada de los requerimientos del proyecto definidos al comienzo del mismo.
 
 \item
-El cuarto capítulo, \textit{estado del arte}, explica cada una de las tecnologías usadas en este proyecto, así cómo su impacto en él, o su contribución.
+El cuarto capítulo, \textit{Estado del arte}, explica cada una de las tecnologías usadas en este proyecto, así cómo su impacto en él, o su contribución.
 
 \item
 En el quinto capítulo, \textit{Diseño e implementación}, se detalla la estructura y se define como se ha construido el proyecto. Se presenta una primera visión dividida en tres partes, diagrama funcional, donde se ven las relaciones funcionales del proyecto, el diagrama físico, en el que se presenta la estructura de los principales elementos hardware necesarios, y por último, un diagrama de red, donde se detalla las relaciones a nivel de red.
@@ -337,14 +337,14 @@ Para poder dar respuesta a los objetivos anteriores, podemos enumerar otra serie
 
 \begin{itemize}
 \item
-Crear un entorno de desarrollo virtual con VirtualBox que simule un escenario real de red doméstica, que no comprometa ni pierda funcionalidades básicas de conectividad de los servicios tradicionales.
+Crear un entorno de desarrollo virtual con \emph{VirtualBox} que simule un escenario real de red doméstica, que no comprometa ni pierda funcionalidades básicas de conectividad de los servicios tradicionales.
 \item
 
 Desarollar e implementar una solución definitiva que resuelva el compromiso entre la simplicidad de uso y la seguridad que se pueda alcanzar en una red doméstica de hogar.
 
 \item
 
-Hacer uso de varias herramientas de código libre, como pueden ser Django, Python ó HTML durante la fase de desarrollo, implementación y explotación del proyecto.
+Hacer uso de varias herramientas de código libre, como pueden ser \emph{Django}, \emph{Python} ó \emph{HTML} durante la fase de desarrollo, implementación y explotación del proyecto.
 
 \item
 Alcanzar un mayor grado de conocimiento y aplicar lo aprendido durante mis estudios universitarios en una herramienta con potencial real de convertirse en una solución software ofertable por proveedores ISP.
@@ -352,7 +352,7 @@ Alcanzar un mayor grado de conocimiento y aplicar lo aprendido durante mis estud
 \item
 Realizar un estudio preliminar de cuáles serían los componentes añadidos necesarios para poder virtualizar una red.
 \item
-Identificar cuales son los requisitos y especificaciones que requiere un proyecto de esta embergadura. Así cómo, elaborar los puntos de acción y responsabilidades de los agentes que van a contribuir en el proyecto.
+Identificar cuales son los requisitos y especificaciones que requiere un proyecto de esta envergadura. Así cómo, elaborar los puntos de acción y responsabilidades de los agentes que van a contribuir en el proyecto.
 \item
 
 Alcanzar mayores conocimientos en competencias y administración sobre base de datos.
@@ -361,7 +361,7 @@ Alcanzar mayores conocimientos en competencias y administración sobre base de da
 En el terreno personal; Alcanzar competencias en administración de procesos y a aumentar la agilidad de gestión. Así cómo estudiar y aplicar estrategias de gestión de negocio.
 
 \item
-Elaborar una página web del proyecto (http://\textit{CloudTrust}.grupoinnovati.com/) así como una cuenta de Twitter que dé visibilidad al proyecto (https://twitter.com/mihogarenlanube).
+Elaborar una página web del proyecto (http://CloudTrust.grupoinnovati.com/) así como una cuenta de Twitter que dé visibilidad al proyecto (https://twitter.com/mihogarenlanube).
  
 
 
@@ -380,7 +380,7 @@ Dentro de nuestra red privada o doméstica, el usuario final será capaz de accede
 
 \begin{itemize}
   \item Red: Entorno que realiza las funciones de envío/recepción de información entre dispositivos y entre el resto de unidades instaladas.
-  \item Administrador: Entenderemos por administrador a aquel usuario con el rango de superuser que tendrá determinados privilegios (definidos en la especificación).
+  \item Administrador: Entenderemos por administrador a aquel usuario con el rango de \emph{superuser} que tendrá determinados privilegios (definidos en la especificación).
 \end{itemize}
 
 (Se han utilizado acrónimos para clasificar los requisitos. Especificados en el Apéndice A al final de este proyecto).
@@ -399,11 +399,11 @@ ASU.DISP.FUN.004 - Todos los dispositivos en la red doméstica tendrán acceso tan
 \item
 ASU.OVSW.FUN.005 - Todos los dispositivos podrán realizar reenvíos de paquetes a nivel 2.
 \item
-ASU.SIS.FUN.006 - El entorno cubrirá las funciones y servicios de conectividad básicas de un entorno doméstico normal (encaminamiento, DHCP, DNS). 
+ASU.SIS.FUN.006 - El entorno cubrirá las funciones y servicios de conectividad básicas de un entorno doméstico normal (encaminamiento, DHCP o DNS). 
 \item
 ASU.SIS.FUN.007 - El entorno permitirá realizar conexiones a nivel de aplicación, juegos en red, hogar virtual (aplicaciones de domótica), invitados WiFi, accesos a VPN corporativas.
 \item
-REQ.CON.FUN.008 - Toda persona dentro del hogar tendrá asignado un par username/password.
+REQ.CON.FUN.008 - Toda persona dentro del hogar tendrá asignado un par \emph{username/password}.
 \item
 REQ.SIS.FUN.009 - El administrador podrá acceder de forma remota a la configuración del router desde una red externa a la del hogar.
 \end{itemize}
@@ -414,9 +414,9 @@ REQ.SIS.FUN.009 - El administrador podrá acceder de forma remota a la configurac
 \item
 REQ.CON.FUN.010 - Existirá una aplicación web disponible para la gestión de la red en el hogar.
 \item
-REQ.CON.FUN.011 - Para acceder a la aplicación los usuarios deberán introducir su usuario/password.
+REQ.CON.FUN.011 - Para acceder a la aplicación los usuarios deberán introducir su \emph{username/password}.
 \item
-REQ.USU.FUN.012 - Desde la aplicación un usuario podrá consultar todos los dispositivos que están registrados en el hogar.
+REQ.USU.FUN.012 - Desde la aplicación un usuario podrá consultar sus dispositivos que están registrados en el hogar.
 \item
 REQ.USU.FUN.013 - Cada usuario mediante uno de sus dispositivos conectados podrá consultar el estado de actividad de los dispositivos de la red (activos/inactivos).
 \item
@@ -439,9 +439,9 @@ REQ.CON.FUN.019 - La aplicación ofrecerá la posibilidad de establecer controles 
 \item
 REQ. APPWEB.INTF. 001 - La configuración del entorno seguro del hogar se realizará mediante una aplicación web.
 \item
-REQ. APPWEB.INTF.002 - La aplicación web deberá funcionar en smartphones, tablets y PCs. 
+REQ. APPWEB.INTF.002 - La aplicación web deberá funcionar en \emph{smartphones, tablets y PCs}. 
 \item
-REQ. APPWEB.INTF.003 - Concretamente los navegadores soportados serán Safari y Mozilla.
+REQ. APPWEB.INTF.003 - Concretamente los navegadores soportados serán \emph{Safari y Mozilla}.
 \item
 REQ.APPWEB.INTF.004 - La aplicación deberá ser accesible de forma simple e intuitiva.
 \end{itemize}
@@ -450,15 +450,15 @@ REQ.APPWEB.INTF.004 - La aplicación deberá ser accesible de forma simple e intui
 \section{Requisitos de configuración de la aplicación web.}
 \begin{itemize}
 \item
-ESP.APPWEB.CONF.001 - Cuando se realice la instalación de la red \textit{CloudTrust} en el hogar por primera vez, se creará un usuario administrador por defecto (username), una contraseña de username administrador, así como una contraseña de acceso a la red.
+ESP.APPWEB.CONF.001 - Cuando se realice la instalación de la red \textit{CloudTrust} en el hogar por primera vez, se creará un usuario administrador por defecto (\emph{username}), una contraseña de usuario administrador, así como una contraseña de acceso a la red.
 \item
-ESP.APPWEB.CONF.002 - La aplicación web, una vez acceda este administrador por defecto podrá cambiar el username del administrador, su contraseña y la contraseña de acceso a la red.
+ESP.APPWEB.CONF.002 - La aplicación web, una vez acceda este administrador por defecto podrá cambiar el \emph{username} del administrador, su contraseña y la contraseña de acceso a la red.
 \item
 REQ.APPWEB.CONF.003 - La aplicación web ha de permitir configurar los nombres de usuarios.
 \item
 ASU.APPWEB.CONF.004 - Un usuario pertenece a un perfil
 \item
-ESP.APPWEB.CONF.005 - Por defecto, al iniciar por primera vez la aplicación web, se crearán 4 perfiles de usuarios, admin, user, not validated y guest.
+ESP.APPWEB.CONF.005 - Por defecto, al iniciar por primera vez la aplicación web, se crearán 4 perfiles de usuarios, \emph{admin}, \emph{user}, \emph{not validated} y \emph{guest}.
 \item
 REQ.APPWEB.CONF.006 - Sólo el usuario administrador podrá cambiar el perfil de cualquier usuario.
 \item
@@ -468,9 +468,9 @@ REQ.APPWEB.CONF.008 - Podrá activar/desactivar dispositivos en la red mediante u
 \item
 REQ.APPWEB.CONF.009 - Podrá establecer controles parentales de acceso según dispositivo y según horario, mediante una franja horaria.
 \item
-ESP.APPWEB.CONF.010 - El perfil de User no podrá configurar ningún servicio dentro de la aplicación web, pero sí podrá tener acceso a los servicios de la aplicación web.
+ESP.APPWEB.CONF.010 - El perfil de \emph{User} no podrá configurar ningún servicio dentro de la aplicación web, pero sí podrá tener acceso a los servicios de la aplicación web.
 \item
-ESP.APPWEB.CONF.011 - El perfil de Guest no tendrá acceso a la Aplicación web, únicamente podrá acceder a los recursos de red.
+ESP.APPWEB.CONF.011 - El perfil de \emph{Guest} no tendrá acceso a la Aplicación web, únicamente podrá acceder a los recursos de red.
 \item
 REQ.SIS.CONF.012 -  La aplicación web ha de permitir al administrador añadir/eliminar dispositivos de cada usuario, valdrá con añadir la dirección MAC. 
 \item
@@ -489,17 +489,17 @@ REQ.APPWEB.CONF.017 - La aplicación web permitirá configurar controles parentale
 \section{Requisitos del entorno de desarrollo de la aplicación web.}
 \begin{itemize}
 \item
-ESP.SWEB.DES.001 - El servidor web funcionará bajo el framework Django con lenguaje Python.
+ESP.SWEB.DES.001 - El servidor web funcionará bajo el framework \emph{Django} con lenguaje \emph{Python}.
 \item
-ESP.SWEB.DES.002 - El servidor web trabajará con bases de datos PostGres.
+ESP.SWEB.DES.002 - El servidor web trabajará con bases de datos \emph{PostGres}.
 \item
-ESP.SWEB.DES.003 - El servidor web trabajará con HTML 5, Javascript y con CSS 3.
+ESP.SWEB.DES.003 - El servidor web trabajará con \emph{HTML 5}, \emph{Javascript} y con \emph{CSS 3}.
 \item
-ESP.APPWEB.DES.004 - La aplicación web en el lado del cliente trabajará con HTML 5, Javascript y CSS 2.
+ESP.APPWEB.DES.004 - La aplicación web en el lado del cliente trabajará con \emph{HTML 5}, \emph{Javascript} y \emph{CSS 2}.
 \item
-ASU.OVSW.DES.005 - El home CPE será un OpenvSwitch
+ASU.OVSW.DES.005 - El home CPE será un \emph{OpenvSwitch}.
 \item
-ASU.OVSW.DES.006 - Todos los dispositivos se conectarán a la red de acceso mediante un Openvswitch que utilice los protocolos OpenFlow, NetFlow y SFlow.
+ASU.OVSW.DES.006 - Todos los dispositivos se conectarán a la red de acceso mediante un \emph{Openvswitch} que utilice los protocolos \emph{OpenFlow}, \emph{NetFlow} y \emph{SFlow}.
 \end{itemize}
 
 \section{Requisitos de rendimiento}
@@ -526,7 +526,7 @@ ASU.SIS.REND.005 - El tiempo de respuesta de la aplicación web no debe superar e
 
 Durante la fase de desarrollo de la aplicación, se llegaron a varios consensos que delimitaron el ámbito de trabajo, así como la definición de las herramientas de las que haríamos uso a lo largo del proceso de desarrollo de todas las funcionalidades implicadas dentro de la solución \textit{CloudTrust}. 
 
-Así, una de las primeras decisiones que se tomaron fue el uso del framework de Django~\cite{wDjango}. Django es un framework de alto nivel basado en Python que promueve la creación de aplicaciones web de forma rápida, limpia y con diseños pragmáticos.
+Así, una de las primeras decisiones que se tomaron fue el uso del framework de \emph{Django}~\cite{wDjango}. Django es un framework de alto nivel basado en Python que promueve la creación de aplicaciones web de forma rápida, limpia y con diseños pragmáticos.
 
 \textit{
 Django es un entorno de desarrollo web escrito en Python que fomenta el desarrollo rápido y el diseño limpio y pragmático.
@@ -542,65 +542,65 @@ La arquitectura, como antes mencionada, sigue el siguiente patrón:
     \label{figura:ModeloVC}
  \end{figure}
  
-Son especialmente interesantes de mencionar algunos de los módulos u opciones incluidos dentro del framework de Django, de los cuáles, hemos hecho uso los siguientes:
+Son especialmente interesantes de mencionar algunos de los módulos u opciones incluidos dentro del framework de \emph{Django}, de los cuáles, hemos hecho uso los siguientes:
 
 \begin{itemize}
 \item
-Módulo admin: Una de las partes más poderosas de Django es la interfaz automática de admin. Puede leer  metadata del modelo y proveer al usuario inmediatamente de una interfaz lista para comenzar a añadir contenido al sitio. Ha sido una herramienta tremendamente útil en las labores desarrollo y testeo. 
+Módulo admin: Una de las partes más poderosas de \emph{Django} es la interfaz automática de \emph{admin}. Puede leer  \emph{metadata} del modelo y proveer al usuario inmediatamente de una interfaz lista para comenzar a añadir contenido al sitio. Ha sido una herramienta tremendamente útil en las labores desarrollo y testeo. 
 \item
-Mapeador de URLs:  Django hace uso de un esquema elegante de URL's basados en expresiones regulares, que permite elaborar arquitecturas de navegación dentro de la página web de alta calidad. Se basa en un método muy simple que responde ante peticiones que contienen esas expresiones
+Mapeador de URLs:  \emph{Django} hace uso de un esquema elegante de URL's basados en expresiones regulares, que permite elaborar arquitecturas de navegación dentro de la página web de alta calidad. Se basa en un método muy simple que responde ante peticiones que contienen esas expresiones
 \item
-Models: Otra de las características principales de Django reside en la simplicidad con la que trabaja con bases de datos. El modelo de nuestra base de datos, nace de una única y definitiva fuente de información, el archivo models.py. Contiene los campos esenciales y la estructura de la información que estamos almacenando.  Este es un ejemplo de una de las tablas:
+Models: Otra de las características principales de \emph{Django} reside en la simplicidad con la que trabaja con bases de datos. El modelo de nuestra base de datos, nace de una única y definitiva fuente de información, el archivo \emph{models.py}. Contiene los campos esenciales y la estructura de la información que estamos almacenando.  Este es un ejemplo de una de las tablas:
  \begin{figure}[H]
     \centering
     \includegraphics[ width=15cm, keepaspectratio]{img/Register}
-    \caption{Extracto de código: Class Register}
+    \caption{Extracto de código: Class \emph{Register}}
     \label{figura:Register}
  \end{figure}
  
 \item
-API base de datos: Django provee además de una API con multitud de métodos y funciones muy útiles para establecer relaciones, y una comunicación bi-canal entre el usuario y la base de datos.
+API base de datos: \emph{Django} provee además de una API con multitud de métodos y funciones muy útiles para establecer relaciones y una comunicación bi-canal entre el usuario y la base de datos.
 \item
-Plantillas con herencia (Inheritance Templates): Se ha hecho uso de otra herramienta más de Django, que nos permite establecer una jerarquía de plantillas HTML, para construir el esquema de navegación mucho más simple. Contamos por tanto, con simplicidad, rapidez de carga (a la hora de la navegación web es muy importante), y claridad de código. Mediante la herencia, podemos crear plantillas \textit{padre} y múltiples plantillas \textit{hijas} que heredan de la plantilla \textit{padre}, métodos, funciones y/o grandes extractos de código.
+Plantillas con herencia (\emph{Inheritance Templates}): Se ha hecho uso de otra herramienta más de \emph{Django}, que nos permite establecer una jerarquía de plantillas \emph{HTML}, para construir el esquema de navegación mucho más simple. Contamos por tanto, con simplicidad, rapidez de carga (que a la hora de la navegación web es muy importante), y claridad de código. Mediante la herencia, podemos crear plantillas \textit{padre} y múltiples plantillas \textit{hijas} que heredan de la plantilla \textit{padre}, métodos, funciones y/o grandes extractos de código.
 \item
-Templatetags: Durante el desarrollo de este proyecto, se he hecho uso en múltiples ocasiones de esta funcionalidad de Django. La limitación que presenta HTML al no poder codificar lógica sino es mediante otras codificaciones externas, es fácilmente salvable mediante el uso de Templatetags. Cuando se produce una petición de un usuario solicitando un determinado contenido, que depende exclusivamente de algún elemento de entrada, las Templatetags nos permiten establecer funciones que ante este parámetro devuelvan las salidas deseadas y las presenta, si se desea, en formato HTML. En mi opinión personal, a la hora de trabajar con Django, creo que esta es, en efecto, una de sus herramientas más poderosas.
+\emph{Templatetags}: Durante el desarrollo de este proyecto, se he hecho uso en múltiples ocasiones de esta funcionalidad de \emph{Django}. La limitación que presenta \emph{HTML} al no poder codificar lógica sino es mediante otras codificaciones externas, es fácilmente salvable mediante el uso de \emph{Templatetags}. Cuando se produce una petición de un usuario solicitando un determinado contenido, que depende exclusivamente de algún elemento de entrada, las \emph{Templatetags} nos permiten establecer funciones que ante este parámetro devuelvan las salidas deseadas y las presenta, si se desea, en formato \emph{HTML}. En mi opinión personal, a la hora de trabajar con Django, creo que esta es, en efecto, una de sus herramientas más poderosas.
 
 \item
-Host de archivos static: En la fase de desarrollo, una vez más, Django facilita la vida al programador habilitando un servidor provisional de ficheros estáticos que sirve con el propósito de servir todas las plantillas, archivos CSS, js y/o imágenes. 
+Host de archivos \emph{static}: En la fase de desarrollo, una vez más, \emph{Django} facilita la vida al programador habilitando un servidor provisional de ficheros estáticos que sirve con el propósito de servir todas las plantillas, archivos \emph{CSS}, \emph{js} y/o imágenes. 
 
 \item
-Admin custom commands: Otra herramienta interesante de mencionar de la que se ha hecho uso es la de crear nuestros propios comandos ejecutables por línea de comandos. Para la realización de este proyecto, entre las funcionalidades planteadas se encuentra la de permitir al usuario administrador establecer un control de acceso a la red según horario (control parental), por tanto, se necesitó elaborar un demonio que verificase periódicamente, si un usuario tenía permiso de acceso según la hora de acceso y otorgarlo o denegarlo según la situación. A continuación se muestra el extracto de código que lo habilita:
+\emph{Admin custom commands}: Otra herramienta interesante de mencionar de la que se ha hecho uso es la de crear nuestros propios comandos ejecutables por línea de comandos. Para la realización de este proyecto entre las funcionalidades planteadas se encuentra la de permitir al usuario administrador establecer un control de acceso a la red según horario (control parental). Se necesitó elaborar un demonio que verificase periódicamente si un usuario tenía permiso de acceso según la hora de acceso y otorgarlo o denegarlo según la situación. A continuación se muestra el extracto de código que lo habilita:
  \begin{figure}[H]
     \centering
     \includegraphics[ width=15cm, keepaspectratio]{img/Command}
-    \caption{Extracto de código: Class Command}
+    \caption{Extracto de código: Class \emph{Command}}
     \label{figura:Command}
  \end{figure}
 \end{itemize} 
 
-A modo de resumen sus principales ventajas residen principalmente en lo comentado, se trata de un entorno de trabajo que facilita la implementación de los distintos módulos típicos dentro de una aplicación web. Por otro lado, ofrece un alto nivel de seguridad, y esto es así, porque entre sus características más básicas encontramos las de servicio seguro de autenticación de usuarios y un código fuertemente integrado con mínimos o inexistentes leaks de código.
+A modo de resumen sus principales ventajas residen principalmente en lo comentado, se trata de un entorno de trabajo que facilita la implementación de los distintos módulos típicos dentro de una aplicación web. Por otro lado, ofrece un alto nivel de seguridad, y esto es así, porque entre sus características más básicas encontramos las de servicio seguro de autenticación de usuarios y un código fuertemente integrado con mínimos o inexistentes \emph{leaks} de código.
 
-Django a su vez permite alcanzar altos niveles de escalabilidad de la aplicación web gracias a su estructura piramidal, según la cual módulos como la base de datos (limitantes a priori en términos de escalabilidad) son o pueden ser independientes del esquema de navegación.
+\emph{Django} a su vez permite alcanzar altos niveles de escalabilidad de la aplicación web gracias a su estructura piramidal, según la cual módulos como la base de datos (limitantes a priori en términos de escalabilidad) son o pueden ser independientes del esquema de navegación.
 
-Por otro lado, Django es un framework usado a nivel mundial, con una comunidad de desarrollo amplísima y muy activa. Y es por esta misma razón, múltiples desarrolladores crean aplicaciones y librerías de código fácilmente integrables con Django.
+Por otro lado, \emph{Django} es un\emph{framework} usado a nivel mundial, con una comunidad de desarrollo amplísima y muy activa. Y es por esta misma razón, múltiples desarrolladores crean aplicaciones y librerías de código fácilmente integrables con \emph{Django}.
 
 
 
 \section{Bootstrap}
 
-Otra de las herramientas principales de las que se ha hecho uso dentro del desarrollo de la aplicación web es Bootstrap~\cite{wBoot}. Bootstrap es un framework de código libre de Twitter limpio, intuitivo y rápido, para el desarrollo de páginas web.
+Otra de las herramientas principales de las que se ha hecho uso dentro del desarrollo de la aplicación web es \emph{Bootstrap}~\cite{wBoot}. \emph{Bootstrap} es un \emph{framework} de código libre de \emph{Twitter} que se usa para el desarrollo de páginas web. Es limpio, intuitivo y rápido.
 
-El Framework trae varios elementos con estilos predefinidos fáciles de configurar: Botones, Menús desplegables, formularios incluyendo todos sus elementos e integración jQuery para ofrecer ventanas y tooltips dinámicos.
+El \emph{framework} trae varios elementos con estilos predefinidos fáciles de configurar: Botones, Menús desplegables, formularios incluyendo todos sus elementos e integración \emph{jQuery} para ofrecer ventanas y \emph{tooltips} dinámicos.
 
 Es especialmente útil su diseño adaptativo pues se auto configura y se recoloca según el dispositivo en el que se esté visualizando el contenido, ya sea una pantalla grande o una de un \emph{smartphone} por ejemplo. Lo cual acelera mucho el proceso de crear una versión final.
 
-En su repositorio GitHub oficial podemos encontrar páginas con toda la información necesaria para utilizar Bootstrap en nuestro proyecto web, además también podemos encontrar ejemplos de utilización de este Framework.
+En su repositorio \emph{GitHub} oficial podemos encontrar páginas con toda la información necesaria para utilizar Bootstrap en nuestro proyecto web, además también podemos encontrar ejemplos de utilización de este \emph{framework}.
 
-Su instalación e integración con Django es tan sencilla como simplemente descargar los ficheros que contienen las implementaciones de las funciones CSS y JavaScript  de sus paquetes e incluirlos y referenciarlos dentro del árbol de carpetas de nuestra aplicación web basada en Django.
+Su instalación e integración con \emph{Django} es tan sencilla como simplemente descargar los ficheros que contienen las implementaciones de las funciones \emph{CSS} y \emph{JavaScript}  de sus paquetes e incluirlos y referenciarlos dentro del árbol de carpetas de nuestra aplicación web basada en \emph{Django}.
 
 
 \section{Python 3}
-El lenguaje de programación en el que está basado Django es Python~\cite{wPython}. Más concretamente la versión 1.6.5 de Django hace uso de Python 3, la nueva versión de Python, lanzada en Diciembre de 2008. 
+El lenguaje de programación en el que está basado \emph{Django} es \emph{Python}~\cite{wPython}. Más concretamente la versión 1.6.5 de \emph{Django} hace uso de \emph{Python 3}, la nueva versión de \emph{Python}, lanzada en Diciembre de 2008. 
 
 Su instalación es muy simple pues se trata de software libre, y si el sistema operativo no lo trae de serie como algunas distribuciones de Linux, basta con descargarse el paquete y ejecutar un instalador sencillo.
 
@@ -619,9 +619,9 @@ Podemos encontrar amplísima documentación en la página oficial https://www.pytho
 
 \section{PostgreSQL}
 
-La base de datos utilizada es PostgreSQL 9.3~\cite{wPost}, se trata de una base de datos de código abierto relación-objeto. Corre en la mayoría de sistemas operativos y es de fácil integración con varios lenguajes. La elección de esta base de datos se basa en su potencial de escalabilidad para proyectos futuros en entornos reales con un número de usuarios y dispositivos mucho mayor, así como la velocidad de respuesta de sus búsquedas recursivas. 
+La base de datos utilizada es \emph{PostgreSQL 9.3}~\cite{wPost}, se trata de una base de datos de código abierto relación-objeto. Corre en la mayoría de sistemas operativos y es de fácil integración con varios lenguajes. La elección de esta base de datos se basa en su potencial de escalabilidad para proyectos futuros en entornos reales con un número de usuarios y dispositivos mucho mayor, así como la velocidad de respuesta de sus búsquedas recursivas. 
 
-Además la integración con el entorno de Django es tan simple como la instalación de una API extra de comunicación entre la base de datos y el demonio de Django, esta API se llama psycopg2 de fácil instalación basada en Python.
+Además la integración con el entorno de \emph{Django} es tan simple como la instalación de una API extra de comunicación entre la base de datos y el demonio de Django, esta API se llama \emph{psycopg2} de fácil instalación basada en \emph{Python}.
 
 Administrar la base de datos es muy sencillo, aparte de lo anterior, contamos con simples e intuitivas instrucciones propias para manejar algunas opciones básicas de la base de datos. A continuación se presentan algunas de las instrucciones de arranque y preparación de la base de datos al iniciar el escenario de pruebas.
 
@@ -639,7 +639,7 @@ sudo -u postgres psql -c ``ALTER USER postgres WITH PASSWORD '1234';";
 
 \begin{itemize}
 \item
-ALTER USER: Para que Django pueda acceder a la base de datos de PostGres, en el fichero de configuración setting.py, se define el username y el password de acceso. Mediante esta instrucción asignamos al usuario postgres una nueva password que corresponde con lo definido en este archivo.
+ALTER USER: Para que \emph{Django} pueda acceder a la base de datos de PostGres, en el fichero de configuración \emph{setting.py}, se define el \emph{username} y el \emph{password} de acceso. Mediante esta instrucción asignamos al usuario postgres una nueva \emph{password} que corresponde con lo definido en este archivo.
 \item
 CREATE DATABASE: Una vez definido que el usuario postgres  es el usuario con acceso a la base de datos, se crea una tabla dentro de esta con el nombre de \textit{CloudTrust}.
 \end{itemize}
@@ -647,8 +647,8 @@ CREATE DATABASE: Una vez definido que el usuario postgres  es el usuario con acc
 
 \section{Servidor web}
 
-Como mencionamos anteriormente, Django incluye un servidor web liviano para realizar pruebas y trabajar en la etapa de desarrollo. En la etapa de producción, sin embargo, se recomienda  Apache 2~\cite{wApache} con mod\_ python. Aunque Django soporta la especificación WSGI, por lo que puede correr sobre una gran variedad de servidores como FastCGI o SCGI en Apache u otros servidores (particularmente Lighttpd).
-En la fase de desarrollo nos hemos limitado a hacer uso del servidor por defecto de Django pero como vemos es escalable a varios y distintos servicios. 
+Como mencionamos anteriormente, \emph{Django} incluye un servidor web liviano para realizar pruebas y trabajar en la etapa de desarrollo. En la etapa de producción, sin embargo, se recomienda  \emph{Apache 2}~\cite{wApache} con \emph{mod\_ python}. Aunque \emph{Django} soporta la especificación \emph{WSGI}, por lo que puede correr sobre una gran variedad de servidores como \emph{FastCGI} o \emph{SCGI} en \emph{Apach}e u otros servidores (particularmente \emph{Lighttpd}).
+En la fase de desarrollo nos hemos limitado a hacer uso del servidor por defecto de \emph{Django} pero como vemos es escalable a varios y distintos servicios. 
 
 \section{VNX}
 
@@ -668,28 +668,28 @@ Permite una virtualización anidada, esto es, el arranque de máquinas virtuales L
 
 \section{HTML}
 
-HTML~\cite{w3school}, siglas de HyperText Markup Language, es un lenguaje de marcado para la elaboración de páginas web. Es un estándar mundialmente utilizado, y de enorme uso que pretende homogeneizar el código en la web. El W3C (World Wide Web Consortium) está a cargo del estándar. Se trata del estándar que se ha impuesto a la hora de visualizar páginas web y el que todos los navegadores han adoptado.
+\emph{HTML}~\cite{w3school}, \emph{siglas de HyperText Markup Language}, es un lenguaje de marcado para la elaboración de páginas web. Es un estándar mundialmente utilizado, y de enorme uso que pretende homogeneizar el código en la web. El \emph{W3C (World Wide Web Consortium)} está a cargo del estándar. Se trata del estándar que se ha impuesto a la hora de visualizar páginas web y el que todos los navegadores han adoptado.
 
 Es un lenguaje sencillo, basado en etiquetas (rodeados por corchetes angulares ``<  >"), que definen la forma en la que se despliega o se muestra el contenido al usuario. Se estructura típicamente en dos partes, una primera parte que es una cabecera (<head></head>), que suele contener información del documento que se presenta, y un cuerpo (<body></body>), que define el contenido del documento.
 
-A su vez dentro de estas etiquetas o elementos del documento, encontramos atributos, que suelen ser pares nombre-valor, usado en múltiples ocasiones durante la elaboración del proyecto, como por ejemplo el atributo ``class'' que es fundamental para la integración con Bootstrap, de tal forma que se puedan identificar cuáles son los estilos a aplicar a cada elemento de la página web.
+A su vez dentro de estas etiquetas o elementos del documento, encontramos atributos, que suelen ser pares nombre-valor, usado en múltiples ocasiones durante la elaboración del proyecto, como por ejemplo el atributo ``class'' que es fundamental para la integración con \emph{Bootstrap}, de tal forma que se puedan identificar cuáles son los estilos a aplicar a cada elemento de la página web.
 
 \section{CSS}
 
-CSS~\cite{w3school} o Cascading Style Sheets, se trata de un lenguaje que define la presentación de un documento escrito en HTML. Al igual que la codificación HTML, el W3C es el encargado de elaborar el estándar que finalmente han optado por seguir todos los navegadores. La sintaxis de la que hace uso CSS es muy sencilla, se basa en el uso de palabras clave, según propiedad: valor.
+\emph{CSS}~\cite{w3school} o \emph{Cascading Style Sheets}, se trata de un lenguaje que define la presentación de un documento escrito en \emph{HTML}. Al igual que la codificación \emph{HTML}, el \emph{W3C} es el encargado de elaborar el estándar que finalmente han optado por seguir todos los navegadores. La sintaxis de la que hace uso \emph{CSS} es muy sencilla, se basa en el uso de palabras clave, según propiedad: valor.
 
-La idea fundamental de CSS reside en separar la estructura del documento de la vista del mismo. La información de presentación se puede encontrar en el mismo fichero HTML o en un documento separado. En este PFC se  ha hecho uso de muchos de los estilos de Bootstrap, que contienen archivos CSS fácilmente configurables, y además de la etiqueta <style>, para colocar algunos elementos de la página web, y estructurar la vista de forma más ordenada.
+La idea fundamental de \emph{CSS} reside en separar la estructura del documento de la vista del mismo. La información de presentación se puede encontrar en el mismo fichero \emph{HTML} o en un documento separado. En este PFC se  ha hecho uso de muchos de los estilos de \emph{Bootstrap}, que contienen archivos \emph{CSS} fácilmente configurables, y además de la etiqueta <style>, para colocar algunos elementos de la página web, y estructurar la vista de forma más ordenada.
 
 
 \section{Open vSwitch}
 
-Open vSwitch~\cite{wvSwitch}: Switch implementado por software que dispone de compatibilidad para integrarse con diversos protocolos de control y monitorización como Openflow, Netflow, Sflow, etc.
+\emph{Open vSwitch}~\cite{wvSwitch}: Se trat de un \emph{Switch} implementado por software que dispone de compatibilidad para integrarse con diversos protocolos de control y monitorización como \emph{Openflow, Netflow, Sflow}, etc.
 
 \section{Frenetic}
 La arquitectura de control SDN propuesta en el proyecto Frenetic~\cite{wFrenetic} se compone de tres niveles.
 \begin{itemize}
 \item
-POX: Este es el nivel de abstracción más bajo de la arquitectura. Se encarga de actuar como interfaz para el protocolo Openflow en ambas direcciones. Ofrece una API para el empleo del protocolo Openflow en lenguaje Python.
+POX: Este es el nivel de abstracción más bajo de la arquitectura. Se encarga de actuar como interfaz para el protocolo \emph{Openflow} en ambas direcciones. Ofrece una API para el empleo del protocolo \emph{Openflow} en lenguaje Python.
 Al disponer de un nivel de abstracción bajo, las aplicaciones que pueden desarrollarse no disponen de un alto grado de complejidad, siendo necesario el empleo de un nivel superior.
 
 \item
@@ -718,7 +718,6 @@ Plantearemos varios escenarios posibles en los que \textit{CloudTrust} tiene cab
 
 Por ello es de sumo interés realizar una descripción detallada, y realizar un análisis completo de la red para el usuario final.
 
-Además de todo el potencial que ofrece la solución \textit{CloudTrust}, en lo que concierne al usuario final el proyecto se centrará en la aplicación de configuración web.
 
 Para que el usuario final, ya sea un cliente en su hogar, o un cliente en su lugar de trabajo, le sea transparente el cambio a \textit{CloudTrust}, y únicamente sea capaz de ver las ventajas de acogerse a esta solución de una forma simple e intuitiva, se llevará a cabo la creación de un portal web de configuración de la red final (entendida por red final, la red personal de hogar, o del establecimiento público o privado), al cual tendrá acceso, para poder llevar a cabo las acciones posibles (descritas en apartados anteriores) que considere oportunas.
 
@@ -728,12 +727,13 @@ Entendemos que es totalmente necesario que bajo todo el cambio estructural de re
 
 A continuación presentaremos una descripción de la arquitectura de la solución \textit{CloudTrust}, y además lo haremos, divido en tres planos distintos pues la escala del proyecto lo exige. Estos tres planos son un diagrama de red, un diagrama físico y un diagrama funcional. 
 
+\newpage
 \section{Diagrama Funcional} 
 \label{Diagrama_funcional}
 
 En el siguiente diagrama vemos la organización funcional de los distintos bloques de la solución. 
 
-Desde el punto de vista de la red final encontramos el bloque identificado como Configurador, que hace referencia al servidor que trabaja bajo Django y que hostea la aplicación web de configuración de la red del usuario final.
+Desde el punto de vista de la red final encontramos el bloque identificado como Configurador, que hace referencia al servidor que trabaja bajo \emph{Django} y que hostea la aplicación web de configuración de la red del usuario final.
 
 Dentro de la aplicación web encontramos algunas de sus principales funcionalidades como el Portal de inicio, que actuará de \textit{captive-portal}, el interfaz vCPE pues la aplicacion hará de intermediario entre la red y el dispositivo CPE, la función de histórico de consumo, la gestión de usuarios, controles parentales, descubrimiento de dispositivos o filtrado MAC entre otras.
 
@@ -747,7 +747,7 @@ Dentro de la aplicación web encontramos algunas de sus principales funcionalidad
 
 
 
-
+\newpage
 \section{Diagrama Físico} 
 \label{Diagrama_fisico}
 
@@ -763,7 +763,8 @@ En el siguiente diagrama vemos representados los elementos hardware básicos míni
 
 
 
-En este apartado describiremos los requisitos necesarios para llevar a cabo la implementación del Servidor de configuración web. Necesitaremos realizar una previsión de recursos dependiente de dos parámetros. En nuestro servicio implementaremos un sistema seguro de sesión que verifique la identidad de los usuarios finales, añadiendo así una capa más de seguridad, por tanto, la primera variable que deberemos manejar en términos de escalabilidad del servidor será el número de sesiones esperado que deberemos soportar. Es decir, dependerá enteramente del número de usuarios que manejemos.
+En este apartado describiremos los requisitos necesarios para llevar a cabo la implementación del Servidor de configuración web. Necesitaremos realizar una previsión de recursos dependiente de dos parámetros. En nuestro servicio implementaremos un sistema seguro de sesión que verifique la identidad de los usuarios finales, añadiendo así una capa más de seguridad.
+Por tanto, la primera variable que deberemos manejar en términos de escalabilidad del servidor será el número de sesiones esperado que deberemos soportar. Es decir, dependerá enteramente del número de usuarios que manejemos.
 
 Por otro lado, haremos uso del número de peticiones como segundo indicador de escalabilidad, es decir, el número de clicks que un usuario realice durante una sesión.
 
@@ -786,12 +787,13 @@ En aras de aportar mayor seguridad al sistema, se le  aplicaría una política de 
 
 Como segundo elemento hardware importante requeriremos de una nube de almacenamiento para la base de datos de los nombres de usuario y sus sesiones, así como de la información de sus dispositivos.
 
+\newpage
 \section{Diagrama de Red} 
 \label{Diagrama_deRed}
 
-En el siguiente diagrama encontramos resumidas las diferentes conexiones de red que encontramos dentro de la solución. Fijémonos en el cliente 1 en, por ejemplo, una red de hogar. 
+En el siguiente diagrama encontramos resumidas las diferentes conexiones de red que encontramos dentro de la solución. Fijémonos en el cliente 1 por ejemplo, una red de hogar. 
 
-El cambio principal reside en el cambio del router ubicado en el hogar (o empresa o localización elegida), por un OpenVSwitch, es decir, se trata de un cambio hardware mínimamente invasivo.
+El cambio principal reside en el cambio del router ubicado en el hogar (o empresa o localización elegida) por un OpenVSwitch, es decir, se trata de un cambio hardware mínimamente invasivo.
 
 
  \begin{figure}[H]
@@ -802,11 +804,11 @@ El cambio principal reside en el cambio del router ubicado en el hogar (o empres
  \end{figure}
 
 
-Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el primero de los componentes de \textit{CloudTrust} que encontramos son los Controladores Virtualizados o vCPE's. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos TCP/SSL.
+Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el primero de los componentes de \textit{CloudTrust} que encontramos son los Controladores Virtualizados o vCPE's. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos \emph{TCP/SSL}.
 
 Este controlador tendrá las funciones avanzadas de un router, de tal manera que se minimizan las capacidades funcionales que tiene el hardware en casa del cliente, y por tanto nos lleva a procesos de integración de nuevos items y mantenimiento mucho más baratos.
 
-El segundo elemento que encontramos es precisamente el Servidor del portal de configuración que hemos comentado anteriormente en este mismo apartado. El acceso a este portal estará hosteado en este servidor aquí representado y se realizará por acceso HTTP/HTTPS.
+El segundo elemento que encontramos es precisamente el Servidor del portal de configuración que hemos comentado anteriormente en este mismo apartado. El acceso a este portal estará hosteado en este servidor aquí representado y se realizará por acceso \emph{HTTP/HTTPS}.
 
 \section{Estructura y definición del entorno de desarrollo}
 \label{est_def_ent_des}
@@ -824,17 +826,17 @@ En la figura que se presenta a continuación, se pueden identificar fácilmente la
     \label{figura:Bubbles}
  \end{figure}
 
-Para arrancar este entorno necesitamos el fichero en formato .ova y ejecutarlo en un programa que soporte este tipo de formato, en nuestro caso el programa que hemos utilizado en fase de desarrollo es Oracle VM VirtualBox.
+Para arrancar este entorno necesitamos el fichero en formato .ova y ejecutarlo en un programa que soporte este tipo de formato, en nuestro caso el programa que hemos utilizado en fase de desarrollo es \emph{Oracle VM VirtualBox}.
 
-Una vez arrancamos la máquina virtual se nos presenta un escritorio Linux. Para arrancar el escenario debemos iniciar una ventana de terminal, y tras ello acceder como súper usuario con el comando ``sudo su", debemos ejecutar los siguientes comando (con la opción ``-t'' al final, se arranca, con la opción ``-P'' se cierra el escenario):
+Una vez arrancamos la máquina virtual se nos presenta un escritorio \emph{Linux}. Para arrancar el escenario debemos iniciar una ventana de terminal, y tras ello acceder como súper usuario con el comando ``sudo su", y ejecutar los siguientes comandos: (con la opción ``-t'' al final, se arranca, con la opción ``-P'' se cierra el escenario):
 
 
 {\scriptsize
   \begin{verbatim}
-vnx -f \textit{CloudTrust}-v03.xml -v -t
-vnx -f \textit{CloudTrust}-v03.xml -v -x start-srv
-vnx -f \textit{CloudTrust}-v03.xml -x start-parental
-vnx -f \textit{CloudTrust}-v03.xml -v -start -M h1
+vnx -f CloudTrust-v03.xml -v -t
+vnx -f CloudTrust-v03.xml -v -x start-srv
+vnx -f CloudTrust-v03.xml -x start-parental
+vnx -f CloudTrust-v03.xml -v -start -M h1
 \end{verbatim}
 }
 
@@ -843,7 +845,7 @@ Con estos comandos lo que conseguimos es arrancar efectivamente el escenario de 
 
 Con el escenario bajo estas condiciones las máquinas que simulan las de usuarios de la red carecen de conectividad, pues querremos dársela únicamente bajo los criterios que consideremos oportunos.
 
-La segunda línea de código arranca el servidor de Django, la tercera línea, arranca un demonio de Linux que ejecuta un código periódicamente (cada 30 segundos), de tal forma que se verifica según la hora actual si un dispositivo tiene acceso a la red o no, la aplicación más directa de esta opción, es ofrecer controles parentales. La última línea de código arranca un dispositivo cualquiera ``h1'' en el entorno, y por tanto simula que un nuevo elemento aparece en la red.
+La segunda línea de código arranca el servidor de \emph{Django}, la tercera línea, arranca un demonio de \emph{Linux} que ejecuta un código periódicamente (cada 30 segundos), de tal forma que se verifica según la hora actual si un dispositivo tiene acceso a la red o no, la aplicación más directa de esta opción, es ofrecer controles parentales. La última línea de código arranca un dispositivo cualquiera ``h1'' en el entorno, y por tanto simula que un nuevo elemento aparece en la red.
 
 
 
@@ -856,7 +858,7 @@ Una vez contamos con el escenario arrancado, tenemos enfrente una serie de termi
 
 A partir de los requisitos y especificaciones definidos en el capítulo 3, y a partir de las consideraciones que introduciremos a continuación conformamos una aplicación web intuitiva y sencilla para el usuario.
 
-Para poder configurar nuestra red, contamos con el acceso al portal de configuración, hosteado en la máquina virtual ServidorWeb bajo la IP 172.16.1.2 y puerto 8000. Por tanto, si abrimos el navegador de nuestra máquina Linux y accedemos desde el campo de URL's a http://172.16.1.2:8000/, se desplegará la página de inicio de la aplicación web de configuración de \textit{CloudTrust}.
+Para poder configurar nuestra red, contamos con el acceso al portal de configuración, hosteado en la máquina virtual ServidorWeb bajo la IP 172.16.1.2 y puerto 8000. Por tanto, si abrimos el navegador de nuestra máquina Linux y accedemos desde el campo de URL's a \emph{http://172.16.1.2:8000/} (como vemos en la Figura 5.4 esta es la IP que corresponde al servidor web), se desplegará la página de inicio de la aplicación web de configuración de \textit{CloudTrust}.
 
 Una de las primeras consideraciones que tratamos de cubrir en el diseño de la aplicación es, la de la implantación de una página de índice desde la cual el usuario pueda acceder según sus credenciales a los servicios del sistema. En esta primera página le daremos la bienvenida al usuario y encontraremos el logo de la solución \textit{CloudTrust} en el centro. En la parte superior se situará el menú de acceso a la aplicación, y desde la parte inferior de la página se podrán acceder a las páginas de soporte o redes sociales del proyecto.
 
@@ -891,6 +893,35 @@ El tercer bloque principal ocupará el resto de la página y es dónde se colocará 
 Por último, desde el punto de vista de los componentes de la aplicación, se establece un modelo vista-control-datos.
 
 \newpage
+\section{Estructura de la Base de Datos}
+\label{est_DDBB}
+
+
+A continuación se presenta la definición de la estructura de la base de datos del proyecto. En la siguiente imagen podemos ver que existe una relación directa y en cascada entre varios elementos, y alternativamente se hace uso de otra pareja de tablas anexas.
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[ width=13cm, keepaspectratio]{img/DDBB}
+    \caption{Diagrama de la Base de Datos.}
+    \label{figura:ddbb}
+ \end{figure}
+ 
+Pasemos a describir cada uno de estos elementos. El primero de estos corresponde a la tabla ``USER". Nuevamente hacemos uso de una de las funciones nativas incorporadas en Django. La gestión de usuarios es muy sencilla con el paquete UserAuthentication\cite{userauth} de Django, este genera una tabla de usuarios con su pareja de \emph{username/password} e información sobre su sesión, como el día de registro o el último \emph{login}.
+
+Linkado con la tabla ``USER"  encontramos la tabla ``Registers", en ella vamos a contener la relación que existe con los usuarios y sus elementos de red, o dispositivos de red, así cómo su información. Es decir, para cada usuario dentro de la red, se creará un elemento nuevo dentro de la tabla Registers, que recoge la información de usuario, sus dispositivos y en este caso también se guardan los campos límites inferior y superior del control parental.
+Como vemos la conexión entre ambas tablas se establece bajo una herramienta típica en el uso de bases de datos, que se denomina \emph{ForeignKey}. Lo que implica que depende de un elemento externo como clave ("llave"), en nuestro caso User.
+
+Si seguimos la estructura definida en la figura, la siguiente tabla que encontramos es ``ElementoDeRed". Se trata de una tabla que contendrá por cada dispositivo de red un registro distinto. Cuando el controlador detecte un dispositivo nuevo, creará este registro y almacenerá la información relativa al dispositivo a nivel de red como su dirección IP o su dirección MAC. Por otro lado cada vez que se haga uso de la red, se mantendrá un registro de los \emph{bytes} transferidos en el último acceso en \emph{Transfered bytes}. Por último, se almacenerá también datos como el fabricante (\emph{manufacturer}), o el tipo de dispositivo o el nombre del dispositivo, que son variables configurables por el usuario.
+
+La relación que existe entre las dos tablas anteriores se define según una llave denominada \emph{ManyToManyField}, de esta forma, un ``ElementoDeRed" puede pertenecer a un ``Register", y un ``Register" puede tener múltiples registros de ``ElementoDeRed".
+
+La última tabla enlazada que encontramos se trata de la tabla ``HistóricoDeConsumo". En ella se mantendrá un registro del gasto de un dispositivo identificado por su dirección MAC (linkado con la tabla ``ElementoDeRed), a través de la suma de \emph{bytes} consumidos en un día.
+
+Se hace además uso de dos tablas más, la tabla de ``Log", y la tabla ``NAC". La primera se usa para llevar un registro de los eventos que han ocurrido en la red. Se almacena el momento temporal del evento, un mensaje descriptivo del suceso, y las direcciones IP y MAC del dispositivo involucrado.
+
+La segunda tabla, ``NAC" (\emph{Network Control Access}) , almacena la información referente al control de acceso a la red.
+
+\newpage
 \section{Estructura de las carpetas de la aplicación}
 \label{est_carpetas}
 
@@ -900,11 +931,11 @@ Por último, desde el punto de vista de los componentes de la aplicación, se esta
         \caption{Estructura de carpetas.}
 \end{wrapfigure}
 
-Como se ha comentado anteriormente, Django requiere de una estructura de contenidos peculiar y precisa. Por lo que con esta imagen se quiere mostrar y explicar el porqué del árbol de carpetas que se presenta en la solución \textit{CloudTrust}.
+Como se ha comentado anteriormente, \emph{Django} requiere de una estructura de contenidos peculiar y precisa. Por lo que con esta imagen se quiere mostrar y explicar el porqué del árbol de carpetas que se presenta en la solución \textit{CloudTrust}.
 
 El primer comentario importante que se debe hacer al respecto, sería la 
 distinción entre lo referente a los archivos estáticos y los archivos 
-referentes a la aplicación web o pertenecientes a Django, así como las
+referentes a la aplicación web o pertenecientes a \emph{Django}, así como las
  API's que se han desarrollado para crear el entorno. 
 Así, todo lo contenido bajo la carpeta static, será contenido estático, es decir imágenes, plantillas, iconos, etc. de los que hacen uso la aplicación.
 
@@ -915,12 +946,12 @@ Bajo la carpeta ``mysite'' encontramos algunos ficheros que no se pueden engloba
 \begin{enumerate}
   \item El primero de estos ficheros, \texttt{InitialScript.py}, contiene una serie de instrucciones que ejecutan y arrancan las funcionalidades principales del escenario como son el Controlador y el ServidorWeb de Django.
 
-  \item El segundo de los ficheros, \texttt{floodlightInitialScript.py}, corresponde al arranque de los servicios requeridos por el Controlador Floodlight.
+  \item El segundo de los ficheros, \texttt{floodlightInitialScript.py}, corresponde al arranque de los servicios requeridos por el Controlador \emph{Floodlight}.
 
-   \item El tercero de los archivos, \texttt{manage.py}, es un fichero básico dentro de la estructura de Django. Gracias a este fichero podemos ejecutar múltiples comandos preestablecidos que el framework de Django establece, como ``syncdb", para sincronizar la base de datos, o ``collectstatic'' que sirve para recolectar todos aquellos archivos estáticos en un único punto, y facilitar el servir estos ficheros en producción final.
+   \item El tercero de los archivos, \texttt{manage.py}, es un fichero básico dentro de la estructura de Django. Gracias a este fichero podemos ejecutar múltiples comandos preestablecidos que el \emph{framework} de \emph{Django establece}, como \emph{syncdb}, para sincronizar la base de datos, o \emph{collectstatic} que sirve para recolectar todos aquellos archivos estáticos en un único punto, y facilitar el servir estos ficheros en producción final.
 \end{enumerate}
 
-Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que Django provee para que nuestro ``site'' funcione. De esta forma, por ejemplo, el fichero \texttt{admin.py} contiene el código Python referente a una herramienta que se puede integrar dentro de proyectos de Django, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave admin, HTTP://host:port/admin. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución \textit{CloudTrust}, y por tanto se limita a la fase de developing.
+Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que Django provee para que nuestro \emph{site} funcione. De esta forma, por ejemplo, el fichero \texttt{admin.py} contiene el código Python referente a una herramienta que se puede integrar dentro de proyectos de Django, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave admin, \emph{HTTP://host:port/admin}. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución \textit{CloudTrust}, y por tanto se limita a la fase de developing.
 
 Bajo la carpeta GestionRed encontramos otro fichero muy importante, y este es \texttt{models.py}, en él encontraremos en código Python, bajo la nomenclatura especifica de Django, la estructura deseada de la base de datos, sus tablas y el contenido de cada una de ellas. Django provee de un método de sincronización con la base de datos, de tal forma que, las consultas que se realizan a la base de datos desde la aplicación web, son trasparentes, pues únicamente recurrimos a los métodos específicos que nos provee el framework de Django para trabajar.
 Dentro de esta misma carpeta, GestionRed, encontramos dos subcarpetas más que identificamos como ``management'' y como ``templatetags''. La primera de estas carpetas, contiene a su vez otra carpeta ``commands''. 
@@ -936,6 +967,9 @@ situé. Y es precisamente bajo esta carpeta donde situamos este script
 "parentalControl.py''. La segunda carpeta, ``templatetags", contiene un 
 archivo llamado ``GestionRedtags.py''. Según Django los archivos que 
 situemos bajo esta carpeta, contendrán funciones, que pueden llamar las plantillas HTML, de tal forma que podemos devolverle al renderizador del navegador la información requerida, tratada en Python, eliminando complejidad de procesado del navegador, y llevando la inteligencia software fuera de las plantillas HTML. Se trata de una herramienta muy poderosa de Django, que facilita mucho las labores de codificación.
+
+
+La segunda carpeta que encontramos, se llama MetodosPython, aquí se encuentran desarrolladas todas las API's o secciones de configuración, de las que hace uso el controlador, que interactúan en este caso con las funciones de red. A efectos de este proyecto, muchas de estas interfaces de programación realizan acciones de consulta y escritura en la base de datos. Por ello se decició crear una API específica de tratamiento de la base de datos, denominada DBInternalAccess.py. Aquí se desarrollan todos los métodos python que cualquier elemento de la red pueden invocar para realizar acciones con la base de datos.  
 
 La siguiente carpeta a comentar es ``mysite'' bajo la carpeta ``mysite", esta carpeta, contiene lo que podríamos denominar como la aplicación web en sí. Aquí definiremos el comportamiento de la aplicación web. Encontramos bajo esta carpeta tres ficheros de gran importancia, ``settings.py", ``urls.py'' y ``views.py''.
 
@@ -1381,6 +1415,9 @@ Como resultado de las pruebas se han observado distintas líneas de trabajo en la
 Mejorar el sistema de acceso, autorizando a los usuarios dependiendo del distinto nivel de acceso a información que deban tener. Establecer el concepto de administrador general del sistema en contraposición con el de hogar/cliente/contrato.
 
 \item
+Finalmente, no se consiguió implementar el sistema de control del ancho de banda de la solución debido a la simplicidad de la estructura de control. Se espera poder desarrollar avances en esta materia.
+
+\item
 Investigar los últimos avances en la tecnología Frenetic, y ampliar el controlador virtual para que soporte nuevas funciones que puedan ser interesantes.
 
 \item
@@ -1459,9 +1496,9 @@ Implementar la solución, y recibir feedback de usuarios activos del servicio.
 {\footnotesize
 \url{http://httpd.apache.org/docs/2.2/es/}}
 
-\bibitem{w3school} Web w3school, The largest web developer site, HTML y CSS \\
+\bibitem{w3school} Web estándar w3c \\
 {\footnotesize
-\url{http://www.w3schools.com/html/default.asp}}
+\url{http://www.w3c.es/estandares/}}
 
 \bibitem{GSYC} Grupo de Sistemas y Comunicaciones - Universidad Rey Juan Carlos. \\
 {\footnotesize
@@ -1482,13 +1519,17 @@ Implementar la solución, y recibir feedback de usuarios activos del servicio.
 
 \bibitem{ine} Instituto Nacional de Estadística \\
 {\footnotesize
-\url{http://www.ine.es}}
+\url{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176741&menu=ultiDatos&idp=1254735976608}}
 
 \bibitem{latex} Web del proyecto LaTeX \\
 {\footnotesize
 \url{https://latex-project.org/guides/
 }}
 
+\bibitem{userauth} Web del Django: User Authentication \\
+{\footnotesize
+\url{https://docs.djangoproject.com/es/1.9/topics/auth/default/#user-objects
+}}
 
 \end{thebibliography}
 
