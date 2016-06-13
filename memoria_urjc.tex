@@ -793,7 +793,7 @@ Como segundo elemento hardware importante requeriremos de una nube de almacenami
 
 En el siguiente diagrama encontramos resumidas las diferentes conexiones de red que encontramos dentro de la solución. Fijémonos en el cliente 1 por ejemplo, una red de hogar. 
 
-El cambio principal reside en el cambio del router ubicado en el hogar (o empresa o localización elegida) por un OpenVSwitch, es decir, se trata de un cambio hardware mínimamente invasivo.
+El cambio principal reside en el cambio del router ubicado en el hogar (o empresa o localización elegida) por un \emph{OpenVSwitch}, es decir, se trata de un cambio hardware mínimamente invasivo.
 
 
  \begin{figure}[H]
@@ -804,7 +804,7 @@ El cambio principal reside en el cambio del router ubicado en el hogar (o empres
  \end{figure}
 
 
-Además de la red del hogar, en la que se cambia un router por un OpenVSwitch, el primero de los componentes de \textit{CloudTrust} que encontramos son los Controladores Virtualizados o vCPE's. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos \emph{TCP/SSL}.
+Además de la red del hogar, en la que se cambia un router por un \emph{OpenVSwitch}, el primero de los componentes de \textit{CloudTrust} que encontramos son los Controladores Virtualizados o \emph{vCPE's}. Al extraer el router de la fase final de la red, necesitamos introducir la figura del controlador que haga las veces de controlador de red, pero que lo haga de forma virtualizada y externa a la red final bajo los protocolos \emph{TCP/SSL}.
 
 Este controlador tendrá las funciones avanzadas de un router, de tal manera que se minimizan las capacidades funcionales que tiene el hardware en casa del cliente, y por tanto nos lleva a procesos de integración de nuevos items y mantenimiento mucho más baratos.
 
@@ -826,7 +826,7 @@ En la figura que se presenta a continuación, se pueden identificar fácilmente la
     \label{figura:Bubbles}
  \end{figure}
 
-Para arrancar este entorno necesitamos el fichero en formato .ova y ejecutarlo en un programa que soporte este tipo de formato, en nuestro caso el programa que hemos utilizado en fase de desarrollo es \emph{Oracle VM VirtualBox}.
+Para arrancar este entorno necesitamos el fichero en formato \emph{.ova} y ejecutarlo en un programa que soporte este tipo de formato, en nuestro caso el programa que hemos utilizado en fase de desarrollo es \emph{Oracle VM VirtualBox}.
 
 Una vez arrancamos la máquina virtual se nos presenta un escritorio \emph{Linux}. Para arrancar el escenario debemos iniciar una ventana de terminal, y tras ello acceder como súper usuario con el comando ``sudo su", y ejecutar los siguientes comandos: (con la opción ``-t'' al final, se arranca, con la opción ``-P'' se cierra el escenario):
 
@@ -871,7 +871,7 @@ Una de las primeras consideraciones que tratamos de cubrir en el diseño de la ap
  \end{figure}
 
 
-Una vez accedemos con las credenciales de administrador, en nuestro caso, el usuario administrador se llama ``root/root''. Lo primero que recibimos es la bienvenida al portal de configuración y algunas indicaciones de los primeros pasos que debemos llevar a cabo.
+Una vez accedemos con las credenciales de administrador (en nuestro caso el usuario administrador se llama ``root/root''). Lo primero que recibimos es la bienvenida al portal de configuración y algunas indicaciones de los primeros pasos que debemos llevar a cabo.
 
 Se dividirá en tres bloques principales, el primero de ellos será un banner en el que se colocará a la izquierda un acceso directo a la página principal, y a la derecha información sobre las credenciales del usuario y un botón de logout.
 
@@ -886,9 +886,9 @@ Se dividirá en tres bloques principales, el primero de ellos será un banner en e
  
 
 
-El segundo bloque principal ocupará el lateral izquierdo de la pantalla y será un menú de acceso a las distintas funciones de la aplicación, este menú será estático y será permanentemente accesible por el usuario. Estas serán, ``Browse Devices'' (Acceso a la configuración de dispositivos), ``Users on my network'' (Acceso a la gestión de los usuarios de la red),"Network Log'' (Acceso a la información de Log de sistema) y por último, ``Data history"(Acceso al histórico de consumo).
+El segundo bloque principal ocupará el lateral izquierdo de la pantalla y será un menú de acceso a las distintas funciones de la aplicación, este menú será estático y será permanentemente accesible por el usuario. Estas serán, \emph{``Browse Devices''} (Acceso a la configuración de dispositivos), \emph{``Users on my network''} (Acceso a la gestión de los usuarios de la red),\emph{"Network Log''} (Acceso a la información de Log de sistema) y por último, \emph{``Data history"}(Acceso al histórico de consumo).
 
-El tercer bloque principal ocupará el resto de la página y es dónde se colocará la información de cada uno de los menús a los que se accede desde el segundo bloque. Así si por ejemplo el usuario accediera a ``Browse devives", en este bloque encontraríamos el listado de los dispositivos conocidos y desconocidos de la red del usuario. De la misma forma si clickase en la opción ``configurar usuario'' se desplegará un listado de todos los usuarios de la Red, con su consecuente información, y opciones de configuración.
+El tercer bloque principal ocupará el resto de la página y es dónde se colocará la información de cada uno de los menús a los que se accede desde el segundo bloque. Así si por ejemplo el usuario accediera a \emph{``Browse devives"}, en este bloque encontraríamos el listado de los dispositivos conocidos y desconocidos de la red del usuario. De la misma forma si clickase en la opción \emph{``configurar usuario''} se desplegará un listado de todos los usuarios de la Red, con su consecuente información, y opciones de configuración.
 
 Por último, desde el punto de vista de los componentes de la aplicación, se establece un modelo vista-control-datos.
 
@@ -951,61 +951,62 @@ Bajo la carpeta ``mysite'' encontramos algunos ficheros que no se pueden engloba
    \item El tercero de los archivos, \texttt{manage.py}, es un fichero básico dentro de la estructura de Django. Gracias a este fichero podemos ejecutar múltiples comandos preestablecidos que el \emph{framework} de \emph{Django establece}, como \emph{syncdb}, para sincronizar la base de datos, o \emph{collectstatic} que sirve para recolectar todos aquellos archivos estáticos en un único punto, y facilitar el servir estos ficheros en producción final.
 \end{enumerate}
 
-Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que Django provee para que nuestro \emph{site} funcione. De esta forma, por ejemplo, el fichero \texttt{admin.py} contiene el código Python referente a una herramienta que se puede integrar dentro de proyectos de Django, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave admin, \emph{HTTP://host:port/admin}. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución \textit{CloudTrust}, y por tanto se limita a la fase de developing.
+Por orden, la carpeta GestionRed contiene las utilidades que hemos creado o que \emph{Django} provee para que nuestro \emph{site} funcione. De esta forma, por ejemplo, el fichero \texttt{admin.py} contiene el código \emph{Python} referente a una herramienta que se puede integrar dentro de proyectos de \emph{Django}, a la que se puede acceder a través del navegador invocando tras la petición la palabra clave \emph{admin}, \emph{HTTP://host:port/admin}. Esto nos permitirá acceder a los contenidos de la base de datos, muy útil a la hora del desarrollo de la aplicación. Se trata de un servicio no extensible a la solución \textit{CloudTrust}, y por tanto se limita a la fase de developing.
 
-Bajo la carpeta GestionRed encontramos otro fichero muy importante, y este es \texttt{models.py}, en él encontraremos en código Python, bajo la nomenclatura especifica de Django, la estructura deseada de la base de datos, sus tablas y el contenido de cada una de ellas. Django provee de un método de sincronización con la base de datos, de tal forma que, las consultas que se realizan a la base de datos desde la aplicación web, son trasparentes, pues únicamente recurrimos a los métodos específicos que nos provee el framework de Django para trabajar.
-Dentro de esta misma carpeta, GestionRed, encontramos dos subcarpetas más que identificamos como ``management'' y como ``templatetags''. La primera de estas carpetas, contiene a su vez otra carpeta ``commands''. 
+Bajo la carpeta GestionRed encontramos otro fichero muy importante, y este es \texttt{models.py}, en él encontraremos en código \emph{Python}, bajo la nomenclatura especifica de \emph{Django}, la estructura deseada de la base de datos, sus tablas y el contenido de cada una de ellas. \emph{Django} provee de un método de sincronización con la base de datos, de tal forma que, las consultas que se realizan a la base de datos desde la aplicación web, son trasparentes, pues únicamente recurrimos a los métodos específicos que nos provee el \emph{framework} de \emph{Django} para trabajar.
+Dentro de esta misma carpeta, GestionRed, encontramos dos subcarpetas más que identificamos como \emph{``management''} y como \emph{``templatetags''}. La primera de estas carpetas, contiene a su vez otra carpeta \emph{``commands''}. 
 
-Gracias a Django, podemos situar dentro de esta carpeta módulos Python
+Gracias a \emph{Django}, podemos situar dentro de esta carpeta módulos \emph{Python}
 ejecutables por línea de comandos, para crear nuestros propios comandos.
 En el desarrollo de nuestra aplicación entre las múltiples funciones de 
-configuración que ofrecemos al usuario, se encuentra el control parental,
-es decir, requeriremos de un script que se ejecute periódicamente y que
-compruebe la hora actual, y otorgue o deniegue la conectividad a los
+configuración que ofrecemos al usuario se encuentra el control parental,
+y para hacerlo funcionar requeriremos de un script que se ejecute periódicamente comprobando la hora actual, y otorgue o deniegue la conectividad a los
 dispositivos de un usuario dependiendo de la franja horaria en la que se 
-situé. Y es precisamente bajo esta carpeta donde situamos este script
-"parentalControl.py''. La segunda carpeta, ``templatetags", contiene un 
-archivo llamado ``GestionRedtags.py''. Según Django los archivos que 
-situemos bajo esta carpeta, contendrán funciones, que pueden llamar las plantillas HTML, de tal forma que podemos devolverle al renderizador del navegador la información requerida, tratada en Python, eliminando complejidad de procesado del navegador, y llevando la inteligencia software fuera de las plantillas HTML. Se trata de una herramienta muy poderosa de Django, que facilita mucho las labores de codificación.
+sitúe. Es precisamente bajo esta carpeta donde situamos este script
+\emph{"parentalControl.py''}. 
+La segunda carpeta, \emph{``templatetags"}, contiene un 
+archivo llamado \emph{``GestionRedtags.py''}. Según \emph{Django} los archivos que 
+situemos bajo esta carpeta contendrán funciones, que pueden llamar las plantillas HTML, de tal forma que podemos devolverle al renderizador del navegador la información requerida, tratada en \emph{Python}, eliminando complejidad de procesado del navegador, y llevando la inteligencia software fuera de las plantillas HTML. Se trata de una herramienta muy poderosa de \emph{Django}, que facilita mucho las labores de codificación.
 
 
-La segunda carpeta que encontramos, se llama MetodosPython, aquí se encuentran desarrolladas todas las API's o secciones de configuración, de las que hace uso el controlador, que interactúan en este caso con las funciones de red. A efectos de este proyecto, muchas de estas interfaces de programación realizan acciones de consulta y escritura en la base de datos. Por ello se decició crear una API específica de tratamiento de la base de datos, denominada DBInternalAccess.py. Aquí se desarrollan todos los métodos python que cualquier elemento de la red pueden invocar para realizar acciones con la base de datos.  
+La segunda carpeta que encontramos, se llama MetodosPython, aquí se encuentran desarrolladas todas las API's o secciones de configuración, de las que hace uso el controlador, que interactúan en este caso con las funciones de red. A efectos de este proyecto, muchas de estas interfaces de programación realizan acciones de consulta y escritura en la base de datos. Por ello se decició crear una API específica de tratamiento de la base de datos, denominada \emph{DBInternalAccess.py}. Aquí se desarrollan todos los métodos python que cualquier elemento de la red pueden invocar para realizar acciones con la base de datos.  
 
-La siguiente carpeta a comentar es ``mysite'' bajo la carpeta ``mysite", esta carpeta, contiene lo que podríamos denominar como la aplicación web en sí. Aquí definiremos el comportamiento de la aplicación web. Encontramos bajo esta carpeta tres ficheros de gran importancia, ``settings.py", ``urls.py'' y ``views.py''.
+La siguiente carpeta a comentar es \emph{``mysite''} bajo la carpeta \emph{``mysite"}, esta carpeta, contiene lo que podríamos denominar como la aplicación web en sí. Aquí definiremos el comportamiento de la aplicación web. Encontramos bajo esta carpeta tres ficheros de gran importancia, \emph{``settings.py"}, \emph{``urls.py''} y \emph{``views.py''}.
 
 \begin{enumerate}
-  \item El primero de estos archivos, ``settings.py", como los dos restantes son ficheros específicos que Django crea según se arranca un nuevo proyecto. La función principal de ``settings.py'' es la definición de variables globales del proyecto, como pueden ser la IP y el puerto de nuestro servidor, la información de configuración de la base de datos, la zona horaria, el código de lenguaje, la localización de dónde se están sirviendo los archivos estáticos o la inclusión de APP externas de las que queramos hacer uso.
-  \item El segundo de los archivos previamente mencionados, ``urls.py", se trata de un fichero bajo el cual Django establece el patrón de navegación de la aplicación de configuración web. Es decir, realiza la conexión entre cada solicitud HTTP a una URL específica y el método Python que lo ejecuta. Por ejemplo, podemos encontrar dentro de fichero esta línea de código:
-\end{enumerate}
-
-
+  \item El primero de estos archivos, \emph{``settings.py"}, como los dos restantes son ficheros específicos que Django crea según se arranca un nuevo proyecto. La función principal de \emph{``settings.py''} es la definición de variables globales del proyecto, como pueden ser la IP y el puerto de nuestro servidor, la información de configuración de la base de datos, la zona horaria, el código de lenguaje, la localización de dónde se están sirviendo los archivos estáticos o la inclusión de APP externas de las que queramos hacer uso.
+  \item El segundo de los archivos previamente mencionados, \emph{``urls.py"}, se trata de un fichero bajo el cual Django establece el patrón de navegación de la aplicación de configuración web. Es decir, realiza la conexión entre cada solicitud HTTP a una URL específica y el método \emph{Python} que lo ejecuta. Por ejemplo, podemos encontrar dentro de fichero esta línea de código:
 {\scriptsize
   \begin{verbatim}
   url(r'^Index\$',         'mysite.views.Index'),
 \end{verbatim}
 }
-
-Mediante el uso de expresiones generales, podemos definir bajo que formato de peticiones queremos responder y con qué método queremos hacerlo. En este caso, esta línea de código específica que para peticiones a nuestro servidor y puerto, seguidas de ``/Index'' responderemos con la función Python definida en mysite/views.py bajo el nombre de Index.
+Mediante el uso de expresiones generales, podemos definir bajo que formato de peticiones queremos responder y con qué método queremos hacerlo. En este caso, esta línea de código específica que para peticiones a nuestro servidor y puerto, seguidas de ``/Index'' responderemos con la función \emph{Python} definida en mysite/views.py bajo el nombre de Index.
 Así y bajo esta misma filosofía construiremos la estructura de navegación completa de la aplicación de configuración.
 
-El tercero de estos archivos, muy relacionado con el segundo, es ``views.py''. En él colocaremos todas las funciones que responderán a las peticiones tipo GET y POST que realicen los navegadores de los usuarios, para cada URL especificada y para cada usuario.
+    \item
+    El tercero de estos archivos, muy relacionado con el segundo, es \emph{``views.py''}. En él colocaremos todas las funciones que responderán a las peticiones tipo GET y POST que realicen los navegadores de los usuarios, para cada URL especificada y para cada usuario.
+\end{enumerate}
 
-La siguiente imagen que vamos a comentar es la estructura de archivos estáticos del entorno, así como la estructura de plantillas o templates en las que se basa la navegación de la página web.
 
-Bajo la carpeta static, todos los archivos con formato ``.png'' son imágenes. Bajo las carpeta js, encontramos todas las funciones JavaScript y bajo la carpeta CSS los archivos que definen  los estilos de los elementos HTML.
+
+
+El siguiente elemento que se va a comentar es la estructura de archivos estáticos del entorno, así como la estructura de plantillas o templates en las que se basa la navegación de la página web.
+
+Bajo la carpeta \emph{static}, todos los archivos con formato \emph{``.png''} son imágenes. Bajo las carpeta js, encontramos todas las funciones JavaScript y bajo la carpeta CSS los archivos que definen  los estilos de los elementos HTML.
 
 Siguiendo la estructura típica de las páginas HTML, la página de inicio la
-denominamos Index.html, en esta se despliega el formulario de
+denominamos \emph{Index.html}, en esta se despliega el formulario de
 autenticación, y según seamos administrador de la red o usuario, nos
-redirige a Logged.html para el primero y Logged\_user.html para el segundo.
+redirige a \emph{Logged.html} para el primero o \emph{Logged\_user.html} para el segundo.
 Desde esta página principal podemos acceder a todas las funcionalidades
 desde el menú de la izquierda como hemos comentado antes, podemos acceder
 a la vista de dispositivos según seamos administrador
-(devices\_superuser.html) o  usuario (Devices\_user.html).
+(\emph{Devices\_superuser.html}) o  usuario (\emph{Devices\_user.html}).
 
-Si somos administradores desde el Index seremos capaces de acceder a gestionar los usuarios de la red. Para ello el template a renderizar es el de Manage\_users.html
-Sin embargo si queremos visualizar el histórico de consumo, si somos administradores podremos ver el de todos los dispositivos de la red, desde Data\_superuser.html, o si somos usuarios el de nuestros dispositivos desde Data\_user.html.
-Por último podemos consultar el fichero de eventos desde Log.html.
+Si somos administradores desde el Index seremos capaces de acceder a gestionar los usuarios de la red. Para ello el template a renderizar es el de \emph{Manage\_users.html}.
+Sin embargo si queremos visualizar el histórico de consumo, si somos administradores podremos ver el de todos los dispositivos de la red, desde \emph{Data\_superuser.html}, o si somos usuarios el de nuestros dispositivos desde \emph{Data\_user.html}.
+Por último podemos consultar el fichero de eventos desde \emph{Log.html}.
 
 
 
@@ -1022,9 +1023,9 @@ En este apartado pasamos a describir algunos escenarios reales con los que nos p
 \section{Caso de estudio 1: Primer acceso} 
 \label{Caso1}
 
-Una vez hemos arrancado el escenario virtualizado con VNX, y tengamos funcionando todas las máquinas virtuales que simulan una red (router, servidor DHCP, Controlador y Servidor web), el propio entorno de pruebas nos abre un navegador predeterminado (Firefox) y nos carga la URL donde se sirve la aplicación web de Django, previamente configurado y arrancado.
+Una vez hemos arrancado el escenario virtualizado con VNX, y tengamos funcionando todas las máquinas virtuales que simulan una red (router, servidor DHCP, Controlador y Servidor web), el propio entorno de pruebas nos abre un navegador predeterminado (\emph{Firefox}) y nos carga la URL donde se sirve la aplicación web de \emph{Django}, previamente configurado y arrancado.
  
-La siguiente imagen, es una captura de pantalla de la página de Index que un usuario de \textit{CloudTrust} vería en cualquier dispositivo con acceso a la Red si tratara de acceder por primera vez. Este portal hace las veces, de página de bienvenida y de captive portal, pues si el dispositivo del usuario no está reconocido dentro de la red, se le pedirán unas credenciales de acceso.
+La siguiente imagen, es una captura de pantalla de la página de Index que un usuario de \textit{CloudTrust} vería en cualquier dispositivo con acceso a la Red si tratara de acceder por primera vez. Este portal hace las veces, de página de bienvenida y de \emph{captive portal}, pues si el dispositivo del usuario no está reconocido dentro de la red, se le pedirán unas credenciales de acceso.
 
  \begin{figure}[H]
     \centering
@@ -1033,8 +1034,8 @@ La siguiente imagen, es una captura de pantalla de la página de Index que un usu
     \label{figura:caso11}
  \end{figure}
 
-La solución \textit{CloudTrust}, depende de la existencia de un administrador único de red, que tenga acceso a la gestión de su red personal, según lo definido en el apartado 3. Estas credenciales pueden ser fácilmente definibles gracias a la estructura de Django y a su funcionalidad ``admin''.
-Es importante no confundir al administrador de la red con los distintos tipos de perfiles que se han definido (User, Guest, Not Validated).
+La solución \textit{CloudTrust}, depende de la existencia de un administrador único de red, que tenga acceso a la gestión de su red personal, según lo definido en el apartado 3. Estas credenciales pueden ser fácilmente definibles gracias a la estructura de \emph{Django} y a su funcionalidad ``admin''.
+Es importante no confundir al administrador de la red con los distintos tipos de perfiles que se han definido (User, Guest o Not Validated).
 
 Así pues, una vez hayamos accedido al portal de configuración por primera vez, la propia aplicación web, nos guiará entre las principales funcionalidades del entorno:
 
@@ -1046,7 +1047,7 @@ Así pues, una vez hayamos accedido al portal de configuración por primera vez, l
  \end{figure}
 
 Como vemos la aplicación web nos invita a comenzar a configurar los usuarios de nuestra red, o bien a verificar hemos configurado en nuestra red.
-Clickamos en el botón de ``Start!", y nos redirige al panel de vista de dispositivos:
+Clickamos en el botón de \emph{``Start!"}, y nos redirige al panel de vista de dispositivos:
 
  \begin{figure}[H]
     \centering
@@ -1055,9 +1056,9 @@ Clickamos en el botón de ``Start!", y nos redirige al panel de vista de disposit
     \label{figura:caso13}
  \end{figure}
 
-La aplicación web, nos guía entorno al uso de la esta vista. Como se describe lo primero que debemos notar es que existen dos vistas ("tabs") distintas, una para los dispositivos conocidos ("Known devices") y otra para los dispositivos desconocidos ("Unknown devices"). Como nos indica, al ser la primera vez que accedemos al portal no tenemos ningún dispositivo vinculado a ningún usuario. 
+La aplicación web, nos guía entorno al uso de esta vista. Como se describe, lo primero que debemos notar es que existen dos vistas (\emph{"tabs"}) distintas, una para los dispositivos conocidos (\emph{"Known devices"}) y otra para los dispositivos desconocidos (\emph{"Unknown devices"}). Como nos indica, al ser la primera vez que accedemos al portal no tenemos ningún dispositivo vinculado a ningún usuario. 
 
-Continuamos haciendo click en el botón de ``Check Unknown devices":
+Continuamos haciendo click en el botón de \emph{``Check Unknown devices"}:
 
  \begin{figure}[H]
     \centering
@@ -1066,8 +1067,8 @@ Continuamos haciendo click en el botón de ``Check Unknown devices":
     \label{figura:caso14}
  \end{figure}
 
-En esta vista se nos muestra un extracto de texto, que nos comunica que en la red no ha aparecido ningún dispositivo de red todavía (esto es así, porque todavía no hemos arrancado ningún dispositivo dentro del escenario, dado que estamos en un entorno que hace uso de DHCP con el primer mensaje de discover IP ya se detectará el dispositivo).
-A pesar de que el escenario nos plantee continuar la navegación explorando la pestaña de Log, pasamos a la pestaña de ``Users on my network", y obtenemos la siguiente presentación:
+En esta vista se nos muestra un extracto de texto, que nos comunica que en la red no ha aparecido ningún dispositivo de red todavía (esto es así, porque todavía no hemos arrancado ningún dispositivo dentro del escenario. Dado que estamos en un entorno que hace uso de DHCP con el primer mensaje de discover IP ya se detectará el dispositivo).
+A pesar de que el escenario nos plantee continuar la navegación explorando la pestaña de Log, pasamos a la pestaña de \emph{``Users on my network"}, y obtenemos la siguiente presentación:
 
  \begin{figure}[H]
     \centering
@@ -1078,7 +1079,7 @@ A pesar de que el escenario nos plantee continuar la navegación explorando la pe
 
 Como vemos, nuevamente la aplicación nos guía y nos hace saber que la mejor forma de continuar, es proceder a crear un usuario en nuestra red, así pues, tendremos que configurar una única vez perfiles de usuario para cada uno de, por ejemplo, los integrantes de nuestra unidad familiar.
 
-Procedemos a crear un primer usuario, en este caso, el usuario ``David'' con su pareja de ``username/password":
+Procedemos a crear un primer usuario, en este caso, el usuario ``David'' con su pareja de \emph{username/password}:
 
  \begin{figure}[H]
     \centering
@@ -1087,7 +1088,7 @@ Procedemos a crear un primer usuario, en este caso, el usuario ``David'' con su 
     \label{figura:caso16}
  \end{figure}
 
-Tras una página de confirmación de que nuestro usuario se ha creado correctamente, nos redirige automáticamente la vista de usuarios:
+Tras una página de confirmación de que nuestro usuario se ha creado correctamente, nos redirige automáticamente a la vista de usuarios:
 
  \begin{figure}[H]
     \centering
@@ -1097,7 +1098,7 @@ Tras una página de confirmación de que nuestro usuario se ha creado correctament
  \end{figure}
 
 La vista que se nos presenta es un desplegable del usuario que acabamos de crear, David, con su información más relevante desplegada. Así como aquellas pestañas que permitirán configurar ciertos parámetros por usuario.
-Podemos crear más usuarios, tantos como deseamos, creamos otro usuario ``Beatriz'' para poder ver la vista del desplegable de usuarios.
+Podemos crear más usuarios, tantos como deseamos, creamos otro usuario, ``Beatriz''.
 
  \begin{figure}[H]
     \centering
@@ -1115,7 +1116,7 @@ A continuación, y con el escenario planteado, pasamos a simular que aparece un d
     \label{figura:caso19}
  \end{figure}
 
-Con esta instrucción, arrancamos en vnx una nueva máquina virtual cargada con la imagen de un dispositivo de red, previamente configurada que tratará de acceder a la red.
+Con esta instrucción, arrancamos en VNX una nueva máquina virtual cargada con la imagen de un dispositivo de red, previamente configurada que tratará de acceder a la red.
 
 Nuestra red, va a reconocer el dispositivo y si navegamos a la página de dispositivos desconocidos (simplemente recargando) podremos ver cómo efectivamente el entorno ha recibido la petición de acceso y se nos muestra el desplegable de un dispositivo de red desconocido en la red:
 
@@ -1126,9 +1127,9 @@ Nuestra red, va a reconocer el dispositivo y si navegamos a la página de disposi
     \label{figura:caso110}
  \end{figure}
 
-Esta vista es muy importante, pues el usuario de \textit{CloudTrust} no tiene porque contar con conocimientos sobre redes o dispositivos de red, y a de ser un entorno easy, y user-friendly. Así pues, la información que se despliega sobre el dispositivo es únicamente la más relevante, como pueden ser la dirección MAC o la dirección IP que el servidor DHCP le ha asignado. Además, en función de la direccion MAC, y los 24 primeros bits podemos averiguar quién es el fabricante, con una simple consulta a una base de datos. Como vemos todavía no le hemos asignado ningún usuario a este dispositivo.
+Esta vista es muy importante, pues el usuario de \textit{CloudTrust} no tiene porque contar con conocimientos sobre redes o dispositivos de red. Por tanto ha de ser un entorno sencillo, y \emph{user-friendly}. Así pues, la información que se despliega sobre el dispositivo es únicamente la más relevante, como pueden ser la dirección MAC o la dirección IP que el servidor DHCP le ha asignado. Además, en función de la direccion MAC, y los 24 primeros bits podemos averiguar quién es el fabricante, con una simple consulta a una base de datos. Como vemos todavía no le hemos asignado ningún usuario a este dispositivo.
 
-El usuario dueño del dispositivo h1, tratará de navegar pues como vemos tiene dirección IP asignada 10.0.0.10, y digamos que por ejemplo va a su navegador e introduce la URL de www.google.es:
+El usuario dueño del dispositivo h1, tratará de navegar (como vemos tiene dirección IP asignada 10.0.0.10), y digamos que por ejemplo va a su navegador e introduce la URL de www.google.es:
 
 \begin{figure}[H]
     \centering
@@ -1137,7 +1138,7 @@ El usuario dueño del dispositivo h1, tratará de navegar pues como vemos tiene di
     \label{figura:caso111}
  \end{figure}
  
-Tras varios segundos verá que no tiene acceso a Internet pues el encaminador no lo reconoce como un dispositivo con permisos.
+Tras varios segundos verá que no tiene acceso a Internet pues el controlador no lo reconoce como un dispositivo con permisos.
 
 Así que, el administrador de la red a través de la aplicación web, pasa a asignar el dispositivo h1 (10.0.0.10) al usuario David, que ya hemos creado previamente, y si vamos a la vista de dispositivos conocidos vemos el resultado del cambio:
 
@@ -1151,7 +1152,7 @@ Así que, el administrador de la red a través de la aplicación web, pasa a asigna
  
  El usuario David, es un usuario que no ha sido validado, es decir, no tiene acceso a los recursos de red, y por ello, el icono del semáforo nos indica que este dispositivo no tiene acceso a la red.
  
-Procedemos a configurar el usuario David y le asignamos el perfil de ``User'' (usuario con acceso total a los recursos de red), clickando en change profile. Ahora cualquier dispositivo asociado a David, tendrá acceso a la red.
+Procedemos a configurar el usuario David y le asignamos el perfil de ``User'' (usuario con acceso total a los recursos de red), clickando en \emph{change profile}. Ahora cualquier dispositivo asociado a David, tendrá acceso a la red.
 
  
  \begin{figure}[H]
@@ -1188,8 +1189,8 @@ A continuación se trata de representar un caso real, en el que un usuario no adm
 
 Así pues, igual que en el caso de estudio anterior, arrancamos un segundo dispositivo, en este caso el dispositivo ``h2", que aparece como nuevo en la red y lo identifica el entorno igual que el con el dispositivo h1.
 
-Digamos que este usuario trata de acceder a cualquier web en su navegador, será entonces redirigido al captive portal pues su dispositivo todavía no ha sido identificado ni verificado:
-(Para esta parte del proceso hemos hecho uso de un navegador basado solo en texto, elinks).
+Digamos que este usuario trata de acceder a cualquier web en su navegador, será entonces redirigido al \emph{captive portal} pues su dispositivo todavía no ha sido identificado ni verificado:
+(Para esta parte del proceso hemos hecho uso de un navegador basado solo en texto, \emph{elinks}).
 
  \begin{figure}[H]
     \centering
@@ -1198,7 +1199,7 @@ Digamos que este usuario trata de acceder a cualquier web en su navegador, será 
     \label{figura:caso21}
  \end{figure}
 
-Como vemos el usuario se ha encontrado con el captive portal del entorno y trata de acceder con las credenciales del usuario Beatriz, que recordemos se trataba de un usuario no validado (sin acceso a los recurso de red). Como este usuario no tiene los permisos habilitados, se le redirige de nuevo al captive portal, y ahora trata de acceder con las credenciales del usuario David.
+Como vemos el usuario se ha encontrado con el \emph{captive portal} del entorno y trata de acceder con las credenciales del usuario Beatriz, que recordemos se trataba de un usuario no validado (sin acceso a los recurso de red). Como este usuario no tiene los permisos habilitados, se le redirige de nuevo al captive portal, y ahora trata de acceder con las credenciales del usuario David.
 
  \begin{figure}[H]
     \centering
@@ -1207,7 +1208,7 @@ Como vemos el usuario se ha encontrado con el captive portal del entorno y trata
     \label{figura:caso22}
  \end{figure}
  
-Tras introducir las credenciales de David, como usuario habilitado, y clickar en el login, el dispositivo se asigna automáticamente al usuario en la base de datos, y si ahora trata de acceder a cualquier URL, podrá hacerlo:
+Tras introducir las credenciales de David, como usuario habilitado, y clickar en el \emph{login}, el dispositivo se asigna automáticamente al usuario en la base de datos, y si ahora trata de acceder a cualquier URL, podrá hacerlo:
  
   \begin{figure}[H]
     \centering
@@ -1279,7 +1280,7 @@ Se ha configurado de tal forma que un usuario Guest, tenga acceso a la red única
     \label{figura:caso35}
  \end{figure}
  
-Como podemos ver, se lanzó una petición a www.google.es, y tras varios intentos fallidos (icmp\_seq < 22) ya que el dispositivo no estaba habilitado para navegar, comienza la transmisión a partir del instante en el que se le conceden los permisos (a partir de icmp\_seq = 22) hasta que transcurre el tiempo límite (hasta icmp\_seq = 47).
+Como podemos ver, se lanzó una petición a \emph{www.google.es}, y tras varios intentos fallidos (\emph{icmp\_seq} < 22) ya que el dispositivo no estaba habilitado para navegar, comienza la transmisión a partir del instante en el que se le conceden los permisos (a partir de \emph{icmp\_seq} = 22) hasta que transcurre el tiempo límite (hasta \emph{icmp\_seq} = 47).
 
 
 \newpage
@@ -1293,9 +1294,9 @@ Probemos ahora a explorar algunas de las otras funciones que se han configurado,
  \end{figure}
  
  Se incluye en esta vista, toda la información de carácter más relevante para el usuario, de forma que los dispositivos sean fácilmente identificables, estos son el nombre o el icono de dispositivo que se le haya asignado, o el fabricante del dispositivo. 
-Además se incluye el contador de consumo de los dispositivos bajo la columna de ``Transfered Bytes''. También la opción de denegar el servicio por dispositivo.
+Además se incluye el contador de consumo de los dispositivos bajo la columna de \emph{Transfered Bytes}. También la opción de conceder (\emph{grant}) o denegar (\emph{deny}) el servicio por dispositivo.
 
-Se ha implementado también la posibilidad de establecer controles parentales por usuario así pues, imaginemos que el usuario David sólo tenga acceso desde las 0 a.m. hasta las 10 a.m., para ello nos vamos a la pestaña de ``Parental Control'' y asignamos la franja horaria que deseemos:
+Se ha implementado también la posibilidad de establecer controles parentales por usuario así pues, imaginemos que queremos que el usuario David sólo tenga acceso desde las 0 a.m. hasta las 10 a.m., para ello nos vamos a la pestaña de ``Parental Control'' y asignamos la franja horaria que deseemos:
 
     \begin{figure}[H]
     \centering
@@ -1363,13 +1364,13 @@ Tras un año de trabajo, la solución \textit{CloudTrust} se encuentra empaquetada
 
 El proyecto \textit{CloudTrust} es un proyecto de un largo recorrido, y tuve la suerte de participar en la segunda mitad de su proceso de desarrollo. Cuando se comenzó a trabajar en la solución de \textit{CloudTrust} tenía mucho trabajo por delante, y se requirió la inclusión de una persona que fuera capaz de juntar el trabajo de las tres empresas participantes, y actuase bajo la figura de director de proyecto. Por ello cuando me incorporé y durante la duración del proyecto, no sólo tuve que realizar tareas de desarrollo de código, sino que también llevé a cabo tareas de gestión, así cómo tareas de gestión de proyecto.
 
-En un apartado más técnico, las capacidades adquiridas son muchas, por ejemplo, y por enumerar algunas de las más importantes, he aprendido y extendido mis conocimientos sobre bases de datos, sobre su estructura, su correcta implementación, o la forma más eficiente de implementarlas. Con Django, esto es extremadamente sencillo. También he tenido la oportunidad de extender mis conocimientos sobre programación en lenguaje Python, particularmente con el trato de bases de datos, de usuarios o como construir páginas web en HTML apartando la lógica con Python. 
+En un apartado más técnico, las capacidades adquiridas son muchas, por ejemplo, y por enumerar algunas de las más importantes, he aprendido y extendido mis conocimientos sobre bases de datos, sobre su estructura, su correcta implementación, o la forma más eficiente de implementarlas. Con \emph{Django}, esto es extremadamente sencillo. También he tenido la oportunidad de extender mis conocimientos sobre programación en lenguaje \emph{Python}, particularmente con el trato de bases de datos, de usuarios o como construir páginas web en HTML apartando la lógica con \emph{Python}. 
 
-Otra de las características nuevas aprendidas digna de mención, es el uso de los templatetags de Django, estos permiten hacer un preprocesado de la petición del usuario en Python, y devolver la información de tal forma que el navegador no tiene que ejecutar ningún script y la velocidad de carga de la página es mayor. Esto permite además manejar la información en local y no depender de codificaciones externas susceptibles de cambios o actualizaciones. 
+Otra de las características nuevas aprendidas digna de mención, es el uso de los templatetags de \emph{Django}, estos permiten hacer un preprocesado de la petición del usuario en \emph{Python}, y devolver la información de tal forma que el navegador no tiene que ejecutar ningún script y la velocidad de carga de la página es mayor. Esto permite además manejar la información en local y no depender de codificaciones externas susceptibles de cambios o actualizaciones. 
 
-Siguiendo en la línea de lo aprendido entorno a la creación de páginas webs, en el proyecto se tomó la decisión conjunta de utilizar el framework de Bootstrap para mayor sencillez en la construcción de las vistas. Bootstrap plantea algunas plantillas de las que se pueden hacer uso, y que son fácilmente configurables, le ahorran al programador, tareas engorrosas como la colocación de los elementos, o el diseño de los mismos. Incluye además algunas partes de código ejecutables, a las que se llama en función de un formato de clases siguiendo la estructura de HTML. Es decir, el proceso de aprendizaje no se limita exclusivamente al uso de las herramientas más utilizadas, sino que también he aprendido a ser mejor profesional y aprender la importancia y el valor de mi tiempo.
+Siguiendo en la línea de lo aprendido entorno a la creación de páginas web, en el proyecto se tomó la decisión conjunta de utilizar el \emph{framework} de \emph{Bootstrap} para mayor sencillez en la construcción de las vistas. \emph{Bootstrap} plantea algunas plantillas de las que se pueden hacer uso, y que son fácilmente configurables, le ahorran al programador, tareas engorrosas como la colocación de los elementos, o el diseño de los mismos. Incluye además algunas partes de código ejecutables, a las que se llama en función de un formato de clases siguiendo la estructura de HTML. Es decir, el proceso de aprendizaje no se limita exclusivamente al uso de las herramientas más utilizadas, sino que también he aprendido a ser mejor profesional y aprender la importancia y el valor de mi tiempo.
 
-Referente a la elección del entorno de trabajo, he de mencionar que una de las grandes lecciones aprendidas, ha sido la de la importancia de crear un preproceso de definición de requisitos, pues en proyectos tan grandes como este, un mal estudio previo puede desembocar en que las tareas no puedan ser completadas. Un ejemplo de esto es la elección de la estructura Frenetic, hay muchas estructuras de control de datos para SDN pero esta es la que mejor se adecuaba a nuestros requerimientos, pues su sencillez que permite abstraerse al desarrollador e implementar aplicaciones complejas con menor esfuerzo. Además permite usar el lenguaje Python desplegable en cualquier sistema operativo, que dispone de un amplio abanico de desarrolladores activos. Sin embargo, depende de que todas las reglas de monitorización pasen por el controlador y esto limita su escalabilidad, o para aplicaciones que requieran de anchos de banda muy grandes.
+Referente a la elección del entorno de trabajo, he de mencionar que una de las grandes lecciones aprendidas, ha sido la de la importancia de hacer un preproceso de definición de requisitos, pues en proyectos tan grandes como este, un mal estudio previo puede desembocar en que las tareas no puedan ser completadas. Un ejemplo de esto es la elección de la estructura Frenetic, hay muchas estructuras de control de datos para SDN pero esta es la que mejor se adecuaba a nuestros requerimientos, pues su sencillez permite abstraerse al desarrollador e implementar aplicaciones complejas con menor esfuerzo. Además permite usar el lenguaje \emph{Python} que es  desplegable en cualquier sistema operativo, que dispone de un amplio abanico de desarrolladores activos. Sin embargo, depende de que todas las reglas de monitorización pasen por el controlador y esto limita su escalabilidad, o para aplicaciones que requieran de anchos de banda muy grandes.
 
 Como se ha comentado anteriormente en puntos anteriores del proyecto, el valor añadido de participar en un proyecto en el que participan varias personas y empresas, me ha hecho comprender lo importante que son cosas como la viabilidad empresarial, el cumplimiento de tareas, así cómo, la correcta definición de tiempos y procesos.
 
@@ -1384,21 +1385,21 @@ Transformar todo este entendimiento junto con mi crecimiento personal y la forma
 \begin{itemize}
 
 \item
-Fundamentos de la programación y Métodos de programación: Ambas asignaturas en gran medida como se comentaba anteriormente, sentaron las bases sobre la lógica, la arquitectura y el bien hacer a la hora de programar. 
+\textit{Fundamentos de la programación} y \textit{Métodos de programación}: Ambas asignaturas en gran medida como se comentaba anteriormente, sentaron las bases sobre la lógica, la arquitectura y el bien hacer a la hora de programar. 
 
 \item
-Fundamentos de los computadores I y II:
-Igual que las dos asignaturas anteriores, el conocimiento que recogían sobre software y hardware es de básico conocimiento a la hora de realizar cualquier proyecto técnico que se precie.
+\textit{Fundamentos de los computadores I y II}:
+Igual que las dos asignaturas anteriores, el conocimiento que recogían estas otras dos asignaturas sobre software y hardware es de básico conocimiento a la hora de realizar cualquier proyecto técnico que se precie.
 
 \item
-Sistemas Telemáticas I y II, Información audiovisual en Redes de Ordenadores Planificación y Gestión de redes de ordenadores:
+\textit{Sistemas Telemáticas I y II}, \textit{Información audiovisual en Redes de Ordenadores} y \textit{Planificación y Gestión de redes de ordenadores}:
 Todas estas asignaturas combinadas dan una vista general y completa del funcionamiento y administración de redes, así tanto cómo su arquitectura, los protocolos de comunicación y su correcto diseño.
 
 \item
-Servicios y aplicaciones telemáticas: Ciertamente esta es una de las asignaturas que tiene una relación más directa con lo desarrollado en este proyecto. La primera toma de contacto con herramientas como Django, o lenguajes de programación como Python o HTML, fueron gracias a esta asignatura. Los conocimientos adquiridos en este PFC no han hecho más que extender, junto con otras asignaturas, lo aprendido en ellas.
+\textit{Servicios y aplicaciones telemáticas}: Ciertamente esta es una de las asignaturas que tiene una relación más directa con lo desarrollado en este proyecto. La primera toma de contacto con herramientas como \emph{Django}, o lenguajes de programación como \textit{Python} o HTML, fueron gracias a esta asignatura. Los conocimientos adquiridos en este PFC no han hecho más que extender, junto con otras asignaturas, lo aprendido en ellas.
 
 \item
-Proyectos: Esta asignatura, es el primer acercamiento real hacia lo que se entiende como gestión de proyectos. Conceptos como métricas, KPI, orden de relación entre actividades, gestión de riesgos o toma de decisiones, las aprendimos en Proyectos. Dado que este proyecto se ha desarrollado en un entorno empresarial y desde la figura de gestor de proyecto, los conocimientos adquiridos y finalmente aplicados son directos.
+\textit{Proyectos}: Esta asignatura, es el primer acercamiento real hacia lo que se entiende como gestión de proyectos. Conceptos como métricas, KPI, orden de relación entre actividades, gestión de riesgos o toma de decisiones, las aprendimos en Proyectos. Dado que este proyecto se ha desarrollado en un entorno empresarial y desde la figura de gestor de proyecto, los conocimientos adquiridos y finalmente aplicados son directos.
 
 \end{itemize}
 
